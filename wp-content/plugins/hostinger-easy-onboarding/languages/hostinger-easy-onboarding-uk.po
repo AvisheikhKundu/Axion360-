@@ -1,0 +1,1569 @@
+# #-#-#-#-#  hostinger-easy-onboarding.po (Hostinger Easy Onboarding 1.0.0)  #-#-#-#-#
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Easy Onboarding 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-easy-"
+"onboarding\n"
+"Last-Translator: Julia\n"
+"Language-Team: Ukrainian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-06T11:48:04+00:00\n"
+"PO-Revision-Date: 2024-12-03 07:17+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-easy-onboarding\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.11; wp-6.4.5"
+
+#: includes/Admin/Assets.php:162
+msgid ""
+" Learn how to connect your domain to Hostinger by watching this tutorial on "
+"YouTube for a step-by-step guide:"
+msgstr ""
+" Дізнайтеся, як підключити свій домен до Hostinger, переглянувши цю "
+"покрокову інструкцію на YouTube:"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:66
+msgid " Please refresh the page and try again."
+msgstr "Оновіть сторінку та спробуйте ще раз."
+
+#. translators: %s plugin slug
+#: includes/Rest/StepRoutes.php:150
+msgid "%s is already active"
+msgstr "%s вже активний"
+
+#. translators: %s field name that is missing
+#: includes/Rest/StepRoutes.php:61 includes/Rest/StepRoutes.php:65
+#: includes/Rest/StepRoutes.php:142 includes/Rest/WooRoutes.php:41
+#: includes/Rest/WooRoutes.php:112
+msgid "%s missing or empty"
+msgstr "%s відсутні або пусті"
+
+#: includes/Admin/Assets.php:196
+msgid ""
+"<strong>Almost there!</strong> Just a few more steps to get your site ready "
+"for online success."
+msgstr ""
+"<strong>Майже готово!</strong> Залишилося виконати ще кілька кроків, щоб "
+"підготувати ваш сайт до публікації."
+
+#: includes/Admin/Assets.php:256
+msgid ""
+"<strong>Use built-in payment methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Використовуйте вбудовані способи оплати</strong> – додаткові плагіни "
+"не потрібно."
+
+#: includes/Admin/Assets.php:255
+msgid ""
+"<strong>Use built-in shipping methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Використовуйте вбудовані методи доставки</strong> – додаткові "
+"плагіни не потрібно."
+
+#: includes/Admin/Onboarding/PluginManager.php:32
+msgid "Accept payments via credit card. Manage transactions within WordPress."
+msgstr ""
+"Приймайте платежі за допомогою кредитної картки. Керуйте транзакціями в "
+"WordPress."
+
+#: includes/Admin/Assets.php:226
+msgid "Access site identity and edit title"
+msgstr "Перейдіть до айдентики сайту та відредагуйте заголовок"
+
+#: includes/Errors.php:14
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Не вдалося виконати дію. Спробуйте ще раз або зверніться до служби підтримки."
+" "
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:44
+msgid "Actions"
+msgstr "Дії"
+
+#: includes/Admin/Assets.php:240
+msgid "Activate"
+msgstr "Активувати"
+
+#: includes/Admin/Assets.php:179 includes/Admin/Assets.php:228
+msgid "Add a new page"
+msgstr "Додайте нову сторінку"
+
+#: includes/Admin/Assets.php:242
+msgid "Add a title"
+msgstr "Додайте заголовок"
+
+#: includes/Admin/Assets.php:258
+msgid "Add content"
+msgstr "Додайте контент"
+
+#: includes/Admin/Assets.php:229
+msgid "Add plugin"
+msgstr "Додати плагін"
+
+#: includes/Admin/Onboarding/Onboarding.php:350
+#| msgid "Add products"
+msgid "Add product"
+msgstr "Додати товар"
+
+#: includes/Admin/Assets.php:251
+msgid "Add shipping method"
+msgstr "Додати спосіб доставки"
+
+#: includes/Admin/Assets.php:257
+msgid ""
+"Add the title of the page, for example, About. Click the Add Title text to "
+"open the text box where you will add your title. The title of your page "
+"should be descriptive of the information the page will have."
+msgstr ""
+"Додайте заголовок сторінки, наприклад \"Про нас\". Натисніть \"Додати "
+"заголовок\", щоб відкрити текстове поле та ввести заголовок. Він має "
+"відображати вміст сторінки."
+
+#: includes/Admin/Assets.php:151
+msgid "Add your first product"
+msgstr "Додайте перший продукт"
+
+#: includes/Admin/Assets.php:152 includes/Admin/Onboarding/Onboarding.php:346
+msgid "Add your first product or service"
+msgstr "Додайте свій перший продукт або послугу"
+
+#: includes/Admin/Assets.php:230
+msgid "Added"
+msgstr "Додано"
+
+#: includes/Admin/Assets.php:168
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">AI Logo Maker.</a>"
+msgstr ""
+"Логотип – це чудовий спосіб персоналізувати сайт або додати інформацію про "
+"бренд. Ви можете використати наявний логотип або створити новий за допомогою "
+"<a href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" "
+"style=\"text-decoration:none; font-weight:bold; color:#673de6\">конструктора "
+"лого ШІ.</a>"
+
+#: includes/Admin/Onboarding/PluginManager.php:60
+msgid "Adds Correios shipping methods to your WooCommerce store."
+msgstr "Додає способи доставки Correios до вашого магазину WooCommerce."
+
+#: includes/Admin/Onboarding/PluginManager.php:50
+msgid ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+msgstr "Додає PagSeguro як спосіб оплати (зі знижкою на офіційні тарифи)."
+
+#: includes/Admin/Onboarding/PluginManager.php:41
+msgid ""
+"Amazon Pay is embedded directly into your existing web site, and all the "
+"buyer interactions with Amazon Pay and Login with Amazon take place in "
+"embedded widgets so that the buyer never leaves your site. "
+msgstr ""
+"Amazon Pay вбудовується безпосередньо у ваш наявний сайт, і вся взаємодія "
+"покупця з Amazon Pay та входом в Amazon відбувається у вбудованих віджетах, "
+"тому покупець ніколи не залишає ваш сайт."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:106
+msgid "An error occurred while deleting the page."
+msgstr "Під час видалення сторінки виникла помилка."
+
+#: includes/Errors.php:17
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Виникла непередбачувана помилка. Спробуйте ще раз або зверніться до служби "
+"підтримки."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:76
+msgid "An unexpected error occurred. Please try again."
+msgstr "Виникла непередбачувана помилка. Спробуйте ще раз."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:31
+msgid "Are you sure you want to delete this page?"
+msgstr "Ви впевнені, що хочете видалити цю сторінку?"
+
+#: includes/Admin/Assets.php:266
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid "Attention:"
+msgstr "Увага:"
+
+#: includes/Admin/Assets.php:243
+msgid "Back"
+msgstr "Назад"
+
+#: includes/Admin/Assets.php:268
+msgid ""
+"Before publishing, you can preview your created page by clicking on the "
+"Preview button. If you are happy with the result, click the Publish button."
+msgstr ""
+"Перед публікацією ви можете переглянути створену сторінку, натиснувши кнопку "
+"\"Попередній перегляд\". Якщо ви задоволені результатом, натисніть "
+"\"Опублікувати\"."
+
+#: includes/Admin/Onboarding/Onboarding.php:503
+#: includes/Admin/Onboarding/Onboarding.php:533
+msgid ""
+"Build a professional, custom-designed site in moments. Just a few clicks and "
+"AI handles the rest."
+msgstr ""
+"Створіть професійний сайт з унікальним дизайном за лічені хвилини. Штучний "
+"інтелект впорається із будь-яким завданням."
+
+#: includes/Admin/Assets.php:178 gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:70
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: includes/Rest/WelcomeRoutes.php:65
+msgid "Choice parameter missing or empty"
+msgstr "Параметр вибору відсутній або пустий"
+
+#: includes/Admin/Assets.php:144 includes/Admin/Onboarding/Onboarding.php:392
+msgid ""
+"Choose the ways you'd like to ship orders to customers. You can always add "
+"others later."
+msgstr ""
+"Виберіть способи, якими ви хочете відправляти замовлення клієнтам. Ви можете "
+"додати інші варіанти пізніше."
+
+#: includes/Rest/TutorialRoutes.php:45
+msgid "Como Alterar a sua Logo no WordPress (Rápido e Prático)"
+msgstr "Як змінити логотип у WordPress (швидко та практично)"
+
+#: includes/Rest/TutorialRoutes.php:60
+msgid "Como Criar Categorias no WordPress"
+msgstr "Як створити категорії у WordPress"
+
+#: includes/Rest/TutorialRoutes.php:55
+msgid "Como Editar o Menu dos Temas do WordPress"
+msgstr "Як редагувати меню тем WordPress"
+
+#: includes/Rest/TutorialRoutes.php:77
+msgid "Como Instalar Plugins y Temas en WordPress"
+msgstr "Як встановити плагіни та теми в WordPress"
+
+#: includes/Rest/TutorialRoutes.php:50
+msgid "Como Personalizar um Tema do WordPress"
+msgstr "Як налаштувати тему WordPress"
+
+#: includes/Admin/Assets.php:191
+msgid "Complete"
+msgstr "Завершено"
+
+#: includes/Admin/Assets.php:197
+msgid "Completed steps"
+msgstr "Виконані кроки"
+
+#: includes/Admin/Assets.php:231
+msgid "Configure"
+msgstr "Налаштувати"
+
+#: includes/Admin/Onboarding/PluginManager.php:35
+msgid ""
+"Configure the payment options and accept payments with cards, ticket and "
+"money of Mercado Pago account."
+msgstr ""
+"Налаштуйте варіанти оплати та приймайте платежі за допомогою карток, чеків і "
+"готівки з рахунку Mercado Pago."
+
+#: includes/Admin/Hooks.php:494
+msgid "Congrats, you have connected WooPayments!"
+msgstr "Вітаємо, ви підключили WooPayments!"
+
+#: includes/Admin/Assets.php:193 includes/Admin/Hooks.php:487
+msgid "Congrats, you’re ready to show off your site!"
+msgstr "Вітаємо, ви можете опублікувати свій сайт!"
+
+#: includes/Admin/Assets.php:232
+msgid "Connect"
+msgstr "Підключити"
+
+#: includes/Admin/Onboarding/Onboarding.php:233
+msgid "Connect a domain"
+msgstr "Підключити домен"
+
+#: includes/Admin/Onboarding/Onboarding.php:291
+msgid "Connect Amazon to site"
+msgstr "Підключити Amazon до сайту"
+
+#: includes/Admin/Onboarding/Onboarding.php:235
+msgid "Connect domain"
+msgstr "Підключити домен"
+
+#: includes/Admin/Assets.php:210
+msgid "Connect domain now"
+msgstr "Підключити домен зараз"
+
+#: includes/Admin/Onboarding/Onboarding.php:238
+#: includes/Admin/Onboarding/Onboarding.php:250
+msgid "Connect on hPanel"
+msgstr "Підключіть hPanel"
+
+#: includes/Admin/Assets.php:239 includes/Admin/Onboarding/WelcomeCards.php:29
+msgid ""
+"Connect your <strong>Amazon Associate</strong> account to fetch API details."
+msgstr ""
+"Підключіть свій обліковий запис <strong>Amazon Associate</strong>, щоб "
+"отримати дані API."
+
+#: includes/Admin/Onboarding/Onboarding.php:285
+msgid "Connect your Amazon account to the site"
+msgstr "Підключіть ваш акаунт Amazon до сайту"
+
+#: includes/Admin/Assets.php:180
+msgid "Connect your domain"
+msgstr "Підключіть ваш домен"
+
+#: includes/Admin/Assets.php:267
+msgid "Connect your domain first"
+msgstr "Спочатку підключіть ваш домен"
+
+#: includes/Admin/Assets.php:157 includes/Admin/Assets.php:160
+#: includes/Admin/Assets.php:271
+msgid "Connect your domain to Hostinger"
+msgstr "Підключіть свій домен до Hostinger"
+
+#: includes/Admin/Onboarding/Onboarding.php:254
+msgid "Connected a domain"
+msgstr "Підключення домену"
+
+#: includes/Admin/Onboarding/Onboarding.php:287
+msgid "Connected your Amazon account"
+msgstr "Підключення акаунта Amazon"
+
+#: includes/Admin/Assets.php:259
+msgid ""
+"Content can be anything you wish, for example, text, images, videos, tables, "
+"and lots more. Click on a plus sign and choose any block you want to add to "
+"the page."
+msgstr ""
+"Ви можете використовувати різні типи контенту, наприклад, текст, зображення, "
+"відео, таблиці тощо. Натисніть на знак плюс і виберіть будь-який контент, "
+"який ви хочете додати на сторінку."
+
+#: includes/Admin/Assets.php:132
+msgid "Continue"
+msgstr "Продовжити"
+
+#: includes/Admin/Assets.php:263 includes/Admin/Hooks.php:484
+#: includes/Admin/Hooks.php:497
+msgid "Continue setup"
+msgstr "Продовжити налаштування"
+
+#: includes/Admin/Assets.php:181
+msgid "Create a logo"
+msgstr "Створіть логотип"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:23
+msgid "Create a new Page"
+msgstr "Створити нову сторінку"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:26
+msgid "Create a new page"
+msgstr "Створіть нову сторінку"
+
+#: includes/Admin/Onboarding/Onboarding.php:502
+msgid "Create a site with AI"
+msgstr "Створіть сайт за допомогою ШІ"
+
+#: includes/Admin/Onboarding/PluginManager.php:57
+msgid ""
+"Create additional shipment methods in WooCommerce and enable pricing based "
+"on cart weight or total."
+msgstr ""
+"Створіть додаткові способи доставки у WooCommerce та увімкніть ціноутворення "
+"на основі ваги кошика або загальної суми."
+
+#: includes/Admin/Onboarding/PluginManager.php:69
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr ""
+"Створюйте транспортні етикетки для реле Chronopost & Mondial і легко "
+"надсилайте їх."
+
+#: includes/Admin/Onboarding/Onboarding.php:532
+msgid "Create content with AI"
+msgstr "Створіть контент за допомогою ШІ"
+
+#: includes/Admin/Onboarding/Onboarding.php:511
+msgid "Create new site"
+msgstr "Створити новий сайт"
+
+#: includes/Admin/Onboarding/Onboarding.php:504
+msgid "Create site with AI"
+msgstr "Створити сайт з ШІ"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:59
+msgid "Current page"
+msgstr "Поточна сторінка"
+
+#: includes/Admin/Assets.php:194
+msgid "Customize the way your site looks and start welcoming visitors."
+msgstr "Налаштуйте зовнішній вигляд вашого сайту та залучіть відвідувачів."
+
+#: includes/Rest/TutorialRoutes.php:82
+msgid "Cómo Crear un Menú en WordPress (en Menos de 5 minutos)"
+msgstr "Як створити меню в WordPress (менш ніж за 5 хвилин)"
+
+#: includes/Rest/TutorialRoutes.php:72
+msgid "Cómo Crear una Galería de Fotos en WordPress | Fácil y Gratis"
+msgstr "Як створити галерею фотографій у WordPress | Просто та безплатно"
+
+#: includes/Rest/TutorialRoutes.php:67
+msgid "Cómo Personalizar WordPress (2023)"
+msgstr "Як налаштувати WordPress (2023)"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:123
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:125
+msgid "Delete page"
+msgstr "Видалити сторінку"
+
+#: includes/Admin/Assets.php:204 includes/Admin/Assets.php:233
+msgid "Dismiss"
+msgstr "Відхилити"
+
+#: includes/Admin/Surveys.php:48
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr "Чи є у вас коментарі/пропозиції щодо покращення наших інструментів ШІ?"
+
+#: includes/Admin/Surveys.php:34
+msgid ""
+"Do you have any comments/suggestions to improve our WooCommerce onboarding?"
+msgstr ""
+"Чи є у вас коментарі/пропозиції щодо покращення нашого онбордингу для "
+"WooCommerce?"
+
+#: includes/Admin/Assets.php:273
+msgid ""
+"Domain propagation can take up to 24 hours. Your domain will propagate "
+"automatically, and you don't need to take any action during this time."
+msgstr ""
+"Поширення домену може зайняти до 24 годин. Ваш домен буде розповсюджено "
+"автоматично, і вам не потрібно виконувати жодних дій протягом цього часу."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:19
+msgid "Edit"
+msgstr "Редагувати"
+
+#: includes/Admin/Assets.php:222
+msgid "Edit an image"
+msgstr "Відредагуйте зображення"
+
+#: includes/Admin/Assets.php:216
+msgid "Edit description"
+msgstr "Відредагуйте опис"
+
+#: includes/Hooks.php:217
+msgid "Edit Home Page"
+msgstr "Редагуйте головну сторінку"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:12
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:14
+msgid "Edit Page"
+msgstr "Редагувати сторінку"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/index.js:100
+#: gutenberg/edit-pages-panel/src/index.js:106
+msgid "Edit Pages"
+msgstr "Редагувати сторінки"
+
+#: includes/Admin/Assets.php:214
+msgid "Edit post"
+msgstr "Відредагуйте пост"
+
+#: includes/Admin/Assets.php:175
+msgid "Edit post description"
+msgstr "Відредагуйте опис публікації"
+
+#: includes/Admin/Assets.php:203
+msgid "Edit site"
+msgstr "Редагувати сайт"
+
+#: includes/Admin/Assets.php:177
+msgid "Edit site title"
+msgstr "Відредагуйте назву сайту"
+
+#: includes/Admin/Assets.php:189
+msgid ""
+"Enter your store details so we can help you set up your online store faster."
+msgstr ""
+"Введіть дані вашого магазину, щоб ми могли допомогти вам швидше налаштувати "
+"інтернет-магазин."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:46
+msgid "Error:"
+msgstr "Помилка:"
+
+#: includes/Admin/Onboarding/Onboarding.php:257
+msgid ""
+"Every website needs a domain that makes it easy to access and remember. Get "
+"ours in just a few clicks."
+msgstr "Кожному сайту потрібен домен. Отримайте домен всього за кілька кліків."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"Expand your audience with the help of Omnisend. Create email campaigns that "
+"drive sales."
+msgstr ""
+"Розширте свою аудиторію за допомогою Omnisend. Створіть email-кампанії, які "
+"допоможуть збільшити продажі."
+
+#: includes/Admin/Onboarding/PluginManager.php:47
+msgid "Extends WooCommerce with a RedSys gateway."
+msgstr "Розширює можливості WooCommerce за допомогою шлюзу RedSys."
+
+#: includes/Admin/Assets.php:282
+msgid "Find the answers you need in our Knowledge Base"
+msgstr "Знайдіть відповіді на запитання в нашій базі знань"
+
+#: includes/Admin/Assets.php:218
+msgid "Find the Media page"
+msgstr "Знайдіть сторінку «Медіа»"
+
+#: includes/Admin/Assets.php:292
+msgid "Follow these steps to complete your setup"
+msgstr "Щоб завершити налаштування, виконайте ці кроки"
+
+#: includes/Admin/Assets.php:234
+msgid "Generate content"
+msgstr "Згенерувати контент"
+
+#: includes/Admin/Assets.php:236 includes/Admin/Onboarding/WelcomeCards.php:37
+#| msgid "Create content with AI"
+msgid "Generate content with AI"
+msgstr "Створити контент за допомогою ШІ"
+
+#: includes/Admin/Onboarding/Onboarding.php:534
+msgid "Generate post"
+msgstr "Створити пост"
+
+#: includes/Admin/Assets.php:269
+msgid "Get a domain"
+msgstr "Отримати домен"
+
+#: includes/Admin/Assets.php:122
+msgid "Get deal"
+msgstr "Скористатися пропозицією"
+
+#: includes/Admin/Hooks.php:337
+msgid "Get Discount"
+msgstr "Отримати знижку"
+
+#: includes/Admin/Onboarding/Onboarding.php:415
+msgid "Get found on Google"
+msgstr "Знайти в Google"
+
+#: includes/Admin/Assets.php:237
+msgid ""
+"Get images, text, and SEO keywords created for you instantly – try <strong>"
+"AI Content Creator</strong>."
+msgstr ""
+"Миттєво отримайте зображення, текст і ключові слова для SEO – спробуйте "
+"<strong>генератор контенту ШІ</strong>."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:39
+msgid "Get images, text, and SEO keywords created for you instantly."
+msgstr "Швидко отримайте зображення, текст і ключові слова для SEO."
+
+#: includes/Admin/Assets.php:290
+msgid "Get in touch with our live specialists"
+msgstr "Зв'яжіться з нашими фахівцями в режимі реального часу"
+
+#: includes/Admin/Assets.php:150 includes/Admin/Onboarding/Onboarding.php:373
+msgid ""
+"Get ready to accept customer payments. Let them pay for your products and "
+"services with ease."
+msgstr "Подбайте, аби клієнти могли легко оплачувати ваші товари та послуги."
+
+#: includes/Admin/Onboarding/Onboarding.php:308
+msgid ""
+"Get ready to sell online. Add your first product, then set up shipping and "
+"payments."
+msgstr ""
+"Підготуйтеся до онлайн-продажів. Додайте свій перший товар, налаштуйте "
+"доставку та оплату."
+
+#: includes/Admin/Onboarding/Onboarding.php:310
+#| msgid "Get Started"
+msgid "Get started"
+msgstr "Почати"
+
+#: includes/Admin/Assets.php:186
+msgid "Get started!"
+msgstr "Почати!"
+
+#: includes/Admin/Assets.php:145
+msgid "Getting your features ready"
+msgstr "Підготовка ваших функцій"
+
+#: includes/Admin/Assets.php:212
+msgid "Go to Posts"
+msgstr "Перейдіть до публікації"
+
+#: includes/Admin/Assets.php:182 includes/Admin/Assets.php:224
+msgid "Go to the Customize page"
+msgstr "Перейдіть на сторінку налаштування"
+
+#: includes/Rest/TutorialRoutes.php:104
+msgid ""
+"Google Analytics sur WordPress FACILEMENT avec Google Site Kit : Guide "
+"Complet (2023)"
+msgstr ""
+"Google Analytics на WordPress FACILITY за допомогою Google Site Kit: Повне "
+"керівництво (2023)"
+
+#: includes/Admin/Assets.php:265
+msgid ""
+"Google Site Kit is an essential plugin that makes sure that potential "
+"visitors can find your site on Google."
+msgstr ""
+"Google Site Kit – це важливий плагін, який гарантує, що потенційні "
+"відвідувачі зможуть знайти ваш сайт в Google."
+
+#: includes/Admin/Assets.php:211
+msgid "Got it!"
+msgstr "Зрозуміло!"
+
+#: includes/Admin/Assets.php:283
+msgid "Help Center"
+msgstr "Центр допомоги"
+
+#: includes/Admin/Assets.php:209
+msgid "Hide completed"
+msgstr "Приховати завершене"
+
+#: includes/Admin/Assets.php:202
+msgid "Hide list"
+msgstr "Приховати список"
+
+#: includes/Admin/Onboarding/PluginManager.php:54
+msgid ""
+"Hosted services for WooCommerce: automated tax calculation, shipping label "
+"printing, and smoother payment setup."
+msgstr ""
+"Послуги хостингу для WooCommerce: автоматизований розрахунок податків, друк "
+"транспортних етикеток і просте налаштування платежів."
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Assets.php:286
+msgid "Hostinger Academy"
+msgstr "Hostinger Academy"
+
+#. Plugin Name of the plugin
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#. Description of the plugin
+msgid "Hostinger Easy Onboarding WordPress plugin."
+msgstr "Плагін Hostinger Easy Onboarding WordPress"
+
+#: includes/Admin/Assets.php:215
+msgid ""
+"Hover over the chosen post to see the options menu. Click on the Edit button "
+"to open the post editor."
+msgstr ""
+"Наведіть курсор на потрібну публікацію, щоб побачити меню параметрів. "
+"Натисніть кнопку \"Редагувати\", щоб відкрити редактор публікацій."
+
+#: includes/Admin/Surveys.php:41
+msgid "How could we make it easier to create a new WordPress website?"
+msgstr "Як ми можемо полегшити процес створення нового сайту на WordPress?"
+
+#: includes/Admin/Assets.php:278
+msgid "How to Back Up a WordPress Site"
+msgstr "Як створити резервну копію сайту WordPress"
+
+#: includes/Rest/TutorialRoutes.php:111
+msgid "How to Build a Website FAST Using AI in Just 10 Minutes"
+msgstr "Як створити сайт за допомогою ШІ всього за 10 хвилин?"
+
+#: includes/Admin/Assets.php:270
+msgid "How to Build an EFFECTIVE Landing Page with WordPress (2024)"
+msgstr "Як створити ефективну цільову сторінку за допомогою WordPress (2024)?"
+
+#: includes/Rest/TutorialRoutes.php:121
+msgid "How to Create a Menu in WordPress in Hindi | Hostinger India"
+msgstr "Як створити меню в WordPress на хінді? | Hostinger Індія"
+
+#: includes/Admin/Assets.php:274
+msgid "How to Create a WordPress Contact Us Page"
+msgstr "Як створити сторінку \"Контакти\" в WordPress"
+
+#: includes/Admin/Assets.php:276
+msgid "How to Create Your Coming Soon Page in WordPress (2024)"
+msgstr "Як створити сторінку \"Coming Soon\" у WordPress (2024)?"
+
+#: includes/Rest/TutorialRoutes.php:28
+msgid ""
+"How to EASILY Manage Google Tools with Google Site Kit - Beginners Guide 2024"
+msgstr ""
+"Як легко керувати інструментами Google за допомогою Google Site Kit - "
+"Посібник для початківців 2024"
+
+#: includes/Rest/TutorialRoutes.php:116
+msgid "How to Edit Footer in WordPress in Hindi | Hostinger India"
+msgstr "Як редагувати нижній колонтитул у WordPress на хінді | Hostinger Індія"
+
+#: includes/Rest/TutorialRoutes.php:38
+msgid "How to Edit the Footer in WordPress"
+msgstr "Як редагувати нижній колонтитул у WordPress"
+
+#: includes/Admin/Assets.php:279 includes/Rest/TutorialRoutes.php:33
+msgid "How to Import Images Into WordPress Website"
+msgstr "Як імпортувати зображення на сайт WordPress"
+
+#: includes/Rest/TutorialRoutes.php:126
+msgid "How to Install WordPress Themes | Hostinger India"
+msgstr "Як встановити теми WordPress | Hostinger Індія"
+
+#: includes/Admin/Assets.php:272 includes/Rest/TutorialRoutes.php:23
+msgid "How to Make a Website (2024): Simple, Quick, & Easy Tutorial"
+msgstr "Як створити сайт (2024): просте керівництво"
+
+#: includes/Admin/Assets.php:163
+msgid "How to Point Domain Name to Web Hosting"
+msgstr "Як направити доменне ім'я на хостинг?"
+
+#: includes/Admin/Assets.php:280
+msgid "How to Set Up WordPress SMTP"
+msgstr "Як налаштувати SMTP у WordPress"
+
+#: includes/Admin/Surveys.php:40
+msgid ""
+"How would you rate your experience building a website based on a pre-built "
+"template? (Score 1-10)"
+msgstr ""
+"Як би ви оцінили свій досвід створення сайту на основі готового шаблону? (За "
+"шкалою від 1 до 10)"
+
+#: includes/Admin/Surveys.php:33
+msgid ""
+"How would you rate your experience setting up a WooCommerce site on our "
+"hosting?"
+msgstr ""
+"Як би ви оцінили свій досвід створення сайту WooCommerce на нашому хостингу?"
+
+#: includes/Admin/Surveys.php:47
+msgid ""
+"How would you rate your experience using our AI content generation tools in "
+"onboarding? (Scale 1-10)"
+msgstr ""
+"Як ви оцінюєте свій досвід використання наших інструментів для створення "
+"контенту за допомогою ШІ в онбордингу? (За шкалою від 1 до 10)"
+
+#: includes/Admin/Menu.php:75
+msgid "hPanel - Billing"
+msgstr "hPanel - Оплата"
+
+#: includes/Admin/Menu.php:57
+msgid "hPanel - Home"
+msgstr "hPanel - Додому"
+
+#: includes/Admin/Menu.php:66
+msgid "hPanel - Websites"
+msgstr "hPanel - Сайти"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.com"
+
+#: includes/Admin/Assets.php:275
+msgid "I Bought a Domain, Now What?"
+msgstr "Я купив домен, що далі?"
+
+#: includes/Admin/Assets.php:223
+msgid ""
+"If you wish to edit the image, click on the chosen image and click the Edit "
+"Image button. You can now crop, rotate, flip or scale the selected image."
+msgstr ""
+"Якщо ви бажаєте відредагувати зображення, натисніть на вибране зображення та "
+"натисніть кнопку \"Редагувати зображення\". Тепер ви можете обрізати, "
+"обертати, перевертати або масштабувати вибране зображення."
+
+#: includes/Admin/Assets.php:174 includes/Admin/Assets.php:225
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open."
+msgstr ""
+"На лівій бічній панелі натисніть «Вигляд», щоб розгорнути меню. У розділі "
+"«Вигляд» натисніть «Налаштувати». Відкриється сторінка Налаштувати."
+
+#: includes/Admin/Assets.php:227
+msgid "In the left sidebar, click Site Identity and edit your site title."
+msgstr ""
+"У лівій бічній панелі натисніть \"Айдентика сайту\" та відредагуйте назву "
+"сайту."
+
+#: includes/Admin/Assets.php:184
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo."
+msgstr ""
+"У лівій бічній панелі виберіть \"Айдентика сайту\" та натисніть кнопку "
+"\"Вибрати піктограму сайту\". Тут ви можете завантажити логотип бренду."
+
+#: includes/Admin/Assets.php:219
+msgid ""
+"In the left sidebar, find the Media button. Click on the Library button to "
+"see all the images you have uploaded to your website."
+msgstr ""
+"У лівій бічній панелі знайдіть кнопку \"Медіа\". Натисніть кнопку "
+"\"Бібліотека\", щоб переглянути всі зображення, які ви завантажили на свій "
+"сайт."
+
+#: includes/Admin/Assets.php:241
+msgid ""
+"In the left sidebar, find the Pages menu and click on Add New button. You "
+"will see the WordPress page editor. Each paragraph, image, or video in the "
+"WordPress editor is presented as a “block” of content."
+msgstr ""
+"На лівій бічній панелі знайдіть меню \"Сторінки\" та натисніть кнопку "
+"\"Додати нову\". Ви побачите редактор сторінки WordPress. Кожен абзац, "
+"зображення або відео в редакторі WordPress представлено як «блок» вмісту."
+
+#: includes/Admin/Assets.php:213
+msgid ""
+"In the left sidebar, find the Posts button. Click on the All Posts button "
+"and find the post for which you want to change the description."
+msgstr ""
+"У лівій бічній панелі знайдіть кнопку \"Публікації\". Натисніть кнопку \"Усі "
+"публікації\" та виберіть публікацію, опис якої потрібно змінити."
+
+#: includes/Admin/Assets.php:155
+msgid ""
+"Increase your sites visibility by enabling its discoverability in the Google "
+"search engine."
+msgstr ""
+"Покращте видимість вашого сайту, зробивши його доступним для пошуку в Google."
+
+#: includes/Admin/Assets.php:235
+msgid "Installed"
+msgstr "Встановлено"
+
+#: includes/Rest/TutorialRoutes.php:99
+msgid "Installer un Thème WordPress (2023) | Rapide et Facile"
+msgstr "Встановлення теми WordPress (2023) | Швидко та просто"
+
+#: includes/Admin/Assets.php:166
+#: includes/Admin/Views/Partials/PromotionalBanner.php:5
+msgid "Invite a Friend, Earn Up to $100"
+msgstr "Запросіть друга та отримайте до 100 $"
+
+#: includes/Admin/Onboarding/PluginManager.php:44
+msgid ""
+"It enables a WooCommerce site to accept payments through UPI apps like BHIM, "
+"Google Pay, Paytm, PhonePe or any Banking UPI app. Avoid payment gateway "
+"charges."
+msgstr ""
+"Це дозволяє приймати платежі на сайті WooCommerce через додатки UPI, такі як "
+"BHIM, Google Pay, Paytm, PhonePe або будь-який банківський додаток UPI. "
+"Уникайте комісій за платіжний шлюз."
+
+#: includes/Admin/Onboarding/Onboarding.php:289
+msgid ""
+"Join the Amazon Affiliate Program to start earning commissions. Link your "
+"Amazon affiliate account to your website, start promoting products and earn "
+"rewards."
+msgstr ""
+"Приєднайтесь до партнерської програми Amazon та отримайте комісію. "
+"Прив'яжіть свій партнерський акаунт Amazon до вашого сайту, просувайте "
+"товари та отримайте винагороду."
+
+#: includes/Admin/Hooks.php:481
+msgid "Just a few more steps to launch your online store"
+msgstr "Ще кілька кроків до запуску вашого інтернет-магазину"
+
+#: includes/Admin/Onboarding/Onboarding.php:510
+msgid "Keep current site"
+msgstr "Зберегти поточну версію сайту"
+
+#: includes/Admin/Assets.php:201 includes/Admin/Assets.php:281
+msgid "Knowledge Base"
+msgstr "База знань"
+
+#: includes/Admin/Menu.php:34
+msgid "Learn"
+msgstr "Навчайтеся"
+
+#: includes/Admin/Assets.php:285
+msgid "Learn WordPress"
+msgstr "Вивчайте WordPress"
+
+#: includes/Admin/Assets.php:277
+msgid "LiteSpeed Cache: How to Get 100% WordPress Optimization"
+msgstr "Кеш LiteSpeed: як отримати 100% оптимізацію WordPress"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:27
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: includes/Admin/Onboarding/Onboarding.php:417
+msgid ""
+"Make sure that your website shows up when visitors are looking for your "
+"business on Google."
+msgstr ""
+"Переконайтеся, що ваш сайт відображається, коли відвідувачі шукають ваш "
+"бренд в Google."
+
+#: includes/Admin/Onboarding/Onboarding.php:423
+msgid "Manage"
+msgstr "Керувати"
+
+#: includes/Admin/Assets.php:134 includes/Admin/Onboarding/Onboarding.php:390
+msgid "Manage shipping"
+msgstr "Керувати доставкою"
+
+#: includes/Admin/Assets.php:133
+msgid "Market your business"
+msgstr "Просувайте свій бізнес"
+
+#: includes/Admin/Assets.php:159
+msgid "Nameserver"
+msgstr "Сервер імен"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:33
+msgid "No pages found."
+msgstr "Сторінок не знайдено."
+
+#: includes/Helper.php:357
+msgid "No PHP files found in plugin directory"
+msgstr "У каталозі плагіна не знайдено PHP-файлів"
+
+#: includes/Admin/Assets.php:121 includes/Admin/Onboarding/Onboarding.php:356
+msgid "Not interested"
+msgstr "Не цікаво"
+
+#: includes/Admin/Onboarding/Onboarding.php:400
+#: includes/Admin/Onboarding/Onboarding.php:427
+msgid "Not needed"
+msgstr "Не потрібно"
+
+#: includes/Admin/Onboarding/Onboarding.php:506
+#: includes/Admin/Onboarding/Onboarding.php:536
+msgid "Not now"
+msgstr "Не зараз"
+
+#: includes/Admin/Assets.php:205
+msgid "Now <strong>finish setting up</strong> the plugins you’ve installed."
+msgstr ""
+"Тепер <strong>завершіть налаштування</strong> плагінів, які ви встановили."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"на <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:198 includes/Admin/Menu.php:28
+#: includes/Admin/Menu.php:92 includes/Admin/Menu.php:93
+msgid "Onboarding"
+msgstr "Онбординг"
+
+#: includes/Admin/Assets.php:130 includes/Admin/Onboarding/Onboarding.php:113
+msgid "Online store setup"
+msgstr "Налаштування інтернет-магазину"
+
+#: includes/Admin/Assets.php:287
+msgid ""
+"Opt-in to receive tips, discounts, and recommendations from the WooCommerce "
+"team directly in your inbox."
+msgstr ""
+"Підпишіться, щоб отримувати знижки та рекомендацій від команди WooCommerce "
+"безпосередньо на вашу поштову скриньку."
+
+#: includes/Admin/Assets.php:253
+msgid "Or use payment plugins"
+msgstr "Або використовуйте платіжні плагіни"
+
+#: includes/Admin/Assets.php:254
+msgid "Or use shipping plugins"
+msgstr "Або використовуйте плагіни для доставки"
+
+#: includes/Admin/Assets.php:249
+msgid "Other"
+msgstr "Інше"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:41
+msgid "Page title:"
+msgstr "Заголовок сторінки:"
+
+#: includes/Admin/Assets.php:244
+msgid "Payment plugins"
+msgstr "Плагіни для оплати"
+
+#: includes/Admin/Assets.php:246
+msgid "Payment settings"
+msgstr "Налаштування оплати"
+
+#: includes/Admin/Onboarding/PluginManager.php:29
+msgid ""
+"PayPal's latest complete payments processing solution. Accept PayPal, Pay "
+"Later, credit/debit cards, alternative digital wallets local payment types "
+"and bank accounts."
+msgstr ""
+"Найновіше рішення для обробки платежів від PayPal. Приймайте PayPal, Pay "
+"Later, кредитні/дебетові картки, альтернативні цифрові гаманці, місцеві типи "
+"платежів та банківські рахунки."
+
+#: includes/Admin/Assets.php:164
+msgid "Play on YouTube"
+msgstr "Відтворити на YouTube"
+
+#: includes/Helper.php:352
+msgid "Plugin directory not found"
+msgstr "Каталог плагінів не знайдено"
+
+#: includes/Helper.php:367
+msgid "Plugin main file not found"
+msgstr "Головний файл плагіна не знайдено"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PreviewPageButton.js:46
+#, fuzzy
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: includes/Admin/Assets.php:131
+msgid "Preview website"
+msgstr "Попередній перегляд сайту"
+
+#: includes/Admin/Assets.php:260
+msgid "Publish the page"
+msgstr "Опублікувати сторінку"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Оцініть цей плагін"
+
+#: includes/Admin/Assets.php:248
+msgid "Recommended for you"
+msgstr "Рекомендовано для вас"
+
+#: includes/Admin/Assets.php:238 includes/Admin/Onboarding/WelcomeCards.php:27
+msgid "Run an Amazon Affiliate site"
+msgstr "Запустіть партнерський сайт Amazon"
+
+#: includes/Admin/Assets.php:135
+msgid "Run email marketing campaigns"
+msgstr "Запустіть email-маркетингові кампанії"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:62
+msgid "Save"
+msgstr "Зберегти"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:59
+msgid "Saving"
+msgstr "Економія"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:7
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:8
+msgid "Search pages"
+msgstr "Сторінки пошуку"
+
+#: includes/Admin/Onboarding/PluginManager.php:38
+msgid ""
+"Securely accept payments, synchronize sales, and seamlessly manage inventory "
+"and product data between WooCommerce and Square POS."
+msgstr ""
+"Безпечне приймання платежів, синхронізація продажів і зручне управління "
+"асортиментом і даними про товари між WooCommerce і Square POS."
+
+#: includes/Admin/Onboarding/Onboarding.php:348
+msgid ""
+"Sell products, services and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Продавайте товари та послуги. Налаштуйте кожну позицію під потреби вашого "
+"бізнесу."
+
+#: includes/Admin/Assets.php:153
+msgid ""
+"Sell products, services, and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Продавайте товари та послуги. Налаштуйте кожен елемент під потреби вашого "
+"бізнесу."
+
+#: includes/Admin/Assets.php:148 includes/Admin/Onboarding/Onboarding.php:371
+msgid "Set up a payment method"
+msgstr "Налаштуйте спосіб оплати"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:17
+#| msgid "Set up your online store"
+msgid "Set up an online store"
+msgstr "Налаштувати інтернет-магазин"
+
+#: includes/Admin/Onboarding/Onboarding.php:419
+msgid "Set up Google Site Kit"
+msgstr "Налаштувати Google Site Kit"
+
+#: includes/Admin/Assets.php:149 includes/Admin/Onboarding/Onboarding.php:375
+msgid "Set up payment method"
+msgstr "Налаштувати спосіб оплати"
+
+#: includes/Admin/Assets.php:247
+msgid "Set up payments"
+msgstr "Налаштувати платежі"
+
+#: includes/Admin/Assets.php:262
+msgid "Set up shipping"
+msgstr "Налаштувати доставку"
+
+#: includes/Admin/Assets.php:261
+msgid "Set up Site Kit"
+msgstr "Налаштувати Site Kit"
+
+#: includes/Admin/Onboarding/Onboarding.php:306
+msgid "Set up your online store"
+msgstr "Налаштуйте ваш інтернет-магазин"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:19
+#| msgid ""
+#| "Install <strong>WooCommerce</strong>, add products or services, and start "
+#| "selling today."
+msgid ""
+"Setup <strong>WooCommerce</strong>, add products or services, and start "
+"selling today."
+msgstr ""
+"Встановіть <strong>WooCommerce</strong>, додайте товари або послуги та "
+"почніть продавати вже сьогодні."
+
+#: includes/Admin/Assets.php:154
+msgid "Setup Google Site Kit"
+msgstr "Встановити Google Site Kit"
+
+#: includes/Admin/Assets.php:147 includes/Admin/Assets.php:188
+#| msgid "Set up my online store"
+msgid "Setup my online store"
+msgstr "Налаштувати свій інтернет-магазин"
+
+#: includes/Admin/Assets.php:195
+msgid "Setup website"
+msgstr "Налаштування сайту"
+
+#: includes/Admin/Views/Partials/PromotionalBanner.php:9
+msgid ""
+"Share your referral link with friends and family and <b>receive 20% "
+"commission</b> for every successful referral."
+msgstr ""
+"Поділіться своїм реферальним посиланням з друзями та <b>отримуйте 20% "
+"комісії</b> за кожного успішного реферала."
+
+#: includes/Admin/Assets.php:165
+msgid ""
+"Share your referral link with friends and family and <strong>receive 20% "
+"commission</strong> for every successful referral."
+msgstr ""
+"Поділіться своїм реферальним посиланням з друзями і родичами та <strong>"
+"отримайте 20% комісії</strong> за кожного успішного реферала."
+
+#: includes/Admin/Assets.php:137
+msgid "Ship products with ease"
+msgstr "Легко відправляйте товари"
+
+#: includes/Admin/Assets.php:138 includes/Admin/Onboarding/Onboarding.php:394
+msgid "Shipping methods"
+msgstr "Способи доставки"
+
+#: includes/Admin/Assets.php:245
+msgid "Shipping plugins"
+msgstr "Плагіни для доставки"
+
+#: includes/Admin/Assets.php:250
+msgid "Shipping settings"
+msgstr "Налаштування доставки"
+
+#: includes/Rest/WooRoutes.php:47
+msgid "Shop locale is empty, please setup store first"
+msgstr "Локація магазину пуста, будь ласка, спочатку налаштуйте магазин"
+
+#: includes/Admin/Assets.php:199
+msgid "Show list"
+msgstr "Показати список"
+
+#: includes/Admin/Assets.php:187
+msgid "Skip"
+msgstr "Пропустити"
+
+#: includes/Rest/StepRoutes.php:169
+msgid "Sorry, there are activation errors."
+msgstr "Вибачте, виникла помилка активації."
+
+#: includes/Rest/StepRoutes.php:71 includes/Rest/StepRoutes.php:156
+#: includes/Rest/WooRoutes.php:53 includes/Rest/WooRoutes.php:135
+msgid "Sorry, there are validation errors."
+msgstr "Вибачте, виникли помилки при перевірці."
+
+#: includes/Admin/Assets.php:156
+#: includes/Admin/Views/Partials/PromotionalBanner.php:24
+msgid "Start earning"
+msgstr "Почати"
+
+#: includes/Admin/Onboarding/Onboarding.php:59
+msgid "Started creating your site"
+msgstr "Розпочато створення сайту"
+
+#: includes/Rest/StepRoutes.php:90
+msgid "Step category and/or step does not exist."
+msgstr "Категорія кроку та/або крок не існує."
+
+#: includes/Admin/Onboarding/Onboarding.php:327
+msgid "Store info"
+msgstr "Інформація про магазин"
+
+#: includes/Rest/WooRoutes.php:129
+msgid "Store location locale not found"
+msgstr "Розташування магазину не знайдено"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/StoreSetupButton.js:29
+#, fuzzy
+msgid "Store Setup"
+msgstr "Налаштування магазину"
+
+#: includes/Admin/Onboarding/PluginManager.php:26
+msgid "Take credit card payments on your store using Stripe."
+msgstr ""
+"Приймайте оплату кредитними картками у вашому магазині за допомогою Stripe."
+
+#: includes/Admin/Assets.php:185
+msgid "Take me there"
+msgstr "Перейти"
+
+#: includes/Admin/Assets.php:288
+msgid "Tell us a bit about your business"
+msgstr "Розкажіть нам трохи про ваш бізнес"
+
+#: includes/Admin/Assets.php:127
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Amazing Friday</span> sale!"
+msgstr ""
+"<span style=\"color: #8C85FF\">Чорна п'ятниця</span> – найбільший розпродаж!"
+
+#: includes/Admin/Assets.php:125
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Black Friday</span> sale!"
+msgstr ""
+"<span style=\"color: #8C85FF\">Чорна п'ятниця</span> – найбільший розпродаж!"
+
+#: includes/Admin/Assets.php:128
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Blessed Friday</span> sale!"
+msgstr ""
+"<span style=\"color: #8C85FF\">Чорна п'ятниця</span> – найбільший розпродаж!"
+
+#: includes/Admin/Assets.php:124
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Cyber Monday</span> sale!"
+msgstr ""
+"<span style=\"color: #8C85FF\">Кіберпонеділок</span> – найбільший розпродаж!"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">End of the year</span> sale!"
+msgstr ""
+"Найбільший розпродаж <span style=\"color: #8C85FF\">наприкінці року</span>!"
+
+#: includes/Admin/Assets.php:126
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">White Friday</span> sale!"
+msgstr ""
+"<span style=\"color: #8C85FF\">Біла п'ятниця</span> – найбільший розпродаж!"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr ""
+"Для плагіна Hostinger Easy Onboarding потрібна мінімальної версії PHP – <b>"
+"%s</b>."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:49
+msgid "The page was deleted!"
+msgstr "Сторінку видалено!"
+
+#: includes/Admin/Onboarding/PluginManager.php:66
+msgid ""
+"The USPS Simple plugin calculates rates for domestic shipping dynamically "
+"using USPS API during checkout."
+msgstr ""
+"Плагін USPS Simple розраховує тарифи на внутрішню доставку, використовуючи "
+"USPS API під час оформлення замовлення."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:62
+msgid "There was an error."
+msgstr "Виникла помилка."
+
+#: includes/Admin/Onboarding/PluginManager.php:63
+msgid ""
+"This extension gives you the possibility to use the Colissimo shipping "
+"methods in WooCommerce"
+msgstr ""
+"Це розширення дає вам можливість використовувати способи доставки Colissimo "
+"у WooCommerce"
+
+#: includes/Admin/Assets.php:293
+#, fuzzy
+msgid "This field is required"
+msgstr "Це поле обов'язкове для заповнення"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:41
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/Admin/Assets.php:221
+msgid ""
+"To upload a new image, click on Add New button on the Media Library page and "
+"select files."
+msgstr ""
+"Щоб завантажити нове зображення, натисніть кнопку \"Додати нове\" на "
+"сторінці медіатеки та виберіть файли."
+
+#: includes/Admin/Assets.php:139
+msgid "Try Omnisend"
+msgstr "Спробуйте Omnisend"
+
+#: includes/Rest/TutorialRoutes.php:89
+#, fuzzy
+msgid "TUTO WORDPRESS (Débutant) : Créer un site WordPress pour les Nuls)"
+msgstr "TUTO WORDPRESS (Дебютант) : Créer un site WordPress pour les Nuls)"
+
+#: includes/Rest/TutorialRoutes.php:94
+#, fuzzy
+msgid "Tuto WordPress Débutant (Hostinger hPanel) - Créer un Site par IA"
+msgstr ""
+"Tuto WordPress Débutant (Hostinger hPanel) - Створити сайт за допомогою IA"
+
+#: includes/Admin/Assets.php:200
+msgid "Tutorials"
+msgstr "Навчальні посібники"
+
+#: includes/Errors.php:31
+msgid "Unknown error code."
+msgstr "Невідомий код помилки."
+
+#: includes/Admin/Assets.php:176 includes/Admin/Assets.php:220
+msgid "Upload an image"
+msgstr "Завантажте зображення"
+
+#: includes/Admin/Assets.php:169 includes/Admin/Assets.php:183
+msgid "Upload your logo"
+msgstr "Завантажте логотип"
+
+#: includes/Admin/Hooks.php:333
+msgid ""
+"Use the special discount code <b>ONLYHOSTINGER30</b> to get 30% off on "
+"Omnisend for 6 months when you upgrade."
+msgstr ""
+"Скористайтеся кодом <b>ONLYHOSTINGER30</b>, щоб отримати 30% знижки на "
+"Omnisend на 6 місяців під час зміни тарифу."
+
+#: includes/Admin/Hooks.php:490
+msgid "View checklist"
+msgstr "Переглянути чекліст"
+
+#: includes/Admin/Assets.php:208
+msgid "View completed"
+msgstr "Перегляд завершено"
+
+#: includes/Admin/Onboarding/Onboarding.php:331
+msgid "View Details"
+msgstr "Переглянути деталі"
+
+#: includes/Admin/Onboarding/Onboarding.php:314
+msgid "View list"
+msgstr "Переглянути список"
+
+#: includes/Admin/Assets.php:206
+msgid "View plugins"
+msgstr "Переглянути плагіни"
+
+#: includes/Admin/Onboarding/Onboarding.php:241
+msgid ""
+"Visit hPanel and connect a real domain. If you already did this, please wait "
+"up to 24h until the domain fully connects"
+msgstr ""
+"Перейдіть до hPanel і підключіть домен. Якщо ви вже зробили це, зачекайте до "
+"24 годин, поки домен повністю підключиться"
+
+#: includes/Admin/Assets.php:158
+msgid "Wait for domain propagation"
+msgstr "Зачекайте на завершення поширення домену"
+
+#: includes/Admin/Onboarding/Onboarding.php:508
+msgid "Want to create a new AI site?"
+msgstr "Хочете створити новий сайт зі штучним інтелектом?"
+
+#: includes/Errors.php:20
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Перепрошуємо за тимчасові незручності. Під час генерації контенту ШІ виникла "
+"помилка сервера. Повторіть спробу пізніше. Якщо проблема не зникне, "
+"зверніться за допомогою до нашої служби підтримки."
+
+#: includes/Admin/Assets.php:289 includes/Admin/Onboarding/Onboarding.php:329
+msgid "We'll use this information to help you set up your store faster."
+msgstr ""
+"Ми використаємо цю інформацію, щоб допомогти вам швидше налаштувати магазин."
+
+#: includes/Admin/Assets.php:167 includes/Admin/Assets.php:192
+#: includes/Admin/Onboarding/Onboarding.php:49
+msgid "Website setup"
+msgstr "Налаштування сайту"
+
+#: includes/Admin/Assets.php:171
+msgid "Website URL"
+msgstr "Адреса сайту"
+
+#: includes/Admin/Assets.php:291
+msgid "Welcome to WordPress!"
+msgstr "Ласкаво просимо до WordPress!"
+
+#: includes/Admin/Assets.php:143
+msgid "What type of products or services will you sell?"
+msgstr "Які продукти чи послуги ви будете продавати?"
+
+#: includes/Admin/Assets.php:142
+msgid "Where is your store located?"
+msgstr "Де знаходиться ваш магазин?"
+
+#: includes/Admin/Assets.php:284
+msgid "WordPress tutorials"
+msgstr "Посібник з WordPress"
+
+#: includes/Admin/Assets.php:264
+msgid "Yes, skip step"
+msgstr "Так, пропустити крок"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:78
+msgid "You are running <b>%s</b> PHP version."
+msgstr "У вас запущено <b>%s</b> версію PHP."
+
+#: includes/Admin/Assets.php:252
+msgid ""
+"You can also set up a shipping method without installing additional plugins."
+msgstr ""
+"Ви також можете налаштувати спосіб доставки без встановлення додаткових "
+"плагінів."
+
+#: includes/Admin/Assets.php:161
+msgid ""
+"You can connect domain to Hostinger by changing the nameservers. Different "
+"domain providers are have unique procedures for changing nameservers. Here "
+"are Hostinger's nameservers:"
+msgstr ""
+"Ви можете підключити домен до Hostinger, змінивши сервери імен. Різні "
+"провайдери доменів мають унікальні процедури зміни серверів імен. Ось список "
+"серверів імен Hostinger:"
+
+#: includes/Admin/Assets.php:217
+msgid ""
+"You can see the whole post in the editor. Find the description part and "
+"change it to your preferences."
+msgstr ""
+"Ви можете переглянути весь текстовий вміст у редакторі. Знайдіть частину "
+"опису та змініть її під свої потреби."
+
+#: includes/Admin/Assets.php:173
+msgid ""
+"You need to purchase a domain for your website before the preview domain "
+"becomes inaccessible. Find a desired website name using a <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domain name "
+"searcher.</a >"
+msgstr ""
+"Вам потрібно придбати домен для сайту до того, як домен для попереднього "
+"перегляду стане недоступним. Знайдіть потрібне ім'я сайту за допомогою <a "
+"style=\"text-decoration:none; font-weight:bold; color:#673de6\" "
+"target=\"_blank\" href=\"https://hpanel.hostinger.com/domains/domain-"
+"checker\" >інструменту пошуку доменних імен.</a >"
+
+#: includes/Admin/Assets.php:141
+msgid "Your business email"
+msgstr "Ваша робоча електронна пошта"
+
+#: includes/Admin/Onboarding/Onboarding.php:509
+msgid ""
+"Your new site will replace the current one. Use the same description or "
+"change it."
+msgstr ""
+"Ваш новий сайт замінить поточний. Використовуйте той самий опис або змініть "
+"його."
+
+#: includes/Admin/Assets.php:146 includes/Admin/Assets.php:190
+msgid "Your progress"
+msgstr "Ваш прогрес"
+
+#: includes/Admin/Assets.php:140
+msgid "Your store name"
+msgstr "Назва вашого магазину"
+
+#: includes/Admin/Assets.php:172
+msgid ""
+"Your website is already published and can be accessed using Hostinger free "
+"temporary subdomain right now. Here is the current URL of your website:"
+msgstr ""
+"Ваш сайт вже опублікований і доступний за допомогою безплатного тимчасового "
+"піддомену Hostinger прямо зараз. Ось поточна URL-адреса вашого сайту:"
+
+#: includes/Admin/Assets.php:123
+msgid "You’ll love these great deals that were handpicked just for you."
+msgstr ""
+"Вам сподобаються ці чудові пропозиції, підібрані спеціально під ваші потреби."
+
+#: includes/Admin/Assets.php:207
+msgid "You’re done setting up your online store!"
+msgstr "Ви закінчили налаштування свого інтернет-магазину!"
+
+#: includes/Admin/Assets.php:170
+msgid "👋 Welcome to WordPress"
+msgstr "👋 Ласкаво просимо до WordPress"

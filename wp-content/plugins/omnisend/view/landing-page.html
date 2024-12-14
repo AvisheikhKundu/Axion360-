@@ -1,0 +1,108 @@
+<?php
+    use Omnisend\Internal\Connection;
+    $nonce = wp_create_nonce( 'show_connection_form' );
+?>
+
+<div class="omnisend-landing-page-header">
+    <div class="omnisend-landing-header-container">
+        <div class="omnisend-landing-page-content">
+            <div class="omnisend-landing-h1">
+                Convert website visitors into subscribers and send newsletters to them - all with Omnisend
+            </div>
+            <div class="omnisend-spacing-mv-8">
+                <div class="omnisend-text-body omnisend-landing-page-text">
+                    Save on website traffic costs by using Omnisend to convert visitors into subscribers, engaging them with email
+                    newsletters and targeted campaigns.
+                </div>
+            </div>
+            <div class="omnisend-button-container omnisend-spacing-mb-10">
+                <?php if (Omnisend_Core_Bootstrap::is_hostinger_plugin_active()): ?>
+                <a class="omnisend-button-primary" href="<?php echo Omnisend\Internal\Connection::$landing_page_url;?>" target="_blank">
+                    Explore Omnisend
+                </a>
+                <a class="omnisend-button" href="admin.php?page=omnisend&action=show_connection_form&_wpnonce=<?php echo $nonce; ?>"> Connect Omnisend </a>
+                <?php else: ?>
+                <a class="omnisend-button-primary" href="admin.php?page=omnisend&action=show_connection_form&_wpnonce=<?php echo $nonce; ?>"> Connect Omnisend </a>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="omnisend-landing-page-video-block omnisend-spacing-mb-25">
+    <div class="omnisend-landing-page-video-container">
+        <iframe
+            width="580"
+            height="370"
+            class="omnisend-landing-page-video"
+            src="https://www.youtube-nocookie.com/embed/8cpoBHteFCs?si=c1-CKMBb0Yk_5mrM"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+    </div>
+</div>
+<div class="omnisend-landing-page">
+    <div class="omnisend-landing-page-content">
+        <div class="omnisend-spacing-mb-2">
+            <div class="omnisend-landing-text-microcopy">FEATURES</div>
+        </div>
+        <div class="omnisend-spacing-mb-8">
+            <div class="omnisend-landing-h2">What if email marketing was easy?</div>
+        </div>
+        <div class="omnisend-text-body">
+            Make your email marketing easier with Omnisend — collect and keep visitors with less stress. Send personalized emails.
+        </div>
+
+        <div class="omnisend-spacing-mv-20">
+            <img
+                class="omnisend-features-images"
+                src="<?php echo plugins_url( 'images/features-1.svg', __FILE__ ); ?>"
+                alt="Omnisend features"
+            />
+        </div>
+        <div class="omnisend-spacing-mb-30">
+            <img
+                class="omnisend-features-images"
+                src="<?php echo plugins_url( 'images/features-2.svg', __FILE__ ); ?>"
+                alt="Omnisend features"
+            />
+        </div>
+        <img
+            class="omnisend-plugins-list-image"
+            src="<?php echo plugins_url( 'images/plugin-list.svg', __FILE__ ); ?>"
+            alt="omnisend-plugins-list"
+        />
+        <div class="omnisend-spacing-mv-20">
+            <div class="omnisend-default-margins">
+                <img
+                    class="omnisend-plugins-list-image"
+                    src="<?php echo plugins_url( 'images/support-aword.svg', __FILE__ ); ?>"
+                    alt="omnisend-plugins-list"
+                />
+            </div>
+        </div>
+
+        <div class="omnisend-landing-page-banner">
+            <img
+                class="omnisend-landing-page-banner-sticker"
+                src="<?php echo plugins_url( 'images/ribbon-sticker.svg', __FILE__ ); ?>"
+                alt="omnisend-plugins-list"
+            />
+            <div class="omnisend-landing-page-banner-content">
+                <div class="omnisend-spacing-mb-4">
+                    <div class="omnisend-landing-page-banner-header">Join 100,000+ brands using Omnisend</div>
+                </div>
+                <div class="omnisend-landing-page-banner-text">
+                    Quickly connect Omnisend to turn visitors into subscribers and keep them engaged with newsletters and targeted emails.
+                </div>
+                <div class="omnisend-spacing-mv-8 omnisend-button-container">
+                    <a class="omnisend-button-green" href="<?php echo Omnisend\Internal\Connection::$landing_page_url;?>" target="_blank">
+                        Explore Omnisend
+                    </a>
+                    <a class="omnisend-button-white" href="admin.php?page=omnisend&action=show_connection_form&_wpnonce=<?php echo $nonce; ?>"> Connect Omnisend </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,234 @@
+.chaty-header {
+  top: 32px;
+  left: 160px;
+  width: calc(100% - 160px);
+  border-bottom: 1px solid #e5e7eb;
+  @apply px-4 py-2;
+
+  .chaty-app-tabs {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 1100px) {
+    img {
+      width: 75px;
+    }
+  }
+
+  .mobile-text, .small-logo {
+    display: none;
+  }
+
+  @media screen and (max-width: 784px) {
+    width: 100% !important;
+    img {
+      display: none;
+
+      &.small-logo {
+        display: inline-flex;
+        width: 24px;
+        min-width: 16px;
+      }
+    }
+  }
+
+  @include mobile {
+    padding: 10px;
+    @apply gap-2;
+  }
+
+  .save-button-container {
+    @media screen and (max-width: 600px) {
+      span {
+        display: none;
+
+        &.mobile-text {
+          display: inline-flex;
+        }
+      }
+    }
+  }
+
+  li {
+    @apply w-full;
+    align-self: normal;
+
+    a::after {
+      content: '';
+      height: 2px;
+      position: absolute;
+      top: 22px;
+      z-index: 0;
+      @apply bg-cht-gray-150/40;
+    }
+
+    a:is(.active, .completed) {
+      &::after {
+        @apply bg-cht-primary;
+      }
+
+      .chaty-tabs-subheading {
+        @apply text-cht-primary;
+      }
+    }
+
+    &:nth-child(1) {
+      a {
+        &::after {
+          width: 50%;
+          right: 0;
+        }
+      }
+    }
+
+    &:nth-child(2), &:nth-child(3) {
+      a {
+        &::after {
+          width: 100%;
+          right: 0;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      a {
+        &::after {
+          width: 50%;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .header-items {
+    .progress-stat {
+      width: 48px;
+      height: 48px;
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 48px;
+
+      svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 48px;
+        height: 48px;
+        overflow: unset;
+      }
+
+      .current-step {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #49687E;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #F9F6FD;
+        border-radius: 50%;
+        font-size: 14px;
+      }
+
+      svg.whirlPath {
+        circle {
+          stroke-width: 4px;
+          stroke: rgba(183, 141, 235, 0.2);
+        }
+      }
+
+      svg.svg-progress {
+        transform: rotate(-90deg);
+
+        circle {
+          stroke-width: 4px;
+          stroke-dashoffset: 292.16811678385073;
+          stroke-dasharray: 292.16811678385073;
+          transition: stroke-dashoffset .2s 0.1s cubic-bezier(0.77, 0, 0.175, 1);
+          stroke: #B78DEB;
+        }
+      }
+    }
+
+    .chaty-app-steps {
+      display: none;
+      align-items: center;
+      gap: 10px;
+
+      .process-step {
+        font-size: 16px;
+        color: #B78DEB;
+        @media screen and (max-width: 600px) {
+          font-size: 14px;
+        }
+        @media screen and (max-width: 480px) {
+          font-size: 12px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      .chaty-app-tabs {
+        @apply hidden;
+      }
+      .chaty-app-steps {
+        display: flex;
+      }
+    }
+  }
+
+  .chaty-tab {
+    @apply font-primary text-cht-gray-150 relative pt-10 bg-white inline-block w-full px-4 rounded-lg text-center h-full;
+    font-size: 14px;
+    padding-bottom: 7px;
+
+    &::before {
+      display: inline-block;
+      width: 1.9rem;
+      content: '';
+      height: 1.9rem;
+      margin-bottom: 0.125rem;
+      border: 5px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      z-index: 1;
+      transform: translate(-50%, -33px);
+      background-color: #83a1b7;
+    }
+
+    &.active {
+      @apply text-cht-primary
+    }
+
+    &:is(.active, .completed)::before {
+      @apply bg-cht-primary
+    }
+
+    &:hover {
+      @apply bg-cht-primary/20
+    }
+  }
+}
+
+.chaty-widget-tab {
+  margin-top: 117px;
+  &.step-3 {
+    display: block;
+    border-right: none;
+
+    .preview-section-chaty {
+      display: none;
+    }
+  }
+}
+
+.step-four {
+  display: flex;
+}

@@ -1,0 +1,107 @@
+.cht-colorpicker {
+    position: relative;
+    &__preview {
+        
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==);
+        height: 30px;
+        border-radius: 4px;
+        width: 30px;
+        overflow: hidden;
+
+        &--inner {
+            width: 100%;;
+            height: 100%;
+            display: inline-block;
+            border-width: 2px;
+            border-style: solid;
+            cursor: pointer;
+            position: relative;
+            
+        }
+    }
+
+    &__dropdown {
+        position: absolute;
+        width: 230px;
+        box-shadow: 0 11.5px 19.5px -4.875px rgba(0,0,0,.2);
+        border-radius: 8px;
+        background: #fff;
+        top: 100%;
+        z-index: 9;
+        display: none;
+        
+        ul {
+
+            padding: .8rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto auto;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #eaeff2;
+            margin: 0;
+            grid-gap: 6px;
+            
+            li {
+                margin: 0;
+                display: inline-block;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                padding: 2px;
+                border-width: 2px;
+                border-style: solid;
+                border-color: transparent;
+                cursor: pointer;
+                
+                &.active {
+                    border-color: #83a1b7;
+                }
+                
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    box-shadow: 0 4px 19px 0 hsl(0deg 0% 85% / 40%);
+                }
+
+                div {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #b78deb;
+                    font-size: inherit;
+                    font-weight: 600;
+                }
+
+                &:last-child {
+                    border: 1px solid #c6d7e3;
+                }
+            }
+        }
+    }
+
+    .a-color-picker {
+        display: none;
+        input {
+            width: 100px !important;
+        }
+    }
+
+    .a-color-picker-rgb {
+        input {
+            width: 45px !important;
+            font-size: 14px;
+            height: 30px;
+            margin: 0;
+        }
+    }
+    
+    .a-color-picker-row:not(.a-color-picker-row-top) {
+        padding: 8px 10px;
+    }
+
+}

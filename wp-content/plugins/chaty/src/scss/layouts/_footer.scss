@@ -1,0 +1,67 @@
+.footer-buttons, .responsive-nav-btns {
+
+  .back-button, .next-button {
+    @apply border border-solid border-cht-primary text-cht-primary text-base rounded-md py-2 px-4 items-center space-x-2 transition duration-200 ease-in sm:hover:bg-cht-primary sm:hover:text-white sm:hover:shadow-lg sm:hover:shadow-cht-primary/50;
+
+    &.cht-disable {
+      pointer-events: none;
+      filter: grayscale(1);
+      opacity: .5;
+    }
+
+    @media screen and (max-width: 1200px) {
+      @apply px-2;
+      span {
+        display: none;
+      }
+      svg {
+        margin: 0 !important;
+      }
+    }
+  }
+
+  .save-button-container {
+    @apply bg-cht-primary flex items-center text-white rounded-md shadow-lg text-base shadow-cht-primary/50 overflow-hidden
+  }
+
+  .save-button {
+    @apply px-3 py-2 transition duration-200 ease-in;
+    &:hover {
+      background-color: #8f59d3;
+    }
+  }
+
+  .arrow-btn {
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+
+    &:hover, &.active {
+      background-color: #8f59d3;
+    }
+
+    @apply px-3 py-2 transition duration-200 ease-in;
+  }
+
+  .save-dashboard-button {
+    background: #FFFFFF;
+    border: 1px solid #EAEFF2;
+    box-shadow: 0px 11.5px 19.5px -4.875px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 10px 22px;
+    color: #49687E;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+      color: #b78deb;
+    }
+  }
+}
+
+.responsive-nav-btns {
+  @apply fixed left-0 bottom-0 w-full bg-white z-10 flex sm:hidden items-center justify-center gap-4 p-4;
+}

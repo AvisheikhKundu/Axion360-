@@ -1,0 +1,277 @@
+#elementor-navigator .elementor-navigator__element__toggle {
+  margin-right: 25px;
+}
+
+body:not(.rtl) .dce-elementor-navigator__element__toggle {
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+body.rtl .dce-elementor-navigator__element__toggle {
+  position: absolute;
+  left: 15px;
+  top: 9px;
+}
+
+.pull-right {
+  float: right;
+}
+.dce-visibility-hidden>* {
+  opacity: 0.4;
+}
+
+.dce-visibility-section-hidden,
+.dce-visibility-hidden-outline,
+.dce-visibility-hidden {
+  outline: 1px dashed #e52600 !important;
+  outline-offset: -1px;
+}
+
+.dce-icon-visibility.fa-eye, .dce-icon-visibility.fa-eye-slash {
+  font-family: FontAwesome, 'Font Awesome 5 Free';
+}
+
+.dce-icon-visibility-hidden {
+  color: #f00002;
+}
+
+.elementor-control .elementor-control-content .elementor-control-note,
+.elementor-control-dce-visibility_events_note.elementor-control .elementor-control-content,
+.elementor-control-dce-visibility_datetime_important_note.elementor-control .elementor-control-content {
+  padding: 15px;
+}
+
+/* Elementor uses span since version 3.13: */
+.elementor-panel .elementor-tab-control-dce_visibility a:before,
+.elementor-panel .elementor-tab-control-dce_visibility span:before {
+  content: '\e8ac';
+}
+
+.elementor-control.elementor-control-dce-visibility_selected .elementor-choices input:checked+.elementor-choices-label {
+  background-color: #e52600;
+}
+
+.elementor-control.elementor-control-dce-visibility_selected .elementor-choices .elementor-choices-label {
+  background-color: #FFFFFF;
+  font-size: 18px;
+}
+
+.elementor-control.elementor-control-selector_wrapper input:not(:placeholder-shown),
+.elementor-control.elementor-control-selector_header input:not(:placeholder-shown),
+.elementor-control.elementor-control-selector_main_site input:not(:placeholder-shown),
+.elementor-control.elementor-control-selector_footer_site input:not(:placeholder-shown) {
+  background-color: #FFF;
+}
+
+.dce-settings-structure,
+.elementor-control.elementor-control-dce_structure_page .elementor-control-field {
+  text-align: center;
+  justify-content: center;
+}
+
+.elementor-panel .dce-settings-structure img {
+  max-width: 200px;
+}
+
+.elementor-panel .dce-document-settings h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dce-document-settings hr {
+  margin: 5px 0;
+  border: none;
+  border-top: 1px dotted #999;
+}
+
+.dce-document-settings {
+  padding: 15px;
+  font-size: 11px;
+  line-height: 1.3;
+  margin: 0 -10px;
+}
+.elementor-control-post_title .elementor-control-dynamic-switcher,
+.elementor-tag-settings-popup .elementor-control-dynamic-switcher {
+  display: none;
+}
+
+.elementor-control.elementor-control-minmaxDuration,
+.elementor-control.elementor-control-minmaxRadius {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.elementor-panel .elementor-element .icon {
+  position: relative;
+}
+
+.elementor-panel .elementor-element .icon i[class*="icon-dyn-"]:after {
+  content: '\e817';
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  z-index: 1;
+  background: transparent;
+  font-size: 15px;
+  font-family: "dce-icon";
+  font-style: normal;
+  padding: 0.2em 0.5em;
+  color: #e6e9ec;
+  transition: color 0.5s ease;
+}
+
+.elementor-panel .elementor-element:hover .icon i[class*="icon-dyn-"]:after {
+  color: #e52600;
+}
+
+.elementor-control-title abbr {
+  text-decoration: none;
+}
+
+.elementor-control-title abbr:after {
+  content: '?';
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  background-color: #C3C3C3;
+  border-radius: 50%;
+  padding: 2px 4px;
+  width: 13px;
+  height: 13px;
+  text-align: center;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+
+.dce-class-debug {
+  background-color: #bc0d0d;
+  padding: 8px;
+  border-radius: 19px;
+  color: #FFF;
+  display: inline;
+  position: absolute;
+  top: -41px;
+  z-index: 10;
+  right: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.dce-class-debug.detected {
+  background-color: #4f932a;
+}
+
+.elementor-button-block {
+  display: block;
+  width: 100%;
+}
+
+.elementor-field-textual {
+  line-height: 1.4;
+}
+
+.elementor-field-textual.elementor-size-xs {
+  font-size: 13px;
+  padding: 4px 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.elementor-field-textual.elementor-size-sm {
+  font-size: 13px;
+  padding: 5px 14px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.elementor-field-textual.elementor-size-md {
+  font-size: 16px;
+  padding: 6px 16px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.elementor-field-textual.elementor-size-lg {
+  font-size: 18px;
+  padding: 7px 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.elementor-field-textual.elementor-size-xl {
+  font-size: 20px;
+  padding: 8px 24px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.elementor-control.elementor-control-type-select .elementor-control-input-wrapper,
+.elementor-control.elementor-control-type-select2 .elementor-control-input-wrapper,
+.elementor-control-unit-5 {
+  min-width: 135px;
+}
+
+.select2-results__option[aria-selected="true"] {
+  font-weight: bold;
+}
+.elementor-control-unit-1+.elementor-control-type-ooo_query .select2-container {
+  width: calc(100% - 27px) !important;
+}
+
+.elementor-control-type-ooo_query .elementor-control-input-wrapper .elementor-control-unit-1 {
+  order: 2;
+}
+
+.elementor-control-type-ooo_query .elementor-control-input-wrapper {
+  display: flex;
+}
+
+.elementor-control-type-ooo_query .select2-container .select2-selection {
+  border-radius: 3px 0 0 3px;
+}
+
+.elementor-control-type-ooo_query .select2-container .select2-selection--multiple {
+  min-height: 28px;
+}
+
+.elementor-control-type-ooo_query .select2-container .select2-selection--multiple .select2-selection__rendered {
+  line-height: 20px;
+}
+
+.elementor-control-type-ooo_query .dce-elementor-control-quick-edit {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 28px;
+  cursor: pointer;
+  border: 1px solid #d5dadf;
+  border-left-color: rgb(213, 218, 223);
+  border-left-style: solid;
+  border-left-width: 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  background: #fff;
+}
+
+.elementor-control-type-ooo_query .dce-elementor-control-quick-edit i {
+  font-size: 12px;
+  /*color: #6d7882;*/
+  color: #e52600;
+}
+
+.elementor-control-type-ooo_query.elementor-control-dynamic-value .select2-container {
+  display: none;
+}

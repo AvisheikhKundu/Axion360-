@@ -1,0 +1,9 @@
+@media screen and( min-width: 575px ) {
+    #chaty-social-Contact_Us {
+        .channels-selected__item {
+           > div:nth-child(3) {
+                margin-top: -45px;
+           }
+        }   
+    }
+}

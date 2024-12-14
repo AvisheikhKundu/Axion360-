@@ -1,0 +1,55 @@
+.channels__agent-box,
+.chaty-settings, 
+.upload-image {
+    a {
+        background-color: transparent;
+        display: inline-flex;
+        align-items: center;
+        color: #49687e;
+        border: 1px solid #c6d7e3;
+        box-shadow: none;
+        font-size: .75rem;
+        font-weight: 400;
+        height: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 7px;
+        line-height: 100%;
+
+        &:hover {
+            background-color: #edf3f6 !important;
+        }
+    }
+
+    &.enable a {
+        background-color: #f9f6fd;
+        border-color: #b78deb;
+        color: #b78deb;
+    }
+}
+
+.pro-button {
+   a, a:hover {
+    background-color: #b78deb !important;
+    color: white;
+    border-color: #b78deb;
+    word-wrap: inherit;
+    min-width: 109px;
+    justify-content: center;
+    display: flex;
+   }
+}
+
+@include mobile() {
+    .main .channels-selected-list .btn-cancel {
+        right: -4px;
+        top: -7px;
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        padding: 5px;
+        line-height: 1px;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+    }
+}

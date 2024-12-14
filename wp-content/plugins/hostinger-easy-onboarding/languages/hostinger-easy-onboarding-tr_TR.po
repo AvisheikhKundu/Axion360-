@@ -1,0 +1,1589 @@
+# #-#-#-#-#  hostinger-easy-onboarding.po (Hostinger Easy Onboarding 1.0.0)  #-#-#-#-#
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Easy Onboarding 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-easy-"
+"onboarding\n"
+"Last-Translator: Merve Özcan - mrvzcn(@)outlook.com\n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-06T11:48:04+00:00\n"
+"PO-Revision-Date: 2024-12-03 07:17+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-easy-onboarding\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.4.5"
+
+#: includes/Admin/Assets.php:162
+msgid ""
+" Learn how to connect your domain to Hostinger by watching this tutorial on "
+"YouTube for a step-by-step guide:"
+msgstr ""
+" Adım adım rehber için YouTube'daki bu eğitici videoyu izleyerek alan "
+"adınızı Hostinger'a nasıl bağlayacağınızı öğrenin:"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:66
+msgid " Please refresh the page and try again."
+msgstr " Lütfen sayfayı yenileyin ve tekrar deneyin."
+
+#. translators: %s plugin slug
+#: includes/Rest/StepRoutes.php:150
+msgid "%s is already active"
+msgstr "%s zaten etkin"
+
+#. translators: %s field name that is missing
+#: includes/Rest/StepRoutes.php:61 includes/Rest/StepRoutes.php:65
+#: includes/Rest/StepRoutes.php:142 includes/Rest/WooRoutes.php:41
+#: includes/Rest/WooRoutes.php:112
+msgid "%s missing or empty"
+msgstr "%s eksik veya boş"
+
+#: includes/Admin/Assets.php:196
+msgid ""
+"<strong>Almost there!</strong> Just a few more steps to get your site ready "
+"for online success."
+msgstr ""
+"<strong>Neredeyse tamam!</strong> Sitenizi çevrimiçi başarıya hazır hale "
+"getirmek için sadece birkaç adım kaldı. "
+
+#: includes/Admin/Assets.php:256
+msgid ""
+"<strong>Use built-in payment methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Yerleşik ödeme yöntemlerini kullanın.</strong>Başka eklenti gerekmez."
+
+#: includes/Admin/Assets.php:255
+msgid ""
+"<strong>Use built-in shipping methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Yerleşik nakliye yöntemlerini kullanın.</strong>Başka eklenti "
+"gerekmez."
+
+#: includes/Admin/Onboarding/PluginManager.php:32
+msgid "Accept payments via credit card. Manage transactions within WordPress."
+msgstr ""
+"Kredi kartı ile ödeme kabul edin. WordPress içindeki işlemleri yönetin."
+
+#: includes/Admin/Assets.php:226
+msgid "Access site identity and edit title"
+msgstr "Site kimliğine erişin ve başlığı düzenleyin"
+
+#: includes/Errors.php:14
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"İşlem Başarısız Oldu. Lütfen tekrar deneyim veya destekle iletişime geçin. "
+"Özür dileriz."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:44
+msgid "Actions"
+msgstr "Eylemler "
+
+#: includes/Admin/Assets.php:240
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: includes/Admin/Assets.php:179 includes/Admin/Assets.php:228
+msgid "Add a new page"
+msgstr "Yeni sayfa ekle"
+
+#: includes/Admin/Assets.php:242
+msgid "Add a title"
+msgstr "Başlık ekle"
+
+#: includes/Admin/Assets.php:258
+msgid "Add content"
+msgstr "İçerik ekle"
+
+#: includes/Admin/Assets.php:229
+msgid "Add plugin"
+msgstr "Eklenti ekle"
+
+#: includes/Admin/Onboarding/Onboarding.php:350
+#| msgid "Add products"
+msgid "Add product"
+msgstr "Ürün ekle"
+
+#: includes/Admin/Assets.php:251
+msgid "Add shipping method"
+msgstr "Nakliye yöntemi ekle"
+
+#: includes/Admin/Assets.php:257
+msgid ""
+"Add the title of the page, for example, About. Click the Add Title text to "
+"open the text box where you will add your title. The title of your page "
+"should be descriptive of the information the page will have."
+msgstr ""
+"Sayfa başlığı ekleyin. Örneğin Hakkında. Başlığınızı ekleyeceğiniz metin "
+"kutusunu açmak için Başlık Ekle metnine tıklayın. Sayfanızın başlığı, "
+"sayfadaki bilgileri açıklamalıdır."
+
+#: includes/Admin/Assets.php:151
+msgid "Add your first product"
+msgstr "İlk ürününüzü ekleyin"
+
+#: includes/Admin/Assets.php:152 includes/Admin/Onboarding/Onboarding.php:346
+msgid "Add your first product or service"
+msgstr "İlk ürününüzü veya hizmetinizi ekleyin"
+
+#: includes/Admin/Assets.php:230
+msgid "Added"
+msgstr "Eklendi"
+
+#: includes/Admin/Assets.php:168
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">AI Logo Maker.</a>"
+msgstr ""
+"Logo eklemek, bir web sitesini kişiselleştirmek veya marka bilgisi eklemek "
+"için harika bir yoldur. Mevcut logonuzu kullanabilir veya <a href=\"https:"
+"//logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-decoration:"
+"none; font-weight:bold; color:#673de6\">YZ Logo Oluşturucu'yu kullanarak "
+"yeni bir logo yapabilirsiniz.</a>"
+
+#: includes/Admin/Onboarding/PluginManager.php:60
+msgid "Adds Correios shipping methods to your WooCommerce store."
+msgstr "WooCommerce mağazanıza Correios kargo yöntemlerini ekler."
+
+#: includes/Admin/Onboarding/PluginManager.php:50
+msgid ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+msgstr "PagSeguro'yu ödeme aracı olarak ekleyin (indirimli). "
+
+#: includes/Admin/Onboarding/PluginManager.php:41
+msgid ""
+"Amazon Pay is embedded directly into your existing web site, and all the "
+"buyer interactions with Amazon Pay and Login with Amazon take place in "
+"embedded widgets so that the buyer never leaves your site. "
+msgstr ""
+"Amazon Pay doğrudan mevcut web sitenize yerleştirilir ve Amazon Pay ve "
+"Amazon ile Giriş ile tüm alıcı etkileşimleri gömülü bileşenle gerçekleşir, "
+"böylece alıcı sitenizden asla ayrılmaz."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:106
+msgid "An error occurred while deleting the page."
+msgstr "Sayfa silinirken bir hata oluştu. "
+
+#: includes/Errors.php:17
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Beklenmedik bir hata oluştu. Lütfen tekrar deneyin veya destek ekibiyle "
+"iletişime geçin."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:76
+msgid "An unexpected error occurred. Please try again."
+msgstr "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin. "
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:31
+msgid "Are you sure you want to delete this page?"
+msgstr "Bu sayfayı silmek istediğinizden emin misiniz? "
+
+#: includes/Admin/Assets.php:266
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid "Attention:"
+msgstr "Dikkat:"
+
+#: includes/Admin/Assets.php:243
+msgid "Back"
+msgstr "Geri"
+
+#: includes/Admin/Assets.php:268
+msgid ""
+"Before publishing, you can preview your created page by clicking on the "
+"Preview button. If you are happy with the result, click the Publish button."
+msgstr ""
+"Yayınlamadan önce Önizle düğmesine tıklayarak oluşturduğunuz sayfayı "
+"önizleyebilirsiniz. Sonuçtan memnun kalırsanız Yayınla düğmesine tıklayın."
+
+#: includes/Admin/Onboarding/Onboarding.php:503
+#: includes/Admin/Onboarding/Onboarding.php:533
+msgid ""
+"Build a professional, custom-designed site in moments. Just a few clicks and "
+"AI handles the rest."
+msgstr ""
+"Dakikalar içinde profesyonel, özel tasarımlı bir site oluşturun. Sadece "
+"birkaç tıklama ve gerisini yapay zeka halleder."
+
+#: includes/Admin/Assets.php:178 gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:70
+msgid "Cancel"
+msgstr "İptal "
+
+#: includes/Rest/WelcomeRoutes.php:65
+msgid "Choice parameter missing or empty"
+msgstr "Seçim parametresi eksik veya boş"
+
+#: includes/Admin/Assets.php:144 includes/Admin/Onboarding/Onboarding.php:392
+msgid ""
+"Choose the ways you'd like to ship orders to customers. You can always add "
+"others later."
+msgstr ""
+"Siparişleri müşterilere göndermek istediğiniz yolları seçin. Diğerlerini her "
+"zaman sonradan ekleyebilirsiniz."
+
+#: includes/Rest/TutorialRoutes.php:45
+#, fuzzy
+msgid "Como Alterar a sua Logo no WordPress (Rápido e Prático)"
+msgstr "WordPress'te Logonuzu Nasıl Değiştirirsiniz (Hızlı ve Pratik)"
+
+#: includes/Rest/TutorialRoutes.php:60
+#, fuzzy
+msgid "Como Criar Categorias no WordPress"
+msgstr "WordPress'te Kategori Oluşturma"
+
+#: includes/Rest/TutorialRoutes.php:55
+#, fuzzy
+msgid "Como Editar o Menu dos Temas do WordPress"
+msgstr "WordPress Temalarının Menüsünü Düzenleme"
+
+#: includes/Rest/TutorialRoutes.php:77
+#, fuzzy
+msgid "Como Instalar Plugins y Temas en WordPress"
+msgstr "WordPress'e Eklentiler ve Temalar Nasıl Yüklenir?"
+
+#: includes/Rest/TutorialRoutes.php:50
+#, fuzzy
+msgid "Como Personalizar um Tema do WordPress"
+msgstr "WordPress Temalarını Kişiselleştirme"
+
+#: includes/Admin/Assets.php:191
+msgid "Complete"
+msgstr "Tamamlandı"
+
+#: includes/Admin/Assets.php:197
+msgid "Completed steps"
+msgstr "Tamamlanan adımlar"
+
+#: includes/Admin/Assets.php:231
+msgid "Configure"
+msgstr "Yapılandırma"
+
+#: includes/Admin/Onboarding/PluginManager.php:35
+msgid ""
+"Configure the payment options and accept payments with cards, ticket and "
+"money of Mercado Pago account."
+msgstr ""
+"Ödeme seçeneklerini yapılandırın ve Mercado Pago hesabının kartları, bileti "
+"ve parası ile ödemeleri kabul edin."
+
+#: includes/Admin/Hooks.php:494
+msgid "Congrats, you have connected WooPayments!"
+msgstr "Tebrikler, WooPayments'ı bağladınız!"
+
+#: includes/Admin/Assets.php:193 includes/Admin/Hooks.php:487
+msgid "Congrats, you’re ready to show off your site!"
+msgstr "Tebrikler, sitenizi göstermeye hazırsınız!"
+
+#: includes/Admin/Assets.php:232
+msgid "Connect"
+msgstr "Bağlan"
+
+#: includes/Admin/Onboarding/Onboarding.php:233
+msgid "Connect a domain"
+msgstr "Bir alan adına bağlayın"
+
+#: includes/Admin/Onboarding/Onboarding.php:291
+msgid "Connect Amazon to site"
+msgstr "Amazon'u siteye bağlayın"
+
+#: includes/Admin/Onboarding/Onboarding.php:235
+msgid "Connect domain"
+msgstr "Alan adını bağlayın"
+
+#: includes/Admin/Assets.php:210
+msgid "Connect domain now"
+msgstr "Alan alanını şimdi bağlayın"
+
+#: includes/Admin/Onboarding/Onboarding.php:238
+#: includes/Admin/Onboarding/Onboarding.php:250
+msgid "Connect on hPanel"
+msgstr "HPanel'e bağla"
+
+#: includes/Admin/Assets.php:239 includes/Admin/Onboarding/WelcomeCards.php:29
+msgid ""
+"Connect your <strong>Amazon Associate</strong> account to fetch API details."
+msgstr ""
+"API ayrıntılarını almak için <strong>Amazon Associate</strong> hesabınızı "
+"bağlayın."
+
+#: includes/Admin/Onboarding/Onboarding.php:285
+msgid "Connect your Amazon account to the site"
+msgstr "Amazon hesabınızı siteye bağla"
+
+#: includes/Admin/Assets.php:180
+msgid "Connect your domain"
+msgstr "Alan adınızı bağlayın"
+
+#: includes/Admin/Assets.php:267
+msgid "Connect your domain first"
+msgstr "Önce alan adınızı bağlayın"
+
+#: includes/Admin/Assets.php:157 includes/Admin/Assets.php:160
+#: includes/Admin/Assets.php:271
+msgid "Connect your domain to Hostinger"
+msgstr "Alan adınızı Hostinger'a bağlayın"
+
+#: includes/Admin/Onboarding/Onboarding.php:254
+msgid "Connected a domain"
+msgstr "Bir alan adına bağlandı"
+
+#: includes/Admin/Onboarding/Onboarding.php:287
+msgid "Connected your Amazon account"
+msgstr "Amazon hesabınıza bağlandı"
+
+#: includes/Admin/Assets.php:259
+msgid ""
+"Content can be anything you wish, for example, text, images, videos, tables, "
+"and lots more. Click on a plus sign and choose any block you want to add to "
+"the page."
+msgstr ""
+"İçerik, metin, görseller, videolar, tablolar gibi dilediğiniz herhangi bir "
+"şey olabilir. Artı işaretine tıklayın ve sayfaya eklemek istediğiniz bloğu "
+"seçin."
+
+#: includes/Admin/Assets.php:132
+msgid "Continue"
+msgstr "Devam et"
+
+#: includes/Admin/Assets.php:263 includes/Admin/Hooks.php:484
+#: includes/Admin/Hooks.php:497
+msgid "Continue setup"
+msgstr "Kuruluma devam edin"
+
+#: includes/Admin/Assets.php:181
+msgid "Create a logo"
+msgstr "Bir logo oluştur"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:23
+msgid "Create a new Page"
+msgstr "Yeni bir Sayfa Oluşturun"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:26
+msgid "Create a new page"
+msgstr "Yeni bir sayfa oluşturun"
+
+#: includes/Admin/Onboarding/Onboarding.php:502
+msgid "Create a site with AI"
+msgstr "Yapay zeka ile bir site oluşturun"
+
+#: includes/Admin/Onboarding/PluginManager.php:57
+msgid ""
+"Create additional shipment methods in WooCommerce and enable pricing based "
+"on cart weight or total."
+msgstr ""
+"WooCommerce'de ek gönderi yöntemleri oluşturun ve sepet ağırlığına veya "
+"toplamına göre fiyatlandırmayı etkinleştirin."
+
+#: includes/Admin/Onboarding/PluginManager.php:69
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr ""
+"Chronopost & Mondial Relay gönderi etiketleri oluşturun ve kolayca gönderin."
+
+#: includes/Admin/Onboarding/Onboarding.php:532
+msgid "Create content with AI"
+msgstr "Yapay zeka ile içerik oluşturun"
+
+#: includes/Admin/Onboarding/Onboarding.php:511
+msgid "Create new site"
+msgstr "Yeni site oluşturun"
+
+#: includes/Admin/Onboarding/Onboarding.php:504
+msgid "Create site with AI"
+msgstr "Yapay zeka ile site oluşturun"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:59
+msgid "Current page"
+msgstr "Mevcut sayfa"
+
+#: includes/Admin/Assets.php:194
+msgid "Customize the way your site looks and start welcoming visitors."
+msgstr ""
+"Sitenizin görünümünü özelleştirin ve ziyaretçileri karşılamaya başlayın."
+
+#: includes/Rest/TutorialRoutes.php:82
+#, fuzzy
+msgid "Cómo Crear un Menú en WordPress (en Menos de 5 minutos)"
+msgstr "WordPress'te Menü Oluşturma (5 Dakikadan Kısa Sürede)"
+
+#: includes/Rest/TutorialRoutes.php:72
+#, fuzzy
+msgid "Cómo Crear una Galería de Fotos en WordPress | Fácil y Gratis"
+msgstr "WordPress'te Fotoğraf Galerisi Nasıl Oluşturulur | Kolay ve Gratis"
+
+#: includes/Rest/TutorialRoutes.php:67
+#, fuzzy
+msgid "Cómo Personalizar WordPress (2023)"
+msgstr "Cómo Personalizar WordPress (2023)"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:123
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:125
+msgid "Delete page"
+msgstr "Sayfayı sil"
+
+#: includes/Admin/Assets.php:204 includes/Admin/Assets.php:233
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: includes/Admin/Surveys.php:48
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr ""
+"Yapay zeka araçlarımızı geliştirmek için herhangi bir yorumunuz/öneriniz var "
+"mı?"
+
+#: includes/Admin/Surveys.php:34
+msgid ""
+"Do you have any comments/suggestions to improve our WooCommerce onboarding?"
+msgstr ""
+"WooCommerce ilk katılımımızı iyileştirmek için herhangi bir "
+"yorumunuz/öneriniz var mı?"
+
+#: includes/Admin/Assets.php:273
+msgid ""
+"Domain propagation can take up to 24 hours. Your domain will propagate "
+"automatically, and you don't need to take any action during this time."
+msgstr ""
+"Alan adı yayılımı 24 saate kadar sürebilir. Alan adınız otomatik olarak "
+"yayılır ve bu süre zarfında herhangi bir işlem yapmanız gerekmez."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:19
+msgid "Edit"
+msgstr "Düzenle"
+
+#: includes/Admin/Assets.php:222
+msgid "Edit an image"
+msgstr "Bir görseli düzenleyin"
+
+#: includes/Admin/Assets.php:216
+msgid "Edit description"
+msgstr "Açıklamayı düzenle"
+
+#: includes/Hooks.php:217
+msgid "Edit Home Page"
+msgstr "Ana Sayfayı Düzenle"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:12
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:14
+msgid "Edit Page"
+msgstr "Sayfayı Düzenle"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/index.js:100
+#: gutenberg/edit-pages-panel/src/index.js:106
+msgid "Edit Pages"
+msgstr "Sayfaları Düzenle"
+
+#: includes/Admin/Assets.php:214
+msgid "Edit post"
+msgstr "Yazıyı düzenle"
+
+#: includes/Admin/Assets.php:175
+msgid "Edit post description"
+msgstr "Yazı açıklamasını düzenle"
+
+#: includes/Admin/Assets.php:203
+msgid "Edit site"
+msgstr "Siteyi düzenle"
+
+#: includes/Admin/Assets.php:177
+msgid "Edit site title"
+msgstr "Site başlığını düzenle"
+
+#: includes/Admin/Assets.php:189
+msgid ""
+"Enter your store details so we can help you set up your online store faster."
+msgstr ""
+"Sanal mağazanızı daha hızlı kurmanıza yardımcı olabilmemiz için mağaza "
+"bilgilerinizi girin."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:46
+msgid "Error:"
+msgstr "Hata:"
+
+#: includes/Admin/Onboarding/Onboarding.php:257
+msgid ""
+"Every website needs a domain that makes it easy to access and remember. Get "
+"ours in just a few clicks."
+msgstr ""
+"Her web sitesinin erişimi ve hatırlanmasını kolaylaştıran bir alan adına "
+"ihtiyacı vardır. Sadece birkaç tıkla bizden alın."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"Expand your audience with the help of Omnisend. Create email campaigns that "
+"drive sales."
+msgstr ""
+"Omnisend'in yardımıyla kitlenizi genişletin. Satışları artıran e-posta "
+"kampanyaları oluşturun."
+
+#: includes/Admin/Onboarding/PluginManager.php:47
+msgid "Extends WooCommerce with a RedSys gateway."
+msgstr "WooCommerce'i bir RedSys ağ geçidi ile genişletir."
+
+#: includes/Admin/Assets.php:282
+msgid "Find the answers you need in our Knowledge Base"
+msgstr "İhtiyacınız olan yanıtları Bilgi Tabanı'mızda bulabilirsiniz"
+
+#: includes/Admin/Assets.php:218
+msgid "Find the Media page"
+msgstr "Medya sayfasını bul"
+
+#: includes/Admin/Assets.php:292
+msgid "Follow these steps to complete your setup"
+msgstr "Kurulumunuzu tamamlamak için aşağıdaki adımları izleyin"
+
+#: includes/Admin/Assets.php:234
+msgid "Generate content"
+msgstr "İçerik oluşturun"
+
+#: includes/Admin/Assets.php:236 includes/Admin/Onboarding/WelcomeCards.php:37
+#| msgid "Create content with AI"
+msgid "Generate content with AI"
+msgstr "Yapay zeka ile içerik oluşturun"
+
+#: includes/Admin/Onboarding/Onboarding.php:534
+msgid "Generate post"
+msgstr "Gönderi oluştur"
+
+#: includes/Admin/Assets.php:269
+msgid "Get a domain"
+msgstr "Bir alan adı alın"
+
+#: includes/Admin/Assets.php:122
+msgid "Get deal"
+msgstr "İndirimi al"
+
+#: includes/Admin/Hooks.php:337
+msgid "Get Discount"
+msgstr "İndirim Al"
+
+#: includes/Admin/Onboarding/Onboarding.php:415
+msgid "Get found on Google"
+msgstr "Google'da bulunun"
+
+#: includes/Admin/Assets.php:237
+msgid ""
+"Get images, text, and SEO keywords created for you instantly – try <strong>"
+"AI Content Creator</strong>."
+msgstr ""
+"Sizin için anında oluşturulan görseller, metinler ve SEO anahtar kelimeleri "
+"edinin - <strong>YZ İçerik Yaratıcı</strong>'yı deneyin."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:39
+msgid "Get images, text, and SEO keywords created for you instantly."
+msgstr ""
+"Sizin için oluşturulan görselleri, metinleri ve SEO anahtar kelimelerini "
+"anında alın."
+
+#: includes/Admin/Assets.php:290
+msgid "Get in touch with our live specialists"
+msgstr "Canlı uzmanlarımızla iletişime geçin"
+
+#: includes/Admin/Assets.php:150 includes/Admin/Onboarding/Onboarding.php:373
+msgid ""
+"Get ready to accept customer payments. Let them pay for your products and "
+"services with ease."
+msgstr ""
+"Müşteri ödemelerini kabul etmeye hazır olun. Ürünleriniz ve hizmetleriniz "
+"için kolaylıkla ödeme yapmalarını sağlayın."
+
+#: includes/Admin/Onboarding/Onboarding.php:308
+msgid ""
+"Get ready to sell online. Add your first product, then set up shipping and "
+"payments."
+msgstr ""
+"İnternette satış yapmaya hazır olun. İlk ürününüzü ekleyin, ardından kargo "
+"ve ödemeleri ayarlayın."
+
+#: includes/Admin/Onboarding/Onboarding.php:310
+#| msgid "Get Started"
+msgid "Get started"
+msgstr "Şimdi Başla"
+
+#: includes/Admin/Assets.php:186
+msgid "Get started!"
+msgstr "Başla!"
+
+#: includes/Admin/Assets.php:145
+msgid "Getting your features ready"
+msgstr "Özellikleriniz hazırlanıyor"
+
+#: includes/Admin/Assets.php:212
+msgid "Go to Posts"
+msgstr "Yazılar'a Git"
+
+#: includes/Admin/Assets.php:182 includes/Admin/Assets.php:224
+msgid "Go to the Customize page"
+msgstr "Özelleştir sayfasına git"
+
+#: includes/Rest/TutorialRoutes.php:104
+#, fuzzy
+msgid ""
+"Google Analytics sur WordPress FACILEMENT avec Google Site Kit : Guide "
+"Complet (2023)"
+msgstr ""
+"Google Analytics sur WordPress FACILEMENT avec Google Site Kit : Guide "
+"Complet (2023)"
+
+#: includes/Admin/Assets.php:265
+msgid ""
+"Google Site Kit is an essential plugin that makes sure that potential "
+"visitors can find your site on Google."
+msgstr ""
+"Google Site Kit, potansiyel ziyaretçilerin sitenizi Google'da bulabilmesini "
+"sağlayan önemli bir eklentidir."
+
+#: includes/Admin/Assets.php:211
+msgid "Got it!"
+msgstr "Tamamdır!"
+
+#: includes/Admin/Assets.php:283
+msgid "Help Center"
+msgstr "Yardım Merkezi"
+
+#: includes/Admin/Assets.php:209
+msgid "Hide completed"
+msgstr "Tamamlananları gizle"
+
+#: includes/Admin/Assets.php:202
+msgid "Hide list"
+msgstr "Listeyi gizle"
+
+#: includes/Admin/Onboarding/PluginManager.php:54
+msgid ""
+"Hosted services for WooCommerce: automated tax calculation, shipping label "
+"printing, and smoother payment setup."
+msgstr ""
+"WooCommerce için barındırılan hizmetler: otomatik vergi hesaplama, kargo "
+"etiketi yazdırma ve daha sorunsuz ödeme kurulumu."
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Assets.php:286
+msgid "Hostinger Academy"
+msgstr "Hostinger Academy"
+
+#. Plugin Name of the plugin
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#. Description of the plugin
+msgid "Hostinger Easy Onboarding WordPress plugin."
+msgstr "Hostinger Easy Onboarding WordPress eklentisi."
+
+#: includes/Admin/Assets.php:215
+msgid ""
+"Hover over the chosen post to see the options menu. Click on the Edit button "
+"to open the post editor."
+msgstr ""
+"Seçenekler menüsünü görmek için seçilen gönderinin üzerine gelin. Gönderi "
+"düzenleyiciyi açmak için Düzenle düğmesine tıklayın."
+
+#: includes/Admin/Surveys.php:41
+msgid "How could we make it easier to create a new WordPress website?"
+msgstr ""
+"Yeni bir WordPress web sitesi oluşturmayı nasıl daha kolay hale "
+"getirebiliriz?"
+
+#: includes/Admin/Assets.php:278
+msgid "How to Back Up a WordPress Site"
+msgstr "WordPress Sitesi Nasıl Yedeklenir"
+
+#: includes/Rest/TutorialRoutes.php:111
+msgid "How to Build a Website FAST Using AI in Just 10 Minutes"
+msgstr ""
+"Yapay Zeka Kullanarak Sadece 10 Dakikada HIZLI Bir Site Nasıl Oluşturulur?"
+
+#: includes/Admin/Assets.php:270
+msgid "How to Build an EFFECTIVE Landing Page with WordPress (2024)"
+msgstr "WordPress ile Etkili Bir Açılış Sayfası Nasıl Oluşturulur (2024)"
+
+#: includes/Rest/TutorialRoutes.php:121
+msgid "How to Create a Menu in WordPress in Hindi | Hostinger India"
+msgstr "Hintçe WordPress Menüsü Nasıl Oluşturulur | Hostinger India"
+
+#: includes/Admin/Assets.php:274
+msgid "How to Create a WordPress Contact Us Page"
+msgstr "WordPress İletişim Sayfası Nasıl Oluşturulur"
+
+#: includes/Admin/Assets.php:276
+msgid "How to Create Your Coming Soon Page in WordPress (2024)"
+msgstr "WordPress'te Çok Yakında Sayfanızı Nasıl Oluşturursunuz (2024)"
+
+#: includes/Rest/TutorialRoutes.php:28
+msgid ""
+"How to EASILY Manage Google Tools with Google Site Kit - Beginners Guide 2024"
+msgstr ""
+"Google Site Kiti ile Google Araçları Nasıl Kolayca Yönetilir - Acemi Rehberi "
+"2024"
+
+#: includes/Rest/TutorialRoutes.php:116
+msgid "How to Edit Footer in WordPress in Hindi | Hostinger India"
+msgstr "Hintçe WordPress'te Altbilgi Nasıl Düzenlenir | Hostinger India"
+
+#: includes/Rest/TutorialRoutes.php:38
+msgid "How to Edit the Footer in WordPress"
+msgstr "WordPress'te Alt Bilgi Nasıl Düzenlenir"
+
+#: includes/Admin/Assets.php:279 includes/Rest/TutorialRoutes.php:33
+msgid "How to Import Images Into WordPress Website"
+msgstr "WordPress Web Sitesine Görseller Nasıl Taşınır?"
+
+#: includes/Rest/TutorialRoutes.php:126
+msgid "How to Install WordPress Themes | Hostinger India"
+msgstr "WordPress Temaları Nasıl Kurulur | Hostinger India"
+
+#: includes/Admin/Assets.php:272 includes/Rest/TutorialRoutes.php:23
+msgid "How to Make a Website (2024): Simple, Quick, & Easy Tutorial"
+msgstr "Web Sitesi Nasıl Yapılır (2024): Basit, Hızlı ve Kolay Rehber"
+
+#: includes/Admin/Assets.php:163
+msgid "How to Point Domain Name to Web Hosting"
+msgstr "Alan Adı Web Hosting'e Nasıl Yönlendirilir"
+
+#: includes/Admin/Assets.php:280
+msgid "How to Set Up WordPress SMTP"
+msgstr "WordPress SMTP Nasıl Kurulur"
+
+#: includes/Admin/Surveys.php:40
+msgid ""
+"How would you rate your experience building a website based on a pre-built "
+"template? (Score 1-10)"
+msgstr ""
+"Önceden oluşturulmuş bir şablonu temel alarak bir web sitesi oluşturma "
+"deneyiminizi nasıl değerlendirirsiniz? (Puan 1-10)"
+
+#: includes/Admin/Surveys.php:33
+msgid ""
+"How would you rate your experience setting up a WooCommerce site on our "
+"hosting?"
+msgstr ""
+"Hosting hizmetimizle bir WooCommerce sitesi kurma deneyiminizi nasıl "
+"değerlendirirsiniz?"
+
+#: includes/Admin/Surveys.php:47
+msgid ""
+"How would you rate your experience using our AI content generation tools in "
+"onboarding? (Scale 1-10)"
+msgstr ""
+"İlk katılımda yapay zeka içerik oluşturma araçlarımızı kullanma deneyiminizi "
+"nasıl değerlendirirsiniz? (Ölçek 1-10)"
+
+#: includes/Admin/Menu.php:75
+msgid "hPanel - Billing"
+msgstr "hPanel - Faturalar"
+
+#: includes/Admin/Menu.php:57
+msgid "hPanel - Home"
+msgstr "hPanel - Ana Sayfa"
+
+#: includes/Admin/Menu.php:66
+msgid "hPanel - Websites"
+msgstr "hPanel - Web Siteler"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr ""
+"https://hostinger.com.tr\n"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.com.tr"
+
+#: includes/Admin/Assets.php:275
+msgid "I Bought a Domain, Now What?"
+msgstr "Bir Alan Adı Satın Aldım, Şimdi Ne Olacak?"
+
+#: includes/Admin/Assets.php:223
+msgid ""
+"If you wish to edit the image, click on the chosen image and click the Edit "
+"Image button. You can now crop, rotate, flip or scale the selected image."
+msgstr ""
+"Eğer görseli düzenlemek istiyorsanız seçilen görselin üzerine tıklayıp "
+"Görseli Düzenle düğmesine tıklayın. Artık seçili görseli kırpabilir, "
+"döndürebilir, çevirebilir veya ölçeklendirebilirsiniz."
+
+#: includes/Admin/Assets.php:174 includes/Admin/Assets.php:225
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open."
+msgstr ""
+"Menüyü genişletmek için sol kenar çubuğundaki Görünüm'e tıklayın. Görünüm "
+"bölümündeyse Özelleştir'e tıklayın. Özelleştirme sayfası açılacaktır."
+
+#: includes/Admin/Assets.php:227
+msgid "In the left sidebar, click Site Identity and edit your site title."
+msgstr ""
+"Sol kenar çubuğunda Site Kimliği'ne tıklayın ve site başlığınızı düzenleyin."
+
+#: includes/Admin/Assets.php:184
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo."
+msgstr ""
+"Sol kenar çubuğunda Site Kimliği'ne tıklayın, ardından Site Simgesi Seç "
+"düğmesine tıklayın. Buradan marka logonuzu yükleyebilirsiniz."
+
+#: includes/Admin/Assets.php:219
+msgid ""
+"In the left sidebar, find the Media button. Click on the Library button to "
+"see all the images you have uploaded to your website."
+msgstr ""
+"Sol kenar çubuğunda Medya düğmesini bulun. Web sitenize yüklediğiniz tüm "
+"görselleri görmek için Kütüphane düğmesine tıklayın."
+
+#: includes/Admin/Assets.php:241
+msgid ""
+"In the left sidebar, find the Pages menu and click on Add New button. You "
+"will see the WordPress page editor. Each paragraph, image, or video in the "
+"WordPress editor is presented as a “block” of content."
+msgstr ""
+"Sol kenar çubuğunda Sayfalar menüsünü bulun ve Yeni Ekle düğmesine tıklayın. "
+"WordPress sayfa düzenleyicisini göreceksiniz. WordPress düzenleyicideki her "
+"paragraf, görsel veya video, bir içerik “bloğu” olarak sunulur."
+
+#: includes/Admin/Assets.php:213
+msgid ""
+"In the left sidebar, find the Posts button. Click on the All Posts button "
+"and find the post for which you want to change the description."
+msgstr ""
+"Sol kenar çubuğunda Gönderiler düğmesini bulun. Tüm Gönderiler düğmesine "
+"tıklayın ve açıklamasını değiştirmek istediğiniz gönderiyi bulun."
+
+#: includes/Admin/Assets.php:155
+msgid ""
+"Increase your sites visibility by enabling its discoverability in the Google "
+"search engine."
+msgstr ""
+"Google arama motorunda keşfedilebilirliğini sağlayarak sitelerinizin "
+"görünürlüğünü artırın."
+
+#: includes/Admin/Assets.php:235
+msgid "Installed"
+msgstr "Yüklendi"
+
+#: includes/Rest/TutorialRoutes.php:99
+msgid "Installer un Thème WordPress (2023) | Rapide et Facile"
+msgstr "WordPress Teması Yükleme (2023) | Hızlı ve Kolay"
+
+#: includes/Admin/Assets.php:166
+#: includes/Admin/Views/Partials/PromotionalBanner.php:5
+msgid "Invite a Friend, Earn Up to $100"
+msgstr "Arkadaşınızı Davet Edin, 100 $'a Kadar Ödül Kazanın"
+
+#: includes/Admin/Onboarding/PluginManager.php:44
+msgid ""
+"It enables a WooCommerce site to accept payments through UPI apps like BHIM, "
+"Google Pay, Paytm, PhonePe or any Banking UPI app. Avoid payment gateway "
+"charges."
+msgstr ""
+"Bir WooCommerce sitesinin BHIM, Google Pay, Paytm, PhonePe veya herhangi bir "
+"Bankacılık UPI uygulaması gibi UPI uygulamaları aracılığıyla ödeme kabul "
+"etmesini sağlar. Ödeme ağ geçidi ücretlerinden kaçının."
+
+#: includes/Admin/Onboarding/Onboarding.php:289
+msgid ""
+"Join the Amazon Affiliate Program to start earning commissions. Link your "
+"Amazon affiliate account to your website, start promoting products and earn "
+"rewards."
+msgstr ""
+"Komisyon kazanmaya başlamak için Amazon Affiliate Programına katılın. Amazon "
+"affiliate hesabınızı web sitenize bağlayın, ürünleri tanıtmaya başlayın ve "
+"ödüller kazanın."
+
+#: includes/Admin/Hooks.php:481
+msgid "Just a few more steps to launch your online store"
+msgstr "Sanal mağazanızı açmak için sadece birkaç adım kaldı"
+
+#: includes/Admin/Onboarding/Onboarding.php:510
+msgid "Keep current site"
+msgstr "Mevcut siteyi sakla"
+
+#: includes/Admin/Assets.php:201 includes/Admin/Assets.php:281
+msgid "Knowledge Base"
+msgstr "Bilgi Bankası"
+
+#: includes/Admin/Menu.php:34
+msgid "Learn"
+msgstr "Öğren"
+
+#: includes/Admin/Assets.php:285
+msgid "Learn WordPress"
+msgstr "WordPress öğrenin"
+
+#: includes/Admin/Assets.php:277
+msgid "LiteSpeed Cache: How to Get 100% WordPress Optimization"
+msgstr "LiteSpeed Cache: %100 WordPress Optimizasyonu Nasıl Elde Edilir"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:27
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: includes/Admin/Onboarding/Onboarding.php:417
+msgid ""
+"Make sure that your website shows up when visitors are looking for your "
+"business on Google."
+msgstr ""
+"Ziyaretçiler Google'da işletmenizi ararken web sitenizin göründüğünden emin "
+"olun."
+
+#: includes/Admin/Onboarding/Onboarding.php:423
+msgid "Manage"
+msgstr "Yönet"
+
+#: includes/Admin/Assets.php:134 includes/Admin/Onboarding/Onboarding.php:390
+msgid "Manage shipping"
+msgstr "Sevkiyatı yönetin"
+
+#: includes/Admin/Assets.php:133
+msgid "Market your business"
+msgstr "İşletmenizi pazarlayın"
+
+#: includes/Admin/Assets.php:159
+msgid "Nameserver"
+msgstr "Ad sunucusu"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:33
+msgid "No pages found."
+msgstr "Sayfa bulunamadı."
+
+#: includes/Helper.php:357
+msgid "No PHP files found in plugin directory"
+msgstr "Eklenti dizininde PHP dosyası bulunamadı"
+
+#: includes/Admin/Assets.php:121 includes/Admin/Onboarding/Onboarding.php:356
+msgid "Not interested"
+msgstr "İlgilenmiyorum"
+
+#: includes/Admin/Onboarding/Onboarding.php:400
+#: includes/Admin/Onboarding/Onboarding.php:427
+msgid "Not needed"
+msgstr "Gerekli değil"
+
+#: includes/Admin/Onboarding/Onboarding.php:506
+#: includes/Admin/Onboarding/Onboarding.php:536
+msgid "Not now"
+msgstr "Şimdi değil"
+
+#: includes/Admin/Assets.php:205
+msgid "Now <strong>finish setting up</strong> the plugins you’ve installed."
+msgstr "Şimdi yüklediğiniz eklentilerin kurulumunu <strong>bitirin</strong>."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"adresinde <a href=\"https://wordpress."
+"org/support/plugin/hostinger/reviews/#new-post\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:198 includes/Admin/Menu.php:28
+#: includes/Admin/Menu.php:92 includes/Admin/Menu.php:93
+msgid "Onboarding"
+msgstr "Başlangıç"
+
+#: includes/Admin/Assets.php:130 includes/Admin/Onboarding/Onboarding.php:113
+msgid "Online store setup"
+msgstr "Çevrimiçi mağaza kurulumu"
+
+#: includes/Admin/Assets.php:287
+msgid ""
+"Opt-in to receive tips, discounts, and recommendations from the WooCommerce "
+"team directly in your inbox."
+msgstr ""
+"WooCommerce ekibinden ipuçları, indirimler ve önerileri doğrudan gelen "
+"kutunuza almak için kaydolun."
+
+#: includes/Admin/Assets.php:253
+msgid "Or use payment plugins"
+msgstr "Veya ödeme eklentilerini kullanın"
+
+#: includes/Admin/Assets.php:254
+msgid "Or use shipping plugins"
+msgstr "Veya nakliye eklentilerini kullanın"
+
+#: includes/Admin/Assets.php:249
+msgid "Other"
+msgstr "Diğer"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:41
+msgid "Page title:"
+msgstr "Sayfa başlığı:"
+
+#: includes/Admin/Assets.php:244
+msgid "Payment plugins"
+msgstr "Ödeme eklentileri"
+
+#: includes/Admin/Assets.php:246
+msgid "Payment settings"
+msgstr "Ödeme ayarları"
+
+#: includes/Admin/Onboarding/PluginManager.php:29
+msgid ""
+"PayPal's latest complete payments processing solution. Accept PayPal, Pay "
+"Later, credit/debit cards, alternative digital wallets local payment types "
+"and bank accounts."
+msgstr ""
+"PayPal'ın en son eksiksiz ödeme işleme çözümü. PayPal, Pay Later, "
+"kredi/banka kartları, alternatif dijital cüzdanlar, yerel ödeme türleri ve "
+"banka hesaplarını kabul edin."
+
+#: includes/Admin/Assets.php:164
+msgid "Play on YouTube"
+msgstr "YouTube'da oynatın"
+
+#: includes/Helper.php:352
+msgid "Plugin directory not found"
+msgstr "Eklenti dizini bulunamadı"
+
+#: includes/Helper.php:367
+msgid "Plugin main file not found"
+msgstr "Eklenti ana dosyası bulunamadı"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PreviewPageButton.js:46
+#, fuzzy
+msgid "Preview"
+msgstr "Önizleme"
+
+#: includes/Admin/Assets.php:131
+msgid "Preview website"
+msgstr "Siteyi önizle"
+
+#: includes/Admin/Assets.php:260
+msgid "Publish the page"
+msgstr "Sayfayı yayınla"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Bu eklentiyi değerlendir"
+
+#: includes/Admin/Assets.php:248
+msgid "Recommended for you"
+msgstr "Sizin için tavsiye edilir"
+
+#: includes/Admin/Assets.php:238 includes/Admin/Onboarding/WelcomeCards.php:27
+msgid "Run an Amazon Affiliate site"
+msgstr "Bir Amazon Affiliate sitesi işletin"
+
+#: includes/Admin/Assets.php:135
+msgid "Run email marketing campaigns"
+msgstr "E-posta pazarlama kampanyaları yürütme"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:62
+msgid "Save"
+msgstr "Kaydet"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:59
+msgid "Saving"
+msgstr "Kaydediliyor"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:7
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:8
+msgid "Search pages"
+msgstr "Arama sayfaları"
+
+#: includes/Admin/Onboarding/PluginManager.php:38
+msgid ""
+"Securely accept payments, synchronize sales, and seamlessly manage inventory "
+"and product data between WooCommerce and Square POS."
+msgstr ""
+"WooCommerce ve Square POS arasında ödemeleri güvenli bir şekilde kabul edin, "
+"satışları senkronize edin ve envanter ile ürün verilerini sorunsuz bir "
+"şekilde yönetin."
+
+#: includes/Admin/Onboarding/Onboarding.php:348
+msgid ""
+"Sell products, services and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Ürünler, hizmetler ve dijital indirmeler satın. Her bir öğeyi iş "
+"ihtiyaçlarınıza uyacak şekilde ayarlayın ve özelleştirin."
+
+#: includes/Admin/Assets.php:153
+msgid ""
+"Sell products, services, and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Ürünler, hizmetler ve dijital indirmeler satın. Her bir öğeyi iş "
+"ihtiyaçlarınıza uyacak şekilde ayarlayın ve özelleştirin."
+
+#: includes/Admin/Assets.php:148 includes/Admin/Onboarding/Onboarding.php:371
+msgid "Set up a payment method"
+msgstr "Bir ödeme yöntemi ayarlayın"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:17
+#| msgid "Set up your online store"
+msgid "Set up an online store"
+msgstr "Sanal mağaza kurun"
+
+#: includes/Admin/Onboarding/Onboarding.php:419
+msgid "Set up Google Site Kit"
+msgstr "Google Site Kiti'ni Kur"
+
+#: includes/Admin/Assets.php:149 includes/Admin/Onboarding/Onboarding.php:375
+msgid "Set up payment method"
+msgstr "Ödeme yöntemini ayarlayın"
+
+#: includes/Admin/Assets.php:247
+msgid "Set up payments"
+msgstr "Ödemeleri ayarlayın"
+
+#: includes/Admin/Assets.php:262
+msgid "Set up shipping"
+msgstr "Nakliyeyi ayarlayın"
+
+#: includes/Admin/Assets.php:261
+msgid "Set up Site Kit"
+msgstr "Site Kiti Kurulumu"
+
+#: includes/Admin/Onboarding/Onboarding.php:306
+msgid "Set up your online store"
+msgstr "Sanal mağazanızı kurun"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:19
+#| msgid ""
+#| "Install <strong>WooCommerce</strong>, add products or services, and start "
+#| "selling today."
+msgid ""
+"Setup <strong>WooCommerce</strong>, add products or services, and start "
+"selling today."
+msgstr ""
+"<strong>WooCommerce</strong>'i kurun, ürün veya hizmet ekleyin ve bugün "
+"satışa başlayın."
+
+#: includes/Admin/Assets.php:154
+msgid "Setup Google Site Kit"
+msgstr "Google Site Kitini Kurun"
+
+#: includes/Admin/Assets.php:147 includes/Admin/Assets.php:188
+#| msgid "Set up my online store"
+msgid "Setup my online store"
+msgstr "Sanal mağazamı kurun"
+
+#: includes/Admin/Assets.php:195
+msgid "Setup website"
+msgstr "Web sitesi kur"
+
+#: includes/Admin/Views/Partials/PromotionalBanner.php:9
+msgid ""
+"Share your referral link with friends and family and <b>receive 20% "
+"commission</b> for every successful referral."
+msgstr ""
+"Yönlendirme bağlantınızı arkadaşlarınızla ve ailenizle paylaşın ve her "
+"başarılı yönlendirme için <b>%20 komisyon kazanın</b>."
+
+#: includes/Admin/Assets.php:165
+msgid ""
+"Share your referral link with friends and family and <strong>receive 20% "
+"commission</strong> for every successful referral."
+msgstr ""
+"Yönlendirme bağlantınızı arkadaşlarınız ve ailenizle paylaşın ve her "
+"başarılı yönlendirme için <strong>% 20 komisyon</strong> alın."
+
+#: includes/Admin/Assets.php:137
+msgid "Ship products with ease"
+msgstr "Ürünleri kolaylıkla sevk edin"
+
+#: includes/Admin/Assets.php:138 includes/Admin/Onboarding/Onboarding.php:394
+msgid "Shipping methods"
+msgstr "Nakliye yöntemleri"
+
+#: includes/Admin/Assets.php:245
+msgid "Shipping plugins"
+msgstr "Nakliye eklentileri"
+
+#: includes/Admin/Assets.php:250
+msgid "Shipping settings"
+msgstr "Nakliye ayarları"
+
+#: includes/Rest/WooRoutes.php:47
+msgid "Shop locale is empty, please setup store first"
+msgstr "Mağaza konumu boş, lütfen önce mağazayı ayarlayın"
+
+#: includes/Admin/Assets.php:199
+msgid "Show list"
+msgstr "Listeyi göster"
+
+#: includes/Admin/Assets.php:187
+msgid "Skip"
+msgstr "Atla"
+
+#: includes/Rest/StepRoutes.php:169
+msgid "Sorry, there are activation errors."
+msgstr "Üzgünüz, aktivasyon hataları var."
+
+#: includes/Rest/StepRoutes.php:71 includes/Rest/StepRoutes.php:156
+#: includes/Rest/WooRoutes.php:53 includes/Rest/WooRoutes.php:135
+msgid "Sorry, there are validation errors."
+msgstr "Üzgünüz, doğrulama hataları var."
+
+#: includes/Admin/Assets.php:156
+#: includes/Admin/Views/Partials/PromotionalBanner.php:24
+msgid "Start earning"
+msgstr "Kazanmaya başla"
+
+#: includes/Admin/Onboarding/Onboarding.php:59
+msgid "Started creating your site"
+msgstr "Sitenizi oluşturmaya başladınız"
+
+#: includes/Rest/StepRoutes.php:90
+msgid "Step category and/or step does not exist."
+msgstr "Adım kategorisi ve/veya adım mevcut değil."
+
+#: includes/Admin/Onboarding/Onboarding.php:327
+msgid "Store info"
+msgstr "Mağaza bilgisi"
+
+#: includes/Rest/WooRoutes.php:129
+msgid "Store location locale not found"
+msgstr "Mağaza konumu yerel ayarı bulunamadı"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/StoreSetupButton.js:29
+#, fuzzy
+msgid "Store Setup"
+msgstr "Mağaza Kurulumu"
+
+#: includes/Admin/Onboarding/PluginManager.php:26
+msgid "Take credit card payments on your store using Stripe."
+msgstr "Stripe kullanarak mağazanızda kredi kartı ödemeleri alın "
+
+#: includes/Admin/Assets.php:185
+msgid "Take me there"
+msgstr "Beni götür"
+
+#: includes/Admin/Assets.php:288
+msgid "Tell us a bit about your business"
+msgstr "Bize biraz işinizden bahsedin"
+
+#: includes/Admin/Assets.php:127
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Amazing Friday</span> sale!"
+msgstr ""
+"Şimdiye kadarki en büyük <span style=\"color: #8C85FF\">Muhteşem Cuma</span> "
+"indirimi!"
+
+#: includes/Admin/Assets.php:125
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Black Friday</span> sale!"
+msgstr ""
+"Şimdiye kadarki en büyük <span style=\"color: #8C85FF\">Muhteşem Cuma</span> "
+"indirimi!"
+
+#: includes/Admin/Assets.php:128
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Blessed Friday</span> sale!"
+msgstr ""
+"Şimdiye kadarki en büyük <span style=\"color: #8C85FF\">Muhteşem Cuma</span> "
+"indirimi!"
+
+#: includes/Admin/Assets.php:124
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Cyber Monday</span> sale!"
+msgstr ""
+"Şimdiye kadarki en büyük <span style=\"color: #8C85FF\">Siber "
+"Pazartesi</span> indirimi!"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">End of the year</span> sale!"
+msgstr ""
+"Şimdiye kadarki en büyük <span style=\"color: #8C85FF\">Yıl sonu</span> "
+"indirimi!"
+
+#: includes/Admin/Assets.php:126
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">White Friday</span> sale!"
+msgstr ""
+"Şimdiye kadarki en büyük <span style=\"color: #8C85FF\">Muhteşem Cuma</span> "
+"indirimi!"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr ""
+"Hostinger Easy Onboarding eklentisi minimum <b>%s</b> PHP sürümü gerektirir."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:49
+msgid "The page was deleted!"
+msgstr "Sayfa silinmiş!"
+
+#: includes/Admin/Onboarding/PluginManager.php:66
+msgid ""
+"The USPS Simple plugin calculates rates for domestic shipping dynamically "
+"using USPS API during checkout."
+msgstr ""
+"USPS Simple eklentisi, ödeme sırasında USPS API'sini kullanarak yurt içi "
+"kargo ücretlerini dinamik olarak hesaplar."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:62
+msgid "There was an error."
+msgstr "Bir hata oldu."
+
+#: includes/Admin/Onboarding/PluginManager.php:63
+msgid ""
+"This extension gives you the possibility to use the Colissimo shipping "
+"methods in WooCommerce"
+msgstr ""
+"Bu uzantı size WooCommerce'de Colissimo gönderim yöntemlerini kullanma "
+"imkanı sunar"
+
+#: includes/Admin/Assets.php:293
+#, fuzzy
+msgid "This field is required"
+msgstr "Bu alan zorunludur"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:41
+msgid "Title"
+msgstr "Başlık"
+
+#: includes/Admin/Assets.php:221
+msgid ""
+"To upload a new image, click on Add New button on the Media Library page and "
+"select files."
+msgstr ""
+"Yeni bir görsel yüklemek için Medya Kütüphanesi sayfasındaki Yeni Ekle "
+"düğmesine tıklayın ve dosyaları seçin."
+
+#: includes/Admin/Assets.php:139
+msgid "Try Omnisend"
+msgstr "Omnisend'i deneyin"
+
+#: includes/Rest/TutorialRoutes.php:89
+#, fuzzy
+msgid "TUTO WORDPRESS (Débutant) : Créer un site WordPress pour les Nuls)"
+msgstr ""
+"TUTO WORDPRESS (Débutant) : Yetişkinler için WordPress Sitesi Oluşturma)"
+
+#: includes/Rest/TutorialRoutes.php:94
+#, fuzzy
+msgid "Tuto WordPress Débutant (Hostinger hPanel) - Créer un Site par IA"
+msgstr "Tuto WordPress Débutant (Hostinger hPanel) - Créer un Site par IA"
+
+#: includes/Admin/Assets.php:200
+msgid "Tutorials"
+msgstr "Rehberler"
+
+#: includes/Errors.php:31
+msgid "Unknown error code."
+msgstr "Bilinmeyen hata kodu."
+
+#: includes/Admin/Assets.php:176 includes/Admin/Assets.php:220
+msgid "Upload an image"
+msgstr "Bir görsel yükle"
+
+#: includes/Admin/Assets.php:169 includes/Admin/Assets.php:183
+msgid "Upload your logo"
+msgstr "Logonuzu yükleyin"
+
+#: includes/Admin/Hooks.php:333
+msgid ""
+"Use the special discount code <b>ONLYHOSTINGER30</b> to get 30% off on "
+"Omnisend for 6 months when you upgrade."
+msgstr ""
+"Yükselttiğinizde özel indirim kodu <b>ONLYHOSTINGER30</b>'u kullanarak 6 ay "
+"boyunca Omnisend'te %30 indirim kazanın."
+
+#: includes/Admin/Hooks.php:490
+msgid "View checklist"
+msgstr "Kontrol listesini görüntüle"
+
+#: includes/Admin/Assets.php:208
+msgid "View completed"
+msgstr "Görünüm tamamlandı"
+
+#: includes/Admin/Onboarding/Onboarding.php:331
+msgid "View Details"
+msgstr "Detayları Görüntüle"
+
+#: includes/Admin/Onboarding/Onboarding.php:314
+msgid "View list"
+msgstr "Listeyi görüntüle"
+
+#: includes/Admin/Assets.php:206
+msgid "View plugins"
+msgstr "Eklentileri görüntüle"
+
+#: includes/Admin/Onboarding/Onboarding.php:241
+msgid ""
+"Visit hPanel and connect a real domain. If you already did this, please wait "
+"up to 24h until the domain fully connects"
+msgstr ""
+"HPanel'i ziyaret edin ve gerçek bir alan adına bağlayın. Bunu zaten "
+"yaptıysanız, lütfen alan adı tamamen bağlanana kadar 24 saate kadar bekleyin"
+
+#: includes/Admin/Assets.php:158
+msgid "Wait for domain propagation"
+msgstr "Alan adı yayılımı için bekleyin"
+
+#: includes/Admin/Onboarding/Onboarding.php:508
+msgid "Want to create a new AI site?"
+msgstr "Yeni bir yapay zeka sitesi mi oluşturmak istiyorsunuz?"
+
+#: includes/Errors.php:20
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Verdiğimiz rahatsızlık için özür dileriz. Yapay zeka içerik oluştururken bir "
+"sunucu hatasıyla karşılaştı. Lütfen daha sonra tekrar deneyin ve sorun devam "
+"ederse yardım için lütfen destek ekibimizle iletişime geçin."
+
+#: includes/Admin/Assets.php:289 includes/Admin/Onboarding/Onboarding.php:329
+msgid "We'll use this information to help you set up your store faster."
+msgstr ""
+"Bu bilgileri mağazanızı daha hızlı kurmanıza yardımcı olmak için "
+"kullanacağız."
+
+#: includes/Admin/Assets.php:167 includes/Admin/Assets.php:192
+#: includes/Admin/Onboarding/Onboarding.php:49
+msgid "Website setup"
+msgstr "Web sitesi kurulumu"
+
+#: includes/Admin/Assets.php:171
+msgid "Website URL"
+msgstr "Web sitesi URL'si"
+
+#: includes/Admin/Assets.php:291
+msgid "Welcome to WordPress!"
+msgstr "WordPress'e hoş geldiniz!"
+
+#: includes/Admin/Assets.php:143
+msgid "What type of products or services will you sell?"
+msgstr "Ne tür ürün veya hizmetler satacaksınız?"
+
+#: includes/Admin/Assets.php:142
+msgid "Where is your store located?"
+msgstr "Mağazanız nerede bulunuyor?"
+
+#: includes/Admin/Assets.php:284
+msgid "WordPress tutorials"
+msgstr "WordPress rehberleri"
+
+#: includes/Admin/Assets.php:264
+msgid "Yes, skip step"
+msgstr "Evet, adımı atla"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:78
+msgid "You are running <b>%s</b> PHP version."
+msgstr "<b>%s</b> PHP sürümünü çalıştırıyorsunuz."
+
+#: includes/Admin/Assets.php:252
+msgid ""
+"You can also set up a shipping method without installing additional plugins."
+msgstr "Ek eklentiler yüklemeden de bir gönderim yöntemi ayarlayabilirsiniz."
+
+#: includes/Admin/Assets.php:161
+msgid ""
+"You can connect domain to Hostinger by changing the nameservers. Different "
+"domain providers are have unique procedures for changing nameservers. Here "
+"are Hostinger's nameservers:"
+msgstr ""
+"Ad sunucularını değiştirerek alan adını Hostinger'a bağlayabilirsiniz. "
+"Farklı alan adı sağlayıcılarının ad sunucularını değiştirmek için benzersiz "
+"prosedürleri vardır. İşte Hostinger'ın ad sunucuları:"
+
+#: includes/Admin/Assets.php:217
+msgid ""
+"You can see the whole post in the editor. Find the description part and "
+"change it to your preferences."
+msgstr ""
+"Yazının tamamını düzenleyicide görebilirsiniz. Açıklama bölümünü bulun ve "
+"tercihlerinize göre değiştirin."
+
+#: includes/Admin/Assets.php:173
+msgid ""
+"You need to purchase a domain for your website before the preview domain "
+"becomes inaccessible. Find a desired website name using a <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domain name "
+"searcher.</a >"
+msgstr ""
+"Önizleme alanı erişilemez hale gelmeden önce web siteniz için bir alan adı "
+"satın almanız gerekir. <a style=\"text-decoration:none; font-weight:bold; "
+"color:#673de6\" target=\"_blank\" href=\"https://hpanel.hostinger."
+"com/domains/domain-checker\">Domain sorgulama .</a> kullanarak istediğiniz "
+"web sitesi adını bulun"
+
+#: includes/Admin/Assets.php:141
+msgid "Your business email"
+msgstr "İş e-postanız"
+
+#: includes/Admin/Onboarding/Onboarding.php:509
+msgid ""
+"Your new site will replace the current one. Use the same description or "
+"change it."
+msgstr ""
+"Yeni siteniz mevcut sitenin yerini alacaktır. Aynı açıklamayı kullanın veya "
+"değiştirin."
+
+#: includes/Admin/Assets.php:146 includes/Admin/Assets.php:190
+msgid "Your progress"
+msgstr "İlerleme durumunuz"
+
+#: includes/Admin/Assets.php:140
+msgid "Your store name"
+msgstr "Mağaza adınız"
+
+#: includes/Admin/Assets.php:172
+msgid ""
+"Your website is already published and can be accessed using Hostinger free "
+"temporary subdomain right now. Here is the current URL of your website:"
+msgstr ""
+"Web siteniz zaten yayınlandı ve şu anda Hostinger ücretsiz geçici alt alan "
+"adı kullanılarak erişilebilir. İşte web sitenizin mevcut URL'si:"
+
+#: includes/Admin/Assets.php:123
+msgid "You’ll love these great deals that were handpicked just for you."
+msgstr "Sizin için özenle seçilmiş bu harika fırsatları çok seveceksiniz."
+
+#: includes/Admin/Assets.php:207
+msgid "You’re done setting up your online store!"
+msgstr "Sanal mağazanızın kurulumunu tamamladınız!"
+
+#: includes/Admin/Assets.php:170
+msgid "👋 Welcome to WordPress"
+msgstr "👋 WordPress'e Hoş Geldiniz"

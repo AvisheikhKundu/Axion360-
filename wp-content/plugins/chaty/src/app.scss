@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import 
+    './scss/utils/mixins';
+
+@import 
+    './scss/base/reset',
+    './scss/base/common',
+    './scss/base/tailwind';
+
+@import 
+    './scss/components/buttons',
+    './scss/components/chaty-color-picker',
+    './scss/components/popup',
+    './scss/components/table',
+    './scss/components/switch';
+    
+@import 
+    './scss/layouts/contact-form',
+    './scss/layouts/customize-social-widget',
+    './scss/layouts/footer',
+    './scss/layouts/responsive-contact-form-lead',
+    './scss/layouts/responsive-table-dashboard',
+    './scss/layouts/steps',
+    './scss/layouts/chat',
+    './scss/layouts/chatway',
+    './scss/layouts/triggers_and_targeting',
+    './scss/layouts/contact-form-leads';

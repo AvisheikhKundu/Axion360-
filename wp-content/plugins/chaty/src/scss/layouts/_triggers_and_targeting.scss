@@ -1,0 +1,14 @@
+#chaty-tab-triger-targeting {
+    input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea, .select2-selection {
+        border: 1px solid #ededed;
+        max-width: 100%;
+        min-height: 40px;
+    }
+}
+
+.group-control-wrap {
+    input {
+        border-radius: 8px;
+        text-align: center;
+    }
+}

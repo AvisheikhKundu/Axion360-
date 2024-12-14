@@ -1,0 +1,39 @@
+#analytics_form {
+    input {
+        @apply border-cht-gray-150/60 border py-1.5 px-4 text-cht-gray-150;
+    }
+}
+
+
+.responsive-table,
+.analytics-table {
+    table {
+        tbody {
+            tr:last-child {
+                td {
+                    &:first-child {
+                        @apply rounded-bl-lg ;
+                    }
+
+                    &:last-child {
+                        @apply rounded-br-lg;
+                    }
+                }
+            }
+            
+            tr:first-child {
+                td {
+                    border-top: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+.contact-form-leads-header + .responsive-table {
+    table thead {
+        td {
+            border-top: 0 !important;
+        }
+    }
+}

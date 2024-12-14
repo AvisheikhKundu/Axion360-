@@ -1,0 +1,73 @@
+@media screen and ( max-width: 768px ) {
+    .responsive-table.contact-form-lead {
+        table {
+            thead {
+                tr {
+                    display: grid;
+                    grid-template-columns: 100px auto 80px;
+    
+                    th:first-child {
+                        grid-column: 1/3;
+                        text-align: left;
+                    }
+    
+                    th:not(:first-child, :last-child) {
+                        display: none;
+                    }
+    
+                    th {
+                        width: 100% !important;
+                    }
+                }
+            }
+    
+            tbody {
+                tr {
+                    display: grid;
+                    grid-template-columns: 50px auto 40px;
+                    
+                    td:not(:first-child, :last-child) {
+                        grid-column: 2;
+                        border-top: 0;
+                        &:before {
+                            content: attr(data-title) ':';
+                            font-weight: 500;
+                        }
+                    }
+
+                    td:nth-child(2) {
+                        padding-top: 15px;
+                        border-top: 1px solid #eee;
+                    }
+
+                    td:nth-last-child(2) {
+                        padding-bottom: 15px;
+                    }
+    
+                    td:where( :first-child, :last-child ) {
+                        display: flex;
+                        align-items: center;
+                        grid-row: 1/9;
+                        justify-content: center;
+                    }
+    
+                    td:first-child {
+                        grid-column: 1;
+                        .chaty-checkbox {
+                            padding-left: 20px;
+                        }
+                    }
+    
+                    td:last-child {
+                        grid-column: 3;
+                    }
+    
+                    td {
+                        padding: 5px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

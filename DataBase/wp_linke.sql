@@ -1,0 +1,6 @@
+CREATE TABLE wp_linke (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    url VARCHAR(255),
+    link_text VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

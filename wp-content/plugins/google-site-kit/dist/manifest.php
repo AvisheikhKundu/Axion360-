@@ -1,0 +1,56 @@
+<?php
+/**
+ * @package   Google\Site_Kit
+ * @copyright 2024 Google LLC
+ * @license   https://www.apache.org/licenses/LICENSE-2.0 Apache License 2.0
+ * @link      https://sitekit.withgoogle.com
+ */
+
+return array(
+	'googlesitekit-consent-mode'                           => array( "googlesitekit-consent-mode-3d6495dceaebc28bcca3.js", null ),
+	'googlesitekit-events-provider-contact-form-7'         => array( "googlesitekit-events-provider-contact-form-7-21cf1c445673c649970d.js", null ),
+	'googlesitekit-events-provider-easy-digital-downloads' => array( "googlesitekit-events-provider-easy-digital-downloads-a3b438fc133106da6a33.js", null ),
+	'googlesitekit-events-provider-mailchimp'              => array( "googlesitekit-events-provider-mailchimp-7920d200a07d3bcd60bb.js", null ),
+	'googlesitekit-events-provider-ninja-forms'            => array( "googlesitekit-events-provider-ninja-forms-ddd9645222a85c7954f3.js", null ),
+	'googlesitekit-events-provider-optin-monster'          => array( "googlesitekit-events-provider-optin-monster-2bb9e40daaa87763f38e.js", null ),
+	'googlesitekit-events-provider-popup-maker'            => array( "googlesitekit-events-provider-popup-maker-e1863af0c352a2ce8748.js", null ),
+	'googlesitekit-events-provider-woocommerce'            => array( "googlesitekit-events-provider-woocommerce-9043ca3351c215979b62.js", null ),
+	'googlesitekit-events-provider-wpforms'                => array( "googlesitekit-events-provider-wpforms-b35450445f9cb0eeb855.js", null ),
+	'analytics-advanced-tracking'                          => array( "analytics-advanced-tracking-ea84b2c367b69f5c094b.js", null ),
+	'googlesitekit-i18n'                                   => array( "googlesitekit-i18n-33cdd2dee5d1d1f4fb34.js", null ),
+	'googlesitekit-admin-css'                              => array( "googlesitekit-admin-css-9fc9d94050fa65d174be.min.css", null ),
+	'googlesitekit-adminbar-css'                           => array( "googlesitekit-adminbar-css-6db776544b37175be17f.min.css", null ),
+	'googlesitekit-authorize-application-css'              => array( "googlesitekit-authorize-application-css-ce25e97404abc5a02921.min.css", null ),
+	'googlesitekit-wp-dashboard-css'                       => array( "googlesitekit-wp-dashboard-css-c5417a27cb905717f9fc.min.css", null ),
+	'googlesitekit-vendor'                                 => array( "googlesitekit-vendor-4d044ab3174d0ebe0182.js", null ),
+	'googlesitekit-runtime'                                => array( "runtime-bb96f829f907209ffda1.js", null ),
+	'googlesitekit-activation'                             => array( "googlesitekit-activation-ed0be8e05c8445117d68.js", null ),
+	'googlesitekit-ad-blocking-recovery'                   => array( "googlesitekit-ad-blocking-recovery-bac12d5a33b1738be7e5.js", null ),
+	'googlesitekit-adminbar'                               => array( "googlesitekit-adminbar-f63502a9e16eba2d3a24.js", null ),
+	'googlesitekit-api'                                    => array( "googlesitekit-api-9e2fcff7f55d4e9bc071.js", null ),
+	'googlesitekit-components'                             => array( array( "googlesitekit-components-gm2-02204568db0ea0d3e4d9.js", null ), array( "googlesitekit-components-gm3-0ac62e8c257835cf28be.js", null ) ),
+	'googlesitekit-data'                                   => array( "googlesitekit-data-e29581d36f03119464dc.js", null ),
+	'googlesitekit-datastore-forms'                        => array( "googlesitekit-datastore-forms-1d9bab25fba50f7bbe46.js", null ),
+	'googlesitekit-datastore-location'                     => array( "googlesitekit-datastore-location-035aa2e981ced3a1908d.js", null ),
+	'googlesitekit-datastore-site'                         => array( "googlesitekit-datastore-site-d596bb3b0518878762fd.js", null ),
+	'googlesitekit-datastore-ui'                           => array( "googlesitekit-datastore-ui-b106f0c75f948026edd8.js", null ),
+	'googlesitekit-datastore-user'                         => array( "googlesitekit-datastore-user-ac6b98e703a23e319e20.js", null ),
+	'googlesitekit-entity-dashboard'                       => array( "googlesitekit-entity-dashboard-d2ff6aa4d5c95f0deb72.js", null ),
+	'googlesitekit-main-dashboard'                         => array( "googlesitekit-main-dashboard-0b636fcff538becb7916.js", null ),
+	'googlesitekit-modules'                                => array( "googlesitekit-modules-4267bcb41e38c4d5e5a1.js", null ),
+	'googlesitekit-modules-ads'                            => array( "googlesitekit-modules-ads-2263881324b99ceb1f28.js", null ),
+	'googlesitekit-modules-adsense'                        => array( "googlesitekit-modules-adsense-f86f7200ac1bc50cf810.js", null ),
+	'googlesitekit-modules-analytics-4'                    => array( "googlesitekit-modules-analytics-4-4009bb8cb132293a5bb9.js", null ),
+	'googlesitekit-modules-pagespeed-insights'             => array( "googlesitekit-modules-pagespeed-insights-219b81701f6b7fee7053.js", null ),
+	'googlesitekit-modules-reader-revenue-manager'         => array( "googlesitekit-modules-reader-revenue-manager-d908e84a9a6586252f5b.js", null ),
+	'googlesitekit-modules-search-console'                 => array( "googlesitekit-modules-search-console-b4cac6fc4343ccade9ae.js", null ),
+	'googlesitekit-modules-sign-in-with-google'            => array( "googlesitekit-modules-sign-in-with-google-6082786dae41021169e1.js", null ),
+	'googlesitekit-modules-tagmanager'                     => array( "googlesitekit-modules-tagmanager-3dc6f2423126a83b5a85.js", null ),
+	'googlesitekit-notifications'                          => array( "googlesitekit-notifications-6781e88cb55cb5ebf14e.js", null ),
+	'googlesitekit-polyfills'                              => array( "googlesitekit-polyfills-c7782d0314a0ffd50e4a.js", null ),
+	'googlesitekit-settings'                               => array( "googlesitekit-settings-8ac962bf1feaf5d4489c.js", null ),
+	'googlesitekit-splash'                                 => array( "googlesitekit-splash-3144820cea660ae97c34.js", null ),
+	'googlesitekit-user-input'                             => array( "googlesitekit-user-input-e531bbf54dac394ce48a.js", null ),
+	'googlesitekit-widgets'                                => array( "googlesitekit-widgets-fa5003427f3a78b0b50c.js", null ),
+	'googlesitekit-wp-dashboard'                           => array( "googlesitekit-wp-dashboard-b8c192cbc37779589697.js", null ),
+);

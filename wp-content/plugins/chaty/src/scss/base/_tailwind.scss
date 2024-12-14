@@ -1,0 +1,89 @@
+
+@layer base {
+    body {
+        @apply m-0 bg-cht-gray-100
+    }
+
+    svg {
+        @apply inline
+    }
+}
+
+@layer utilities {
+    .container {
+        max-width: 1170px;
+        @apply px-0 sm:px-4 mx-auto;
+    }
+
+    .simple-shadow {
+        box-shadow: 0 11.5px 19.5px -4.875px rgba(0, 0, 0, .20);
+    }
+}
+
+@layer components {
+    .btn {
+        @apply font-primary text-white text-sm border border-cht-primary px-3 sm:px-5 py-1.5 sm:py-2.5 flex bg-cht-primary ease-linear duration-200;
+
+        svg {
+            @apply ml-2 w-3;
+
+            path {
+                @apply fill-white
+            }
+        }
+
+        &:hover,
+        &:focus {
+            @apply bg-cht-primary-100 text-white;
+        }
+    }
+
+    .btn-gradient {
+
+        @apply inline-block h-12 rounded-full text-white no-underline ease-linear duration-300 px-8 py-3 bg-gradient-100;
+        background-size: 100%;
+
+        &:hover,
+        &:focus {
+            @apply text-white;
+            background-size: 250%;
+        }
+    }
+
+    #license_action_form {
+        input {
+            @apply border border-cht-gray-150/40 w-full py-2 px-5 focus:shadow-none focus:outline-none focus:border-cht-primary rounded-lg
+        }
+    }
+
+    #search_for {
+        @apply border-cht-gray-150/60 font-primary text-base text-cht-gray-150 focus:outline-none px-5 py-2 inline-block w-80 rounded-lg;
+        background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 13px top 55%;
+    }
+    
+    .channels__input-box, .chaty-setting-col, .agent-channel-input {
+        input, select {
+            padding: 4px 16px;
+            border: 1px solid #c6d7e3;
+            color: #49687e;
+            border-radius: 8px;
+            height: auto !important;
+            @apply block bg-white outline-none mr-2;
+        }
+    }
+
+    .chaty-advance-settings {
+        .channels__input-box, .chaty-setting-col, .agent-channel-input {
+            input, select {
+                padding: 2px 16px !important;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    .device-agent-settings {
+        @apply flex items-center;
+        padding-left: 70px;
+    }
+
+}

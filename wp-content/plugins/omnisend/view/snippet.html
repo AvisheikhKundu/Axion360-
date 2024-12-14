@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    window.omnisend = window.omnisend || [];
+    omnisend.push(['accountID', '<?php echo sanitize_text_field($brand_id); ?>']);
+    omnisend.push(['track', '$pageViewed']);
+    !(function () {
+        var e = document.createElement('script');
+        (e.type = 'text/javascript'), (e.async = !0), (e.src = '<?php echo OMNISEND_CORE_SNIPPET_URL ?>');
+        var t = document.getElementsByTagName('script')[0];
+        t.parentNode.insertBefore(e, t);
+    })();
+    // platform: wordpress
+    // plugin version: <?php echo OMNISEND_CORE_PLUGIN_VERSION ?>
+</script>

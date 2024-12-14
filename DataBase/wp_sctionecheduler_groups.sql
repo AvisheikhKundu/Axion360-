@@ -1,0 +1,5 @@
+CREATE TABLE wp_sctionecheduler_groups (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    group_name VARCHAR(191) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

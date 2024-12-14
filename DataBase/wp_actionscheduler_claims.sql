@@ -1,0 +1,5 @@
+CREATE TABLE wp_actionscheduler_claims (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    claim_id BIGINT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

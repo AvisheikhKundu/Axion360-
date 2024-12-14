@@ -1,0 +1,1580 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 2.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-20T07:03:00+00:00\n"
+"PO-Revision-Date: 2024-12-03 07:18+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.4.5"
+
+#: includes/Admin/Assets.php:162
+msgid ""
+" Learn how to connect your domain to Hostinger by watching this tutorial on "
+"YouTube for a step-by-step guide:"
+msgstr ""
+"Leer hoe je je domein koppelt aan Hostinger en bekijk deze tutorial op "
+"YouTube voor een stap-voor-stap handleiding:"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:66
+msgid " Please refresh the page and try again."
+msgstr " Vernieuw de pagina en probeer het opnieuw."
+
+#. translators: %s plugin slug
+#: includes/Rest/StepRoutes.php:150
+msgid "%s is already active"
+msgstr "%s is al actief"
+
+#. translators: %s field name that is missing
+#: includes/Rest/StepRoutes.php:61 includes/Rest/StepRoutes.php:65
+#: includes/Rest/StepRoutes.php:142 includes/Rest/WooRoutes.php:41
+#: includes/Rest/WooRoutes.php:112
+msgid "%s missing or empty"
+msgstr "%s ontbreekt of is leeg"
+
+#: includes/Admin/Assets.php:196
+msgid ""
+"<strong>Almost there!</strong> Just a few more steps to get your site ready "
+"for online success."
+msgstr ""
+"<strong>Bijna klaar! </strong> Nog een paar stappen en je site is klaar voor "
+"online succes."
+
+#: includes/Admin/Assets.php:256
+msgid ""
+"<strong>Use built-in payment methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Gebruik ingebouwde betaalmethoden</strong> - geen extra plug-ins "
+"nodig."
+
+#: includes/Admin/Assets.php:255
+msgid ""
+"<strong>Use built-in shipping methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Gebruik ingebouwde verzendmethoden</strong> - geen extra plug-ins "
+"nodig."
+
+#: includes/Admin/Onboarding/PluginManager.php:32
+msgid "Accept payments via credit card. Manage transactions within WordPress."
+msgstr ""
+"Accepteer betalingen met creditcard. Beheer transacties binnen WordPress."
+
+#: includes/Admin/Assets.php:226
+msgid "Access site identity and edit title"
+msgstr "Toegang tot site-identiteit en titel bewerken"
+
+#: includes/Errors.php:14
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Actie mislukt. Probeer het opnieuw of neem contact op met "
+"klantenondersteuning. Onze excuses."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:44
+msgid "Actions"
+msgstr "Acties"
+
+#: includes/Admin/Assets.php:240
+msgid "Activate"
+msgstr "Activeer"
+
+#: includes/Admin/Assets.php:179 includes/Admin/Assets.php:228
+msgid "Add a new page"
+msgstr "Nieuwe pagina toevoegen"
+
+#: includes/Admin/Assets.php:242
+msgid "Add a title"
+msgstr "Titel toevoegen"
+
+#: includes/Admin/Assets.php:258
+msgid "Add content"
+msgstr "Content toevoegen"
+
+#: includes/Admin/Assets.php:229
+msgid "Add plugin"
+msgstr "Plug-in toevoegen"
+
+#: includes/Admin/Onboarding/Onboarding.php:350
+#| msgid "Add products"
+msgid "Add product"
+msgstr "Producten toevoegen"
+
+#: includes/Admin/Assets.php:251
+msgid "Add shipping method"
+msgstr "Verzendmethode toevoegen"
+
+#: includes/Admin/Assets.php:257
+msgid ""
+"Add the title of the page, for example, About. Click the Add Title text to "
+"open the text box where you will add your title. The title of your page "
+"should be descriptive of the information the page will have."
+msgstr ""
+"Voeg de titel van de pagina toe, bijvoorbeeld Over. Klik op de tekst Titel "
+"toevoegen en het tekstvak wordt geopend. Hier kun je de titel kunt toevoegen."
+" De titel van je pagina dient een beschrijving te zijn van de informatie die "
+"de pagina bevat."
+
+#: includes/Admin/Assets.php:151
+msgid "Add your first product"
+msgstr "Je eerste product toevoegen"
+
+#: includes/Admin/Assets.php:152 includes/Admin/Onboarding/Onboarding.php:346
+msgid "Add your first product or service"
+msgstr "Voeg je eerste product of dienst toe"
+
+#: includes/Admin/Assets.php:230
+msgid "Added"
+msgstr "Toegevoegd"
+
+#: includes/Admin/Assets.php:168
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">AI Logo Maker.</a>"
+msgstr ""
+"Het toevoegen van een logo is een geweldige manier om een website te "
+"personaliseren of merkinformatie toe te voegen. Je kunt je bestaande logo "
+"gebruiken of een nieuw logo maken met de <a href=\"https://logo.hostinger."
+"com/?ref=wordpress-onboarding\" style=\"text-decoration:none; font-weight:"
+"bold; color:#673de6\">AI Logo Maker.</a>"
+
+#: includes/Admin/Onboarding/PluginManager.php:60
+msgid "Adds Correios shipping methods to your WooCommerce store."
+msgstr "Voegt Correios verzendmethoden toe aan je WooCommerce winkel."
+
+#: includes/Admin/Onboarding/PluginManager.php:50
+msgid ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+msgstr ""
+"Voegt PagSeguro toe als betaalmethode (met korting op officiële tarieven)."
+
+#: includes/Admin/Onboarding/PluginManager.php:41
+msgid ""
+"Amazon Pay is embedded directly into your existing web site, and all the "
+"buyer interactions with Amazon Pay and Login with Amazon take place in "
+"embedded widgets so that the buyer never leaves your site. "
+msgstr ""
+"Amazon Pay is rechtstreeks geïntegreerd in je bestaande website en alle "
+"interacties met Amazon Pay en Inloggen bij Amazon vinden plaats in "
+"geïntegreerde widgets, zodat de koper je website nooit verlaat. "
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:106
+msgid "An error occurred while deleting the page."
+msgstr "Er is een fout opgetreden tijdens het verwijderen van de pagina."
+
+#: includes/Errors.php:17
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr ""
+"Er is een onverwachte fout opgetreden. Probeer het opnieuw of neem contact "
+"op met de klantenondersteuning."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:76
+msgid "An unexpected error occurred. Please try again."
+msgstr "Er is een onverwachte fout opgetreden. Probeer het opnieuw."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:31
+msgid "Are you sure you want to delete this page?"
+msgstr "Weet je zeker dat je deze pagina wilt verwijderen?"
+
+#: includes/Admin/Assets.php:266
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid "Attention:"
+msgstr "Let op:"
+
+#: includes/Admin/Assets.php:243
+msgid "Back"
+msgstr "Terug"
+
+#: includes/Admin/Assets.php:268
+msgid ""
+"Before publishing, you can preview your created page by clicking on the "
+"Preview button. If you are happy with the result, click the Publish button."
+msgstr ""
+"Voordat je de pagina publiceert, kun je een voorbeeld van de door jou "
+"gemaakte pagina bekijken door op de knop Voorbeeld te klikken. Als je "
+"tevreden bent met het resultaat, klik dan op de knop Publiceren."
+
+#: includes/Admin/Onboarding/Onboarding.php:503
+#: includes/Admin/Onboarding/Onboarding.php:533
+msgid ""
+"Build a professional, custom-designed site in moments. Just a few clicks and "
+"AI handles the rest."
+msgstr ""
+"Bouw in een handomdraai een professionele, op maat gemaakte site. Een paar "
+"klikken en AI doet de rest."
+
+#: includes/Admin/Assets.php:178 gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:70
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/Rest/WelcomeRoutes.php:65
+msgid "Choice parameter missing or empty"
+msgstr "Keuzeparameter ontbreekt of is leeg"
+
+#: includes/Admin/Assets.php:144 includes/Admin/Onboarding/Onboarding.php:392
+msgid ""
+"Choose the ways you'd like to ship orders to customers. You can always add "
+"others later."
+msgstr ""
+"Kies de verzendmogelijkheden voor klanten. Je kunt later altijd nog andere "
+"toevoegen."
+
+#: includes/Rest/TutorialRoutes.php:45
+#, fuzzy
+msgid "Como Alterar a sua Logo no WordPress (Rápido e Prático)"
+msgstr "Een logo wijzigen in WordPress (snel en praktisch)"
+
+#: includes/Rest/TutorialRoutes.php:60
+#, fuzzy
+msgid "Como Criar Categorias no WordPress"
+msgstr "Categoriën aanmaken in WordPress"
+
+#: includes/Rest/TutorialRoutes.php:55
+#, fuzzy
+msgid "Como Editar o Menu dos Temas do WordPress"
+msgstr "Een menu voor WordPress-teksten bewerken"
+
+#: includes/Rest/TutorialRoutes.php:77
+#, fuzzy
+msgid "Como Instalar Plugins y Temas en WordPress"
+msgstr "Plugins en templates installeren in WordPress"
+
+#: includes/Rest/TutorialRoutes.php:50
+#, fuzzy
+msgid "Como Personalizar um Tema do WordPress"
+msgstr "Een WordPress thema personaliseren"
+
+#: includes/Admin/Assets.php:191
+msgid "Complete"
+msgstr "Compleet"
+
+#: includes/Admin/Assets.php:197
+msgid "Completed steps"
+msgstr "Voltooide stappen"
+
+#: includes/Admin/Assets.php:231
+msgid "Configure"
+msgstr "Configureer"
+
+#: includes/Admin/Onboarding/PluginManager.php:35
+msgid ""
+"Configure the payment options and accept payments with cards, ticket and "
+"money of Mercado Pago account."
+msgstr ""
+"Configureer de betalingsopties en accepteer betalingen met kaarten, bonnen "
+"en geld van Mercado Pago account."
+
+#: includes/Admin/Hooks.php:494
+msgid "Congrats, you have connected WooPayments!"
+msgstr "Gefeliciteerd, je hebt WooPayments verbonden!"
+
+#: includes/Admin/Assets.php:193 includes/Admin/Hooks.php:487
+msgid "Congrats, you’re ready to show off your site!"
+msgstr "Gefeliciteerd, je bent klaar om je site te presenteren!"
+
+#: includes/Admin/Assets.php:232
+msgid "Connect"
+msgstr "Koppelen"
+
+#: includes/Admin/Onboarding/Onboarding.php:233
+msgid "Connect a domain"
+msgstr "Een domein verbinden"
+
+#: includes/Admin/Onboarding/Onboarding.php:291
+msgid "Connect Amazon to site"
+msgstr "Amazon met site verbinden"
+
+#: includes/Admin/Onboarding/Onboarding.php:235
+msgid "Connect domain"
+msgstr "Domein verbinden"
+
+#: includes/Admin/Assets.php:210
+msgid "Connect domain now"
+msgstr "Domein nu koppelen"
+
+#: includes/Admin/Onboarding/Onboarding.php:238
+#: includes/Admin/Onboarding/Onboarding.php:250
+msgid "Connect on hPanel"
+msgstr "Verbinden met hPanel"
+
+#: includes/Admin/Assets.php:239 includes/Admin/Onboarding/WelcomeCards.php:29
+msgid ""
+"Connect your <strong>Amazon Associate</strong> account to fetch API details."
+msgstr ""
+"Verbinden met je <strong>Amazon Associate</strong> account en haal API-"
+"gegevens op."
+
+#: includes/Admin/Onboarding/Onboarding.php:285
+msgid "Connect your Amazon account to the site"
+msgstr "Verbind je Amazon account met de site"
+
+#: includes/Admin/Assets.php:180
+msgid "Connect your domain"
+msgstr ""
+"Koppel jouw domein\n"
+
+#: includes/Admin/Assets.php:267
+msgid "Connect your domain first"
+msgstr "Verbind eerst je domein"
+
+#: includes/Admin/Assets.php:157 includes/Admin/Assets.php:160
+#: includes/Admin/Assets.php:271
+msgid "Connect your domain to Hostinger"
+msgstr "Je domein met Hostinger koppelen"
+
+#: includes/Admin/Onboarding/Onboarding.php:254
+msgid "Connected a domain"
+msgstr "Een domein aangesloten"
+
+#: includes/Admin/Onboarding/Onboarding.php:287
+msgid "Connected your Amazon account"
+msgstr "Je Amazon account is verbonden"
+
+#: includes/Admin/Assets.php:259
+msgid ""
+"Content can be anything you wish, for example, text, images, videos, tables, "
+"and lots more. Click on a plus sign and choose any block you want to add to "
+"the page."
+msgstr ""
+"De content kan van alles zijn, bijvoorbeeld tekst, afbeeldingen, video's, "
+"tabellen en nog veel meer. Klik op een plusteken en kies een blok dat je aan "
+"de pagina wilt toevoegen."
+
+#: includes/Admin/Assets.php:132
+msgid "Continue"
+msgstr "Ga verder"
+
+#: includes/Admin/Assets.php:263 includes/Admin/Hooks.php:484
+#: includes/Admin/Hooks.php:497
+msgid "Continue setup"
+msgstr "Doorgaan met instellen"
+
+#: includes/Admin/Assets.php:181
+msgid "Create a logo"
+msgstr "Maak een logo"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:23
+msgid "Create a new Page"
+msgstr "Een nieuwe pagina maken"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:26
+msgid "Create a new page"
+msgstr "Een nieuwe pagina maken"
+
+#: includes/Admin/Onboarding/Onboarding.php:502
+msgid "Create a site with AI"
+msgstr "Maak een site met AI"
+
+#: includes/Admin/Onboarding/PluginManager.php:57
+msgid ""
+"Create additional shipment methods in WooCommerce and enable pricing based "
+"on cart weight or total."
+msgstr ""
+"Maak extra verzendmethoden in WooCommerce en activeer prijzen op basis van "
+"het gewicht of het totaal van de winkelwagen."
+
+#: includes/Admin/Onboarding/PluginManager.php:69
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr "Maak Chronopost & Mondial verzendetiketten en verzend heel eenvoudig."
+
+#: includes/Admin/Onboarding/Onboarding.php:532
+msgid "Create content with AI"
+msgstr "Creëer inhoud met AI"
+
+#: includes/Admin/Onboarding/Onboarding.php:511
+msgid "Create new site"
+msgstr "Nieuwe site maken"
+
+#: includes/Admin/Onboarding/Onboarding.php:504
+msgid "Create site with AI"
+msgstr "Maak site met AI"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:59
+msgid "Current page"
+msgstr "Huidige pagina"
+
+#: includes/Admin/Assets.php:194
+msgid "Customize the way your site looks and start welcoming visitors."
+msgstr ""
+"Pas het uiterlijk van je site aan en begin met het verwelkomen van bezoekers."
+
+#: includes/Rest/TutorialRoutes.php:82
+#, fuzzy
+msgid "Cómo Crear un Menú en WordPress (en Menos de 5 minutos)"
+msgstr "Een menu maken in WordPress (in minder dan 5 minuten)"
+
+#: includes/Rest/TutorialRoutes.php:72
+#, fuzzy
+msgid "Cómo Crear una Galería de Fotos en WordPress | Fácil y Gratis"
+msgstr "Zo maak je gemakkelijk en gratis een fotogalerij in WordPress"
+
+#: includes/Rest/TutorialRoutes.php:67
+#, fuzzy
+msgid "Cómo Personalizar WordPress (2023)"
+msgstr "WordPress personaliseren (2023)"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:123
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:125
+msgid "Delete page"
+msgstr "Pagina verwijderen"
+
+#: includes/Admin/Assets.php:204 includes/Admin/Assets.php:233
+msgid "Dismiss"
+msgstr "Afwijzen"
+
+#: includes/Admin/Surveys.php:48
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr "Heb je opmerkingen/suggesties voor het verbeteren van onze AI-tools?"
+
+#: includes/Admin/Surveys.php:34
+msgid ""
+"Do you have any comments/suggestions to improve our WooCommerce onboarding?"
+msgstr ""
+"Heb je opmerkingen/suggesties voor het verbeteren van onze WooCommerce "
+"onboarding?"
+
+#: includes/Admin/Assets.php:273
+msgid ""
+"Domain propagation can take up to 24 hours. Your domain will propagate "
+"automatically, and you don't need to take any action during this time."
+msgstr ""
+"Domeinpropagatie kan tot wel 24 uur duren. Je domein wordt automatisch "
+"gepropageerd en je hoeft gedurende deze tijd geen actie te ondernemen."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:19
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/Admin/Assets.php:222
+msgid "Edit an image"
+msgstr "Een afbeelding bewerken"
+
+#: includes/Admin/Assets.php:216
+msgid "Edit description"
+msgstr "Een omschrijving bewerken"
+
+#: includes/Hooks.php:217
+msgid "Edit Home Page"
+msgstr "Startpagina bewerken"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:12
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:14
+msgid "Edit Page"
+msgstr "Pagina bewerken"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/index.js:100
+#: gutenberg/edit-pages-panel/src/index.js:106
+msgid "Edit Pages"
+msgstr "Pagina's bewerken"
+
+#: includes/Admin/Assets.php:214
+msgid "Edit post"
+msgstr "Een bericht bewerken"
+
+#: includes/Admin/Assets.php:175
+msgid "Edit post description"
+msgstr "Berichtbeschrijving bewerken"
+
+#: includes/Admin/Assets.php:203
+msgid "Edit site"
+msgstr "Site bewerken"
+
+#: includes/Admin/Assets.php:177
+msgid "Edit site title"
+msgstr "Een website-titel bewerken"
+
+#: includes/Admin/Assets.php:189
+msgid ""
+"Enter your store details so we can help you set up your online store faster."
+msgstr ""
+"Voer je winkelgegevens in zodat we je sneller kunnen helpen met het opzetten "
+"van je webshop."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:46
+msgid "Error:"
+msgstr "Fout:"
+
+#: includes/Admin/Onboarding/Onboarding.php:257
+msgid ""
+"Every website needs a domain that makes it easy to access and remember. Get "
+"ours in just a few clicks."
+msgstr ""
+"Elke website heeft een domein nodig dat gemakkelijk te bereiken en te "
+"onthouden is. Krijg de onze met slechts een paar klikken."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"Expand your audience with the help of Omnisend. Create email campaigns that "
+"drive sales."
+msgstr ""
+"Breid je publiek uit met de behulp van Omnisend. Creëer e-mailcampagnes die "
+"de verkoop stimuleren."
+
+#: includes/Admin/Onboarding/PluginManager.php:47
+msgid "Extends WooCommerce with a RedSys gateway."
+msgstr "Breidt WooCommerce uit met een RedSys gateway."
+
+#: includes/Admin/Assets.php:282
+msgid "Find the answers you need in our Knowledge Base"
+msgstr "Vind de antwoorden waar je naar op zoek bent in onze Kennisbank"
+
+#: includes/Admin/Assets.php:218
+msgid "Find the Media page"
+msgstr "Zoek de mediapagina"
+
+#: includes/Admin/Assets.php:292
+msgid "Follow these steps to complete your setup"
+msgstr "Volg deze stappen om de installatie te voltooien"
+
+#: includes/Admin/Assets.php:234
+msgid "Generate content"
+msgstr "Content genereren"
+
+#: includes/Admin/Assets.php:236 includes/Admin/Onboarding/WelcomeCards.php:37
+#| msgid "Create content with AI"
+msgid "Generate content with AI"
+msgstr "Maak content met AI"
+
+#: includes/Admin/Onboarding/Onboarding.php:534
+msgid "Generate post"
+msgstr "Post genereren"
+
+#: includes/Admin/Assets.php:269
+msgid "Get a domain"
+msgstr "Koop een domein"
+
+#: includes/Admin/Assets.php:122
+msgid "Get deal"
+msgstr "Ga voor de deal"
+
+#: includes/Admin/Hooks.php:337
+msgid "Get Discount"
+msgstr "Ontvang korting"
+
+#: includes/Admin/Onboarding/Onboarding.php:415
+msgid "Get found on Google"
+msgstr "Wordt gevonden op Google"
+
+#: includes/Admin/Assets.php:237
+msgid ""
+"Get images, text, and SEO keywords created for you instantly – try <strong>"
+"AI Content Creator</strong>."
+msgstr ""
+"Ontvang direct afbeeldingen, tekst en SEO-keywords - probeer <strong>AI "
+"Content Creator</strong>."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:39
+msgid "Get images, text, and SEO keywords created for you instantly."
+msgstr "Ontvang direct afbeeldingen, tekst en SEO-keywords."
+
+#: includes/Admin/Assets.php:290
+msgid "Get in touch with our live specialists"
+msgstr "Neem live contact op met onze specialisten"
+
+#: includes/Admin/Assets.php:150 includes/Admin/Onboarding/Onboarding.php:373
+msgid ""
+"Get ready to accept customer payments. Let them pay for your products and "
+"services with ease."
+msgstr ""
+"Wees voorbereid op de acceptatie van betalingen van klanten. Zorg dat ze "
+"gemakkelijk kunnen betalen voor jouw producten en diensten."
+
+#: includes/Admin/Onboarding/Onboarding.php:308
+msgid ""
+"Get ready to sell online. Add your first product, then set up shipping and "
+"payments."
+msgstr ""
+"Maak je klaar om online te verkopen. Voeg je eerste product toe en stel "
+"vervolgens de verzending en betalingen in."
+
+#: includes/Admin/Onboarding/Onboarding.php:310
+#| msgid "Get Started"
+msgid "Get started"
+msgstr "Ga aan de slag"
+
+#: includes/Admin/Assets.php:186
+msgid "Get started!"
+msgstr "Ga aan de slag!"
+
+#: includes/Admin/Assets.php:145
+msgid "Getting your features ready"
+msgstr "Bereid je functies voor"
+
+#: includes/Admin/Assets.php:212
+msgid "Go to Posts"
+msgstr "Ga naar Berichten"
+
+#: includes/Admin/Assets.php:182 includes/Admin/Assets.php:224
+msgid "Go to the Customize page"
+msgstr "Ga naar Pagina aanpassen"
+
+#: includes/Rest/TutorialRoutes.php:104
+msgid ""
+"Google Analytics sur WordPress FACILEMENT avec Google Site Kit : Guide "
+"Complet (2023)"
+msgstr ""
+"Google Analytics op WordPress met Google Site Kit: complete handleiding "
+"(2023)"
+
+#: includes/Admin/Assets.php:265
+msgid ""
+"Google Site Kit is an essential plugin that makes sure that potential "
+"visitors can find your site on Google."
+msgstr ""
+"Google Site Kit is een essentiële plug-in die ervoor zorgt dat potentiële "
+"bezoekers je site op Google kunnen vinden."
+
+#: includes/Admin/Assets.php:211
+msgid "Got it!"
+msgstr "Begrepen!"
+
+#: includes/Admin/Assets.php:283
+msgid "Help Center"
+msgstr "Hulpcentrum "
+
+#: includes/Admin/Assets.php:209
+msgid "Hide completed"
+msgstr "Voltooid verbergen"
+
+#: includes/Admin/Assets.php:202
+msgid "Hide list"
+msgstr "Lijst verbergen"
+
+#: includes/Admin/Onboarding/PluginManager.php:54
+msgid ""
+"Hosted services for WooCommerce: automated tax calculation, shipping label "
+"printing, and smoother payment setup."
+msgstr ""
+"Gehoste services voor WooCommerce: geautomatiseerde belastingberekeningen, "
+"verzendetiketten afdrukken en soepelere betalingsinstellingen."
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Assets.php:286
+msgid "Hostinger Academy"
+msgstr "Hostinger Academy"
+
+#. Plugin Name of the plugin
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#. Description of the plugin
+msgid "Hostinger Easy Onboarding WordPress plugin."
+msgstr "Hostinger Easy Onboarding Wordpress plug-in"
+
+#: includes/Admin/Assets.php:215
+msgid ""
+"Hover over the chosen post to see the options menu. Click on the Edit button "
+"to open the post editor."
+msgstr ""
+"Beweeg de muis over het gekozen bericht om het menu te openen. Klik op de "
+"knop Bewerken om de tekst-editor te openen."
+
+#: includes/Admin/Surveys.php:41
+msgid "How could we make it easier to create a new WordPress website?"
+msgstr ""
+"Hoe kunnen wij het maken van een nieuwe WordPress website eenvoudiger maken?"
+
+#: includes/Admin/Assets.php:278
+msgid "How to Back Up a WordPress Site"
+msgstr "Hoe maak je een back-up van een WordPress site?"
+
+#: includes/Rest/TutorialRoutes.php:111
+msgid "How to Build a Website FAST Using AI in Just 10 Minutes"
+msgstr "Hoe je SNEL een website bouwt met AI in slechts 10 minuten"
+
+#: includes/Admin/Assets.php:270
+msgid "How to Build an EFFECTIVE Landing Page with WordPress (2024)"
+msgstr "Hoe je een EFFECTIEVE landingspagina maakt met WordPress (2024)"
+
+#: includes/Rest/TutorialRoutes.php:121
+msgid "How to Create a Menu in WordPress in Hindi | Hostinger India"
+msgstr "Hoe maak je een menu in WordPress in het Hindi | Hostinger India"
+
+#: includes/Admin/Assets.php:274
+msgid "How to Create a WordPress Contact Us Page"
+msgstr "Hoe maak je een WordPress contactpagina?"
+
+#: includes/Admin/Assets.php:276
+msgid "How to Create Your Coming Soon Page in WordPress (2024)"
+msgstr "Zo maak je een Coming Soon pagina in WordPress (2024)"
+
+#: includes/Rest/TutorialRoutes.php:28
+msgid ""
+"How to EASILY Manage Google Tools with Google Site Kit - Beginners Guide 2024"
+msgstr ""
+"Hoe je Google Tools EENVOUDIG beheert met Google Site Kit - "
+"Beginnershandleiding 2024"
+
+#: includes/Rest/TutorialRoutes.php:116
+msgid "How to Edit Footer in WordPress in Hindi | Hostinger India"
+msgstr "Hoe wijzig je de voettekst in WordPress in Hindi | Hostinger India"
+
+#: includes/Rest/TutorialRoutes.php:38
+msgid "How to Edit the Footer in WordPress"
+msgstr "Hoe bewerk je de voettekst in WordPress?"
+
+#: includes/Admin/Assets.php:279 includes/Rest/TutorialRoutes.php:33
+msgid "How to Import Images Into WordPress Website"
+msgstr "Hoe importeer je afbeeldingen naar een WordPress website?"
+
+#: includes/Rest/TutorialRoutes.php:126
+msgid "How to Install WordPress Themes | Hostinger India"
+msgstr "Hoe installeer je WordPress Thema's | Hostinger India"
+
+#: includes/Admin/Assets.php:272 includes/Rest/TutorialRoutes.php:23
+msgid "How to Make a Website (2024): Simple, Quick, & Easy Tutorial"
+msgstr ""
+"Een website maken (2024): Eenvoudige, snelle en gemakkelijke handleiding"
+
+#: includes/Admin/Assets.php:163
+msgid "How to Point Domain Name to Web Hosting"
+msgstr "Hoe een domeinnaam aan webhosting koppelen"
+
+#: includes/Admin/Assets.php:280
+msgid "How to Set Up WordPress SMTP"
+msgstr "Hoe stel je WordPress SMTP in?"
+
+#: includes/Admin/Surveys.php:40
+msgid ""
+"How would you rate your experience building a website based on a pre-built "
+"template? (Score 1-10)"
+msgstr ""
+"Hoe is jouw ervaring met het bouwen van een website aan de hand van een kant-"
+"en-klare template? (Score 1-10)"
+
+#: includes/Admin/Surveys.php:33
+msgid ""
+"How would you rate your experience setting up a WooCommerce site on our "
+"hosting?"
+msgstr ""
+"Wat is jouw ervaring met het opzetten van een WooCommerce site met onze "
+"hosting?"
+
+#: includes/Admin/Surveys.php:47
+msgid ""
+"How would you rate your experience using our AI content generation tools in "
+"onboarding? (Scale 1-10)"
+msgstr ""
+"Hoe beoordeel jij jouw ervaring met het gebruik van onze AI-tools voor het "
+"genereren van content bij de onboarding? (Schaal 1-10)"
+
+#: includes/Admin/Menu.php:75
+msgid "hPanel - Billing"
+msgstr "hPanel - Facturering"
+
+#: includes/Admin/Menu.php:57
+msgid "hPanel - Home"
+msgstr "hPanel - Home"
+
+#: includes/Admin/Menu.php:66
+msgid "hPanel - Websites"
+msgstr "hPanel - Websites"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.nl"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.nl"
+
+#: includes/Admin/Assets.php:275
+msgid "I Bought a Domain, Now What?"
+msgstr "Ik heb een domein gekocht, wat nu?"
+
+#: includes/Admin/Assets.php:223
+msgid ""
+"If you wish to edit the image, click on the chosen image and click the Edit "
+"Image button. You can now crop, rotate, flip or scale the selected image."
+msgstr ""
+"Als je de afbeelding wilt bewerken, klik dan op de gekozen afbeelding en "
+"vervolgens op de knop Afbeelding bewerken. Je kunt de geselecteerde "
+"afbeelding nu bijsnijden, draaien, spiegelen of vergroten/verkleinen."
+
+#: includes/Admin/Assets.php:174 includes/Admin/Assets.php:225
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open."
+msgstr ""
+"Klik in de linker zijbalk op Uiterlijk om het menu uit te vouwen. Klik onder "
+"Uiterlijk op Aanpassen. De optie Pagina aanpassen wordt geopend."
+
+#: includes/Admin/Assets.php:227
+msgid "In the left sidebar, click Site Identity and edit your site title."
+msgstr ""
+"Klik in de linker zijbalk op Website Identiteit en wijzig de titel van je "
+"website."
+
+#: includes/Admin/Assets.php:184
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo."
+msgstr ""
+"Klik in de linkerzijbalk op Website-identiteit en klik vervolgens op de knop "
+"Site-pictogram selecteren. Hier kunt je je eigen merklogo uploaden."
+
+#: includes/Admin/Assets.php:219
+msgid ""
+"In the left sidebar, find the Media button. Click on the Library button to "
+"see all the images you have uploaded to your website."
+msgstr ""
+"Zoek in de linker zijbalk naar de knop Media. Klik op de knop Bibliotheek "
+"voor alle afbeeldingen die je naar je website hebt geüpload."
+
+#: includes/Admin/Assets.php:241
+msgid ""
+"In the left sidebar, find the Pages menu and click on Add New button. You "
+"will see the WordPress page editor. Each paragraph, image, or video in the "
+"WordPress editor is presented as a “block” of content."
+msgstr ""
+"Zoek in de linker zijbalk naar het menu Pagina's en klik op de knop Nieuwe "
+"toevoegen. Je ziet nu de WordPress pagina editor. Elke paragraaf, afbeelding "
+"of video in de WordPress editor wordt weergegeven als een \"blok\" met "
+"inhoud."
+
+#: includes/Admin/Assets.php:213
+msgid ""
+"In the left sidebar, find the Posts button. Click on the All Posts button "
+"and find the post for which you want to change the description."
+msgstr ""
+"Zoek in de linkerzijbalk naar de knop Berichten. Klik op de knop Alle "
+"berichten en zoek het bericht waarvan je de beschrijving wilt wijzigen."
+
+#: includes/Admin/Assets.php:155
+msgid ""
+"Increase your sites visibility by enabling its discoverability in the Google "
+"search engine."
+msgstr ""
+"Vergroot de zichtbaarheid van je site door deze vindbaar te maken in de "
+"Google zoekmachine."
+
+#: includes/Admin/Assets.php:235
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: includes/Rest/TutorialRoutes.php:99
+#, fuzzy
+msgid "Installer un Thème WordPress (2023) | Rapide et Facile"
+msgstr "WordPress-onderdeel installeren (2023) | Snel en gemakkelijk"
+
+#: includes/Admin/Assets.php:166
+#: includes/Admin/Views/Partials/PromotionalBanner.php:5
+msgid "Invite a Friend, Earn Up to $100"
+msgstr "Nodig een vriend uit en verdien maximaal €100"
+
+#: includes/Admin/Onboarding/PluginManager.php:44
+msgid ""
+"It enables a WooCommerce site to accept payments through UPI apps like BHIM, "
+"Google Pay, Paytm, PhonePe or any Banking UPI app. Avoid payment gateway "
+"charges."
+msgstr ""
+"Hiermee kan een WooCommerce-site betalingen accepteren via UPI-apps zoals "
+"BHIM, Google Pay, Paytm, PhonePe of elke bank-UPI-app. Vermijd kosten voor "
+"betalingsgateways."
+
+#: includes/Admin/Onboarding/Onboarding.php:289
+msgid ""
+"Join the Amazon Affiliate Program to start earning commissions. Link your "
+"Amazon affiliate account to your website, start promoting products and earn "
+"rewards."
+msgstr ""
+"Word lid van het Amazon Affiliate Programma en begin met het verdienen van "
+"commissie. Koppel je Amazon affiliate account aan je website, begin met het "
+"promoten van producten en verdien beloningen."
+
+#: includes/Admin/Hooks.php:481
+msgid "Just a few more steps to launch your online store"
+msgstr "Nog een paar stappen om je webshop te lanceren"
+
+#: includes/Admin/Onboarding/Onboarding.php:510
+msgid "Keep current site"
+msgstr "Huidige site behouden"
+
+#: includes/Admin/Assets.php:201 includes/Admin/Assets.php:281
+msgid "Knowledge Base"
+msgstr "Kennisbank"
+
+#: includes/Admin/Menu.php:34
+msgid "Learn"
+msgstr "Leren"
+
+#: includes/Admin/Assets.php:285
+msgid "Learn WordPress"
+msgstr "WordPress leren"
+
+#: includes/Admin/Assets.php:277
+msgid "LiteSpeed Cache: How to Get 100% WordPress Optimization"
+msgstr "LiteSpeed Cache: Hoe bereik je 100% WordPress optimalisatie?"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:27
+msgid "Loading..."
+msgstr "Aan het laden..."
+
+#: includes/Admin/Onboarding/Onboarding.php:417
+msgid ""
+"Make sure that your website shows up when visitors are looking for your "
+"business on Google."
+msgstr ""
+"Zorg dat jouw website verschijnt wanneer bezoekers jouw bedrijf op Google "
+"zoeken."
+
+#: includes/Admin/Onboarding/Onboarding.php:423
+msgid "Manage"
+msgstr "Beheren"
+
+#: includes/Admin/Assets.php:134 includes/Admin/Onboarding/Onboarding.php:390
+msgid "Manage shipping"
+msgstr "Verzendingen beheren"
+
+#: includes/Admin/Assets.php:133
+msgid "Market your business"
+msgstr "Promoot je bedrijf"
+
+#: includes/Admin/Assets.php:159
+msgid "Nameserver"
+msgstr "Nameserver"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:33
+msgid "No pages found."
+msgstr "Geen pagina's gevonden."
+
+#: includes/Helper.php:357
+msgid "No PHP files found in plugin directory"
+msgstr "Geen PHP bestanden gevonden in plugin map"
+
+#: includes/Admin/Assets.php:121 includes/Admin/Onboarding/Onboarding.php:356
+msgid "Not interested"
+msgstr "Niet geïnteresseerd"
+
+#: includes/Admin/Onboarding/Onboarding.php:400
+#: includes/Admin/Onboarding/Onboarding.php:427
+msgid "Not needed"
+msgstr "Niet nodig"
+
+#: includes/Admin/Onboarding/Onboarding.php:506
+#: includes/Admin/Onboarding/Onboarding.php:536
+msgid "Not now"
+msgstr "Niet nu"
+
+#: includes/Admin/Assets.php:205
+msgid "Now <strong>finish setting up</strong> the plugins you’ve installed."
+msgstr ""
+"<strong>Voltooi nu het instellen</strong> van de plug-ins die je hebt "
+"geïnstalleerd."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"op <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:198 includes/Admin/Menu.php:28
+#: includes/Admin/Menu.php:92 includes/Admin/Menu.php:93
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: includes/Admin/Assets.php:130 includes/Admin/Onboarding/Onboarding.php:113
+msgid "Online store setup"
+msgstr "Webshop opzetten"
+
+#: includes/Admin/Assets.php:287
+msgid ""
+"Opt-in to receive tips, discounts, and recommendations from the WooCommerce "
+"team directly in your inbox."
+msgstr ""
+"Meld je aan om tips, kortingen en aanbevelingen van het WooCommerce team "
+"direct in je inbox te ontvangen."
+
+#: includes/Admin/Assets.php:253
+msgid "Or use payment plugins"
+msgstr "Of gebruik betalingsplug-ins"
+
+#: includes/Admin/Assets.php:254
+msgid "Or use shipping plugins"
+msgstr "Of gebruik verzendplug-ins"
+
+#: includes/Admin/Assets.php:249
+msgid "Other"
+msgstr "Andere"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:41
+msgid "Page title:"
+msgstr "Pagina titel:"
+
+#: includes/Admin/Assets.php:244
+msgid "Payment plugins"
+msgstr "Plug-ins voor betalingen"
+
+#: includes/Admin/Assets.php:246
+msgid "Payment settings"
+msgstr "Betalingsinstellingen"
+
+#: includes/Admin/Onboarding/PluginManager.php:29
+msgid ""
+"PayPal's latest complete payments processing solution. Accept PayPal, Pay "
+"Later, credit/debit cards, alternative digital wallets local payment types "
+"and bank accounts."
+msgstr ""
+"PayPal's nieuwste complete oplossing voor het verwerken van betalingen. "
+"Accepteer PayPal, Pay Later, creditcards/debetkaarten, alternatieve digitale "
+"portemonnees, lokale betaalmethoden en bankrekeningen."
+
+#: includes/Admin/Assets.php:164
+msgid "Play on YouTube"
+msgstr "Op YouTube afspelen"
+
+#: includes/Helper.php:352
+msgid "Plugin directory not found"
+msgstr "Plugin map niet gevonden"
+
+#: includes/Helper.php:367
+msgid "Plugin main file not found"
+msgstr "Hoofdbestand plugin niet gevonden"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PreviewPageButton.js:46
+#, fuzzy
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: includes/Admin/Assets.php:131
+msgid "Preview website"
+msgstr "Voorbeeld website"
+
+#: includes/Admin/Assets.php:260
+msgid "Publish the page"
+msgstr "Publiceer de pagina"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Beoordeel deze plug-in"
+
+#: includes/Admin/Assets.php:248
+msgid "Recommended for you"
+msgstr "Aanbevolen voor jou"
+
+#: includes/Admin/Assets.php:238 includes/Admin/Onboarding/WelcomeCards.php:27
+msgid "Run an Amazon Affiliate site"
+msgstr "Een Amazon Affiliate site beheren"
+
+#: includes/Admin/Assets.php:135
+msgid "Run email marketing campaigns"
+msgstr "Voer e-mailmarketingcampagnes uit"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:62
+msgid "Save"
+msgstr "Opslaan"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:59
+msgid "Saving"
+msgstr "Opslaan"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:7
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:8
+msgid "Search pages"
+msgstr "Pagina's zoeken"
+
+#: includes/Admin/Onboarding/PluginManager.php:38
+msgid ""
+"Securely accept payments, synchronize sales, and seamlessly manage inventory "
+"and product data between WooCommerce and Square POS."
+msgstr ""
+"Accepteer op een veilige manier betalingen, synchroniseer verkopen en beheer "
+"voorraad- en productgegevens moeiteloos tussen WooCommerce en Square POS."
+
+#: includes/Admin/Onboarding/Onboarding.php:348
+msgid ""
+"Sell products, services and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Verkoop producten, diensten en digitale downloads. Stel elk item in en pas "
+"het aan zodat het voldoet aan de behoeften van jouw bedrijf."
+
+#: includes/Admin/Assets.php:153
+msgid ""
+"Sell products, services, and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Verkoop producten, diensten en digitale downloads. Configureer elk item en "
+"stem af op de behoeften van je bedrijf."
+
+#: includes/Admin/Assets.php:148 includes/Admin/Onboarding/Onboarding.php:371
+msgid "Set up a payment method"
+msgstr "Een betaalmethode instellen"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:17
+#| msgid "Set up your online store"
+msgid "Set up an online store"
+msgstr "Webshop opzetten"
+
+#: includes/Admin/Onboarding/Onboarding.php:419
+msgid "Set up Google Site Kit"
+msgstr "Google Site Kit instellen"
+
+#: includes/Admin/Assets.php:149 includes/Admin/Onboarding/Onboarding.php:375
+msgid "Set up payment method"
+msgstr "Betaalmethode instellen"
+
+#: includes/Admin/Assets.php:247
+msgid "Set up payments"
+msgstr "Betalingen instellen"
+
+#: includes/Admin/Assets.php:262
+msgid "Set up shipping"
+msgstr "Verzending instellen"
+
+#: includes/Admin/Assets.php:261
+msgid "Set up Site Kit"
+msgstr "Google Site Kit instellen"
+
+#: includes/Admin/Onboarding/Onboarding.php:306
+msgid "Set up your online store"
+msgstr "Je webshop opzetten"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:19
+#| msgid ""
+#| "Install <strong>WooCommerce</strong>, add products or services, and start "
+#| "selling today."
+msgid ""
+"Setup <strong>WooCommerce</strong>, add products or services, and start "
+"selling today."
+msgstr ""
+"Installeer <strong>WooCommerce</strong>, voeg producten of diensten toe en "
+"begin vandaag nog met verkopen."
+
+#: includes/Admin/Assets.php:154
+msgid "Setup Google Site Kit"
+msgstr "Google Site Kit instellen"
+
+#: includes/Admin/Assets.php:147 includes/Admin/Assets.php:188
+#| msgid "Set up my online store"
+msgid "Setup my online store"
+msgstr "Mijn webshop opzetten"
+
+#: includes/Admin/Assets.php:195
+msgid "Setup website"
+msgstr "Website instellen"
+
+#: includes/Admin/Views/Partials/PromotionalBanner.php:9
+msgid ""
+"Share your referral link with friends and family and <b>receive 20% "
+"commission</b> for every successful referral."
+msgstr ""
+"Deel je doorverwijslink met vrienden en familie en <b>ontvang 20% "
+"commissie</b> voor elke succesvolle doorverwijzing. "
+
+#: includes/Admin/Assets.php:165
+msgid ""
+"Share your referral link with friends and family and <strong>receive 20% "
+"commission</strong> for every successful referral."
+msgstr ""
+"Deel je doorverwijslink met vrienden en familie en <strong>ontvang 20% "
+"commissie</strong> voor elke succesvolle doorverwijzing."
+
+#: includes/Admin/Assets.php:137
+msgid "Ship products with ease"
+msgstr "Gemakkelijk producten verzenden"
+
+#: includes/Admin/Assets.php:138 includes/Admin/Onboarding/Onboarding.php:394
+msgid "Shipping methods"
+msgstr "Verzendmethoden"
+
+#: includes/Admin/Assets.php:245
+msgid "Shipping plugins"
+msgstr "Plug-ins voor verzendingen"
+
+#: includes/Admin/Assets.php:250
+msgid "Shipping settings"
+msgstr "Verzendinstellingen"
+
+#: includes/Rest/WooRoutes.php:47
+msgid "Shop locale is empty, please setup store first"
+msgstr "Shop locatie is leeg, installeer de winkel eerst"
+
+#: includes/Admin/Assets.php:199
+msgid "Show list"
+msgstr "Toon lijst"
+
+#: includes/Admin/Assets.php:187
+msgid "Skip"
+msgstr "Overslaan"
+
+#: includes/Rest/StepRoutes.php:169
+msgid "Sorry, there are activation errors."
+msgstr "Sorry, er zijn activeringsfouten opgetreden."
+
+#: includes/Rest/StepRoutes.php:71 includes/Rest/StepRoutes.php:156
+#: includes/Rest/WooRoutes.php:53 includes/Rest/WooRoutes.php:135
+msgid "Sorry, there are validation errors."
+msgstr "Sorry, er zijn validatiefouten opgetreden."
+
+#: includes/Admin/Assets.php:156
+#: includes/Admin/Views/Partials/PromotionalBanner.php:24
+msgid "Start earning"
+msgstr "Begin met verdienen"
+
+#: includes/Admin/Onboarding/Onboarding.php:59
+msgid "Started creating your site"
+msgstr "Gestart met het maken van jouw website"
+
+#: includes/Rest/StepRoutes.php:90
+msgid "Step category and/or step does not exist."
+msgstr "Stappencategorie en/of stap bestaat niet."
+
+#: includes/Admin/Onboarding/Onboarding.php:327
+msgid "Store info"
+msgstr "Winkelinformatie"
+
+#: includes/Rest/WooRoutes.php:129
+msgid "Store location locale not found"
+msgstr "Lokale opslaglocatie niet gevonden"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/StoreSetupButton.js:29
+#, fuzzy
+msgid "Store Setup"
+msgstr "Winkel instellen"
+
+#: includes/Admin/Onboarding/PluginManager.php:26
+msgid "Take credit card payments on your store using Stripe."
+msgstr "Accepteer creditcardbetalingen met Stripe in je winkel."
+
+#: includes/Admin/Assets.php:185
+msgid "Take me there"
+msgstr "Breng me er naartoe"
+
+#: includes/Admin/Assets.php:288
+msgid "Tell us a bit about your business"
+msgstr "Vertel ons iets over je bedrijf"
+
+#: includes/Admin/Assets.php:127
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Amazing Friday</span> sale!"
+msgstr "De grootste <span style=\"color: #8C85FF\">Amazing Friday</span> sale!"
+
+#: includes/Admin/Assets.php:125
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Black Friday</span> sale!"
+msgstr ""
+"De grootste <span style=\"color: #8C85FF\">Black Friday</span> sale ooit!"
+
+#: includes/Admin/Assets.php:128
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Blessed Friday</span> sale!"
+msgstr ""
+"De grootste <span style=\"color: #8C85FF\">Blessed Friday</span> uitverkoop!"
+
+#: includes/Admin/Assets.php:124
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Cyber Monday</span> sale!"
+msgstr ""
+"De grootste <span style=\"color: #8C85FF\">Cyber Monday</span> sale ooit!"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">End of the year</span> sale!"
+msgstr ""
+"De grootste <span style=\"color: #8C85FF\">Eindejaarsuitverkoop</span> ooit!"
+
+#: includes/Admin/Assets.php:126
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">White Friday</span> sale!"
+msgstr ""
+"De grootste <span style=\"color: #8C85FF\">White Friday</span> uitverkoop!"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr ""
+"De Hostinger Easy Onboarding plug-in vereist een minimale PHP versie van <b>"
+"%s</b>."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:49
+msgid "The page was deleted!"
+msgstr "De pagina is verwijderd!"
+
+#: includes/Admin/Onboarding/PluginManager.php:66
+msgid ""
+"The USPS Simple plugin calculates rates for domestic shipping dynamically "
+"using USPS API during checkout."
+msgstr ""
+"Met de plug-in USPS Simple worden de tarieven voor binnenlandse verzendingen "
+"dynamisch berekend tijdens het afrekenen met behulp van de USPS API."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:62
+msgid "There was an error."
+msgstr "Er is een fout opgetreden."
+
+#: includes/Admin/Onboarding/PluginManager.php:63
+msgid ""
+"This extension gives you the possibility to use the Colissimo shipping "
+"methods in WooCommerce"
+msgstr ""
+"Deze extensie geeft je de mogelijkheid om de Colissimo verzendmethoden te "
+"gebruiken in WooCommerce"
+
+#: includes/Admin/Assets.php:293
+#, fuzzy
+msgid "This field is required"
+msgstr "Dit veld is verplicht"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:41
+msgid "Title"
+msgstr "Titel"
+
+#: includes/Admin/Assets.php:221
+msgid ""
+"To upload a new image, click on Add New button on the Media Library page and "
+"select files."
+msgstr ""
+"Als je een nieuwe afbeelding wilt uploaden, klik dan op de knop Nieuwe "
+"toevoegen op de mediabibliotheekpagina en selecteer de bestanden."
+
+#: includes/Admin/Assets.php:139
+msgid "Try Omnisend"
+msgstr "Probeer Omnisend"
+
+#: includes/Rest/TutorialRoutes.php:89
+#, fuzzy
+msgid "TUTO WORDPRESS (Débutant) : Créer un site WordPress pour les Nuls)"
+msgstr ""
+"TUTO WORDPRESS (Debutant) : Maak een WordPress site voor particulieren)"
+
+#: includes/Rest/TutorialRoutes.php:94
+#, fuzzy
+msgid "Tuto WordPress Débutant (Hostinger hPanel) - Créer un Site par IA"
+msgstr "WordPress beginnerscursus (Hostinger hPanel) - Maak een website via IA"
+
+#: includes/Admin/Assets.php:200
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: includes/Errors.php:31
+msgid "Unknown error code."
+msgstr "Onbekende foutcode."
+
+#: includes/Admin/Assets.php:176 includes/Admin/Assets.php:220
+msgid "Upload an image"
+msgstr "Foto opladen"
+
+#: includes/Admin/Assets.php:169 includes/Admin/Assets.php:183
+msgid "Upload your logo"
+msgstr "Logo opladen"
+
+#: includes/Admin/Hooks.php:333
+msgid ""
+"Use the special discount code <b>ONLYHOSTINGER30</b> to get 30% off on "
+"Omnisend for 6 months when you upgrade."
+msgstr ""
+"Gebruik de speciale kortingscode <b>ONLYHOSTINGER30</b> om 6 maanden lang "
+"30% korting op Omnisend te ontvangen wanneer je een upgrade uitvoert."
+
+#: includes/Admin/Hooks.php:490
+msgid "View checklist"
+msgstr "Checkllist bekijken"
+
+#: includes/Admin/Assets.php:208
+msgid "View completed"
+msgstr "Bekijk voltooid"
+
+#: includes/Admin/Onboarding/Onboarding.php:331
+msgid "View Details"
+msgstr "Details bekijken"
+
+#: includes/Admin/Onboarding/Onboarding.php:314
+msgid "View list"
+msgstr "Lijst bekijken"
+
+#: includes/Admin/Assets.php:206
+msgid "View plugins"
+msgstr "Plug-ins bekijken"
+
+#: includes/Admin/Onboarding/Onboarding.php:241
+msgid ""
+"Visit hPanel and connect a real domain. If you already did this, please wait "
+"up to 24h until the domain fully connects"
+msgstr ""
+"Ga naar hPanel en verbind een echt domein. Als je dit al hebt gedaan, wacht "
+"dan tot 24 uur, totdat het domein volledig is verbonden."
+
+#: includes/Admin/Assets.php:158
+msgid "Wait for domain propagation"
+msgstr "Wachten op domeinpropagatie "
+
+#: includes/Admin/Onboarding/Onboarding.php:508
+msgid "Want to create a new AI site?"
+msgstr "Wil je een nieuwe AI site maken?"
+
+#: includes/Errors.php:20
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Onze excuses voor het ongemak. Er is een serverfout opgetreden bij het "
+"genereren van AI-inhoud. Probeer het later nog eens. Mocht het probleem zich "
+"blijven voordoen, neem dan contact op met ons ondersteuningsteam voor "
+"assistentie."
+
+#: includes/Admin/Assets.php:289 includes/Admin/Onboarding/Onboarding.php:329
+msgid "We'll use this information to help you set up your store faster."
+msgstr "We gebruiken deze informatie voor het sneller opzetten van je winkel."
+
+#: includes/Admin/Assets.php:167 includes/Admin/Assets.php:192
+#: includes/Admin/Onboarding/Onboarding.php:49
+msgid "Website setup"
+msgstr "Website instellen"
+
+#: includes/Admin/Assets.php:171
+msgid "Website URL"
+msgstr "Website URL"
+
+#: includes/Admin/Assets.php:291
+msgid "Welcome to WordPress!"
+msgstr "Welkom bij WordPress!"
+
+#: includes/Admin/Assets.php:143
+msgid "What type of products or services will you sell?"
+msgstr "Wat voor producten of diensten ga je verkopen?"
+
+#: includes/Admin/Assets.php:142
+msgid "Where is your store located?"
+msgstr "Waar is je winkel gevestigd?"
+
+#: includes/Admin/Assets.php:284
+msgid "WordPress tutorials"
+msgstr "WordPress tutorials"
+
+#: includes/Admin/Assets.php:264
+msgid "Yes, skip step"
+msgstr "Ja, stap overslaan"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:78
+msgid "You are running <b>%s</b> PHP version."
+msgstr "Je gebruikt <b>%s</b> PHP versie."
+
+#: includes/Admin/Assets.php:252
+msgid ""
+"You can also set up a shipping method without installing additional plugins."
+msgstr ""
+"Je kunt ook een verzendmethode instellen zonder extra plug-ins te "
+"installeren."
+
+#: includes/Admin/Assets.php:161
+msgid ""
+"You can connect domain to Hostinger by changing the nameservers. Different "
+"domain providers are have unique procedures for changing nameservers. Here "
+"are Hostinger's nameservers:"
+msgstr ""
+"Je kan een domein koppelen met Hostinger door de nameservers te veranderen. "
+"Verschillende domeinproviders hebben unieke procedures voor het wijzigen van "
+"nameservers. Hier zijn de nameservers van Hostinger:"
+
+#: includes/Admin/Assets.php:217
+msgid ""
+"You can see the whole post in the editor. Find the description part and "
+"change it to your preferences."
+msgstr ""
+"Je kunt het volledige bericht in de editor bekijken. Zoek het onderdeel "
+"beschrijving en wijzig."
+
+#: includes/Admin/Assets.php:173
+msgid ""
+"You need to purchase a domain for your website before the preview domain "
+"becomes inaccessible. Find a desired website name using a <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domain name "
+"searcher.</a >"
+msgstr ""
+"Je moet een domein voor je website kopen voordat het voorbeelddomein "
+"ontoegankelijk wordt. Zoek een gewenste websitenaam met behulp van een <a "
+"style=\"text-decoration:none; font-weight:bold; color:#673de6\" "
+"target=\"_blank\" href=\"https://hpanel.hostinger.com/domains/domain-"
+"checker\" >domeinnaamzoeker.</a >"
+
+#: includes/Admin/Assets.php:141
+msgid "Your business email"
+msgstr "Je zakelijke e-mail"
+
+#: includes/Admin/Onboarding/Onboarding.php:509
+msgid ""
+"Your new site will replace the current one. Use the same description or "
+"change it."
+msgstr ""
+"Je nieuwe site vervangt de huidige site. Gebruik dezelfde beschrijving of "
+"verander deze."
+
+#: includes/Admin/Assets.php:146 includes/Admin/Assets.php:190
+msgid "Your progress"
+msgstr "Je voortgang"
+
+#: includes/Admin/Assets.php:140
+msgid "Your store name"
+msgstr "Je winkelnaam"
+
+#: includes/Admin/Assets.php:172
+msgid ""
+"Your website is already published and can be accessed using Hostinger free "
+"temporary subdomain right now. Here is the current URL of your website:"
+msgstr ""
+"Je website is al gepubliceerd en is nu toegankelijk via het gratis "
+"tijdelijke subdomein van Hostinger. Hier is de huidige URL van je website:"
+
+#: includes/Admin/Assets.php:123
+msgid "You’ll love these great deals that were handpicked just for you."
+msgstr ""
+"Je wordt vast blij van deze geweldige aanbiedingen die speciaal voor jou "
+"zijn uitgekozen."
+
+#: includes/Admin/Assets.php:207
+msgid "You’re done setting up your online store!"
+msgstr "Je bent klaar met het opzetten van je webshop!"
+
+#: includes/Admin/Assets.php:170
+msgid "👋 Welcome to WordPress"
+msgstr "👋 Welkom bij WordPress"

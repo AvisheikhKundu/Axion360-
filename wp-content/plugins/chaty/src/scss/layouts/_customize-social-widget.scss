@@ -1,0 +1,71 @@
+#chaty-tab-customize-widget {
+    // social widget color , change color picker width, height
+    .cht-colorpicker__preview {
+        @apply w-10 h-10 rounded-full;
+
+        &--inner {
+            @apply rounded-full;
+        }
+    }
+
+    .form-horizontal__item {
+        .custom-control.custom-radio .custom-control-label{
+            @apply px-4 py-1 inline-block rounded-[3px] text-base select-none leading-normal text-cht-gray-150;
+        }
+
+        .icon-chat svg {
+            display: block !important;
+        }
+        
+        // widget icon style
+        .custom-control-radio {
+            --size      : 16px;
+            --half-size : calc( var(--size) / 2 );
+            --active-color: #fff;
+            --border-color: #83a1b7;
+
+            border  : 1px solid var(--border-color);
+            width   : var(--size);
+            height  : var(--size);
+            display : inline-block;
+            left    : calc(50% - var(--half-size));
+            position: absolute;
+            border-radius   : var(--size);
+            background-color: #fff;
+            box-sizing: content-box;
+            bottom: -22px;
+
+            &:after {
+                width   : var(--half-size);
+                height  : var(--half-size);
+                margin  : calc( var( --half-size ) / 2 ) 0 0 calc( var( --half-size ) / 2 );
+                background-color: var(--active-color);
+                border-radius: inherit;
+                display: block;
+                transition: background-color .2s;
+                content: '';
+            }
+        }
+
+        // widget icon checked style
+        .custom-control-input:checked {
+            & ~ .custom-control-radio  {
+                --active-color: #b78deb;
+                --border-color: #b78deb;
+            }
+
+            & ~ .icon-chat {
+                box-shadow: 0 0 0px 2px white, 0 0 0px 5px #b78deb4d;
+            }
+        }
+        
+
+    }
+
+    .test_textarea {
+        @apply w-full border border-cht-gray-150/20 p-4;
+        border-radius: 7px;
+        max-width: 360px;
+    }
+
+}

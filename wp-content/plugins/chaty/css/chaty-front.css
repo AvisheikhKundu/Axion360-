@@ -1,0 +1,1719 @@
+.chaty *, .chaty-chat-view *, .chaty-outer-forms * {
+    box-sizing: border-box
+}
+
+.chaty-agent-data, .chaty-whatsapp-field input[type=text], .chaty-whatsapp-message, .chaty-whatsapp-message p {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif
+}
+
+.chaty-agent-header, .chaty-channel, .chaty-channels, .chaty-form-body, .chaty-tooltip {
+    position: relative
+}
+
+.chaty-tooltip .on-hover-text, .chaty-tooltip .on-hover-text:before, .chaty-tooltip:after, .chaty-tooltip:before {
+    text-transform: none;
+    font-size: .9em;
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0
+}
+
+.on-hover-text {
+    display: none;
+    white-space: pre
+}
+
+.chaty-tooltip .on-hover-text:before, .chaty-tooltip:before {
+    content: "";
+    border: 5px solid transparent;
+    z-index: 1001
+}
+
+.chaty-tooltip:after {
+    content: attr(data-hover)
+}
+
+.chaty-tooltip .on-hover-text, .chaty-tooltip:after {
+    text-align: center;
+    min-width: 1em;
+    max-width: 21em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: #fff;
+    color: #333;
+    z-index: 1000;
+    box-shadow: 0 1.93465px 7.73859px rgb(0 0 0 / 15%);
+    font-size: 17px;
+    line-height: 21px
+}
+
+.chaty-animation-shockwave:after, .chaty-animation-shockwave:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.chaty-tooltip .on-hover-text {
+    overflow: visible;
+    white-space: pre
+}
+
+.chaty-tooltip.active .on-hover-text, .chaty-tooltip.active .on-hover-text:before, .chaty-tooltip.active:after, .chaty-tooltip.active:before, .chaty-tooltip:hover .on-hover-text, .chaty-tooltip:hover .on-hover-text:before, .chaty-tooltip:hover:after, .chaty-tooltip:hover:before {
+    display: block;
+    opacity: 1
+}
+
+.chaty-tooltip.active .on-hover-text, .chaty-tooltip.active .on-hover-text:before, .chaty-tooltip.active:after, .chaty-tooltip.active:before, .chaty-tooltip.pos-left:hover .on-hover-text, .chaty-tooltip.pos-left:hover .on-hover-text:before, .chaty-tooltip.pos-left:hover:after, .chaty-tooltip.pos-left:hover:before, .chaty-tooltip.pos-right:hover .on-hover-text, .chaty-tooltip.pos-right:hover .on-hover-text:before, .chaty-tooltip.pos-right:hover:after, .chaty-tooltip.pos-right:hover:before {
+    animation: ease-out forwards tooltips-horz
+}
+
+.chaty-tooltip.has-on-hover:after, .chaty-tooltip.has-on-hover:before, .chaty-widget .chaty-i-trigger .chaty-cta-close.chaty-tooltip.chaty-tooltip:hover:after, .chaty-widget .chaty-i-trigger .chaty-cta-close.chaty-tooltip:hover:before, .chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-main.chaty-tooltip:after, .chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-main.chaty-tooltip:before, .chaty-widget.cssas-no-close-button.default-open .chaty-i-trigger, .on-hover-text:empty, [data-hover=""]:after, [data-hover=""]:before {
+    display: none !important
+}
+
+.chaty-tooltip.pos-top:before, .chaty-tooltip.pos-top .on-hover-text:before {
+    border-bottom-width: 0;
+    border-top-color: #fff;
+    bottom: calc(100% + 5px)
+}
+
+.chaty-tooltip.pos-top:after, .chaty-tooltip.pos-top .on-hover-text:after  {
+    bottom: calc(100% + 10px)
+}
+
+.chaty-tooltip.pos-top:after, .chaty-tooltip.pos-top:before, .chaty-tooltip.pos-top .on-hover-text {
+    left: 50%;
+    transform: translate(-50%, -.5em)
+}
+
+.chaty-tooltip.pos-down:before {
+    top: 100%;
+    border-top-width: 0;
+    border-bottom-color: #fff
+}
+
+.chaty-tooltip.pos-down:after {
+    top: calc(100% + 5px)
+}
+
+.chaty-tooltip.pos-down:after, .chaty-tooltip.pos-down:before {
+    left: 50%;
+    transform: translate(-50%, .5em)
+}
+
+.chaty-tooltip.pos-left .on-hover-text:before, .chaty-tooltip.pos-left:before {
+    top: 50%;
+    border-right-width: 0;
+    border-left-color: #fff;
+    left: calc(0em - 10px);
+    transform: translate(-.5em, -50%)
+}
+
+.chaty-tooltip.pos-left .on-hover-text:before {
+    left: auto;
+    right: calc(0em - 5px)
+}
+
+.chaty-tooltip.pos-left .on-hover-text, .chaty-tooltip.pos-left:after {
+    top: 50%;
+    right: calc(100% + 10px);
+    transform: translate(-.5em, -50%)
+}
+
+.chaty-tooltip.pos-right .on-hover-text:before, .chaty-tooltip.pos-right:before {
+    top: 50%;
+    border-left-width: 0;
+    border-right-color: #fff;
+    right: calc(0em - 10px);
+    transform: translate(.5em, -50%)
+}
+
+.chaty-tooltip.pos-right .on-hover-text:before {
+    left: calc(0em - 5px);
+    right: auto
+}
+
+.chaty-tooltip.pos-right .on-hover-text, .chaty-tooltip.pos-right:after {
+    top: 50%;
+    left: calc(100% + 10px);
+    transform: translate(.5em, -50%)
+}
+
+@keyframes tooltips-vert {
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0)
+    }
+}
+
+@keyframes tooltips-horz {
+    to {
+        opacity: 1;
+        transform: translate(0, -50%)
+    }
+}
+
+.chaty-tooltip.pos-down:hover:after, .chaty-tooltip.pos-down:hover:before, .chaty-tooltip.pos-top:hover:after, .chaty-tooltip.pos-top:hover:before {
+    animation: ease-out forwards tooltips-vert
+}
+
+@-webkit-keyframes chaty-animation-shockwave {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 2px rgba(0, 0, 0, .3), inset 0 0 1px rgba(0, 0, 0, .3)
+    }
+    95% {
+        box-shadow: 0 0 50px transparent, inset 0 0 30px transparent
+    }
+    100% {
+        transform: scale(2.25)
+    }
+}
+
+@keyframes chaty-animation-shockwave {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 2px rgba(0, 0, 0, .3), inset 0 0 1px rgba(0, 0, 0, .3)
+    }
+    95% {
+        box-shadow: 0 0 50px transparent, inset 0 0 30px transparent
+    }
+    100% {
+        transform: scale(2.25)
+    }
+}
+
+@-webkit-keyframes chaty-animation-blink {
+    0%, 100% {
+        opacity: 1
+    }
+    20% {
+        opacity: .5
+    }
+}
+
+@keyframes chaty-animation-blink {
+    0%, 100% {
+        opacity: 1
+    }
+    20% {
+        opacity: .5
+    }
+}
+
+@-webkit-keyframes chaty-animation-pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+        border-radius: 50%
+    }
+    100% {
+        transform: scale(1.1);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+        border-radius: 45%
+    }
+}
+
+@keyframes chaty-animation-pulse {
+    0% {
+        transform: scale(1);
+        border-radius: 50%
+    }
+    100% {
+        transform: scale(1.1);
+        border-radius: 45%
+    }
+}
+
+.chaty-animation-shockwave:after {
+    left: 0;
+    -webkit-animation: 2s ease-out 1.3s infinite chaty-animation-shockwave;
+    animation: 2s ease-out 1.3s infinite chaty-animation-shockwave
+}
+
+.chaty-animation-shockwave:before {
+    left: 0;
+    -webkit-animation: 2s ease-out .8s infinite chaty-animation-shockwave;
+    animation: 2s ease-out .8s infinite chaty-animation-shockwave
+}
+
+.chaty-animation-blink {
+    -webkit-animation: 1.33s ease-out infinite chaty-animation-blink;
+    animation: 1.33s ease-out infinite chaty-animation-blink
+}
+
+.chaty-animation-pulse, .chaty-animation-pulse-icon {
+    -webkit-animation: .4s infinite alternate chaty-animation-pulse;
+    animation: .4s infinite alternate chaty-animation-pulse
+}
+
+.chaty-animation-sheen {
+    position: relative;
+    overflow: hidden
+}
+
+.chaty-animation-sheen:after {
+    animation: 5s infinite chaty-animation-sheen;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, .5) 50%, transparent);
+    transform: rotateZ(60deg) translate(0, 5em)
+}
+
+@keyframes chaty-animation-sheen {
+    100%, 20% {
+        transform: rotateZ(60deg) translate(0, -80px)
+    }
+}
+
+.chaty-animation-fade {
+    animation: 5s infinite chaty-animation-fade
+}
+
+.chaty-animation-spin {
+    animation: 5s cubic-bezier(.56, -.35, .22, 1.5) infinite chaty-animation-spin
+}
+
+@keyframes chaty-animation-fade {
+    15%, 5% {
+        opacity: .25
+    }
+    10%, 100%, 20% {
+        opacity: 1
+    }
+}
+
+@keyframes chaty-animation-spin {
+    10% {
+        transform: rotateZ(-20deg);
+        animation-timing-function: ease
+    }
+    100%, 20% {
+        transform: rotateZ(360deg)
+    }
+}
+
+.chaty-animation-bounce, .chaty-animation-jump {
+    animation: 5s cubic-bezier(.84, -.54, .31, 1.19) infinite chaty-animation-bounce
+}
+
+@keyframes chaty-animation-bounce {
+    0%, 100%, 20% {
+        transform: none
+    }
+    10% {
+        transform: translateY(-1em)
+    }
+}
+
+@keyframes chaty-animation-waggle {
+    0% {
+        transform: none
+    }
+    10% {
+        transform: rotateZ(-20deg) scale(1.2)
+    }
+    13% {
+        transform: rotateZ(25deg) scale(1.2)
+    }
+    15% {
+        transform: rotateZ(-15deg) scale(1.2)
+    }
+    17% {
+        transform: rotateZ(15deg) scale(1.2)
+    }
+    20% {
+        transform: rotateZ(-12deg) scale(1.2)
+    }
+    22% {
+        transform: rotateZ(0) scale(1.2)
+    }
+    100%, 24% {
+        transform: rotateZ(0) scale(1)
+    }
+}
+
+.chaty-animation-waggle {
+    animation: 5s infinite chaty-animation-waggle
+}
+
+.chaty-animation-floating {
+    -webkit-animation: chaty-animation-floating 3s ease infinite;
+    animation: chaty-animation-floating 3s ease infinite;
+}
+
+@keyframes chaty-animation-floating {
+    0% {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    50% {
+        -webkit-transform: translate3d(0,-10px,0);
+        transform: translate3d(0,-10px,0);
+    }
+    100% {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+
+
+.chaty {
+    display: none;
+    z-index: 99999
+}
+
+.chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-close.chaty-tooltip.chaty-tooltip:hover:after, .chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-close.chaty-tooltip:hover:before, .chaty.active, .chaty.form-open .chaty-widget.cssas-no-close-button.default-open .chaty-i-trigger {
+    display: block !important
+}
+
+.chaty * {
+    margin: 0;
+    padding: 0
+}
+
+.chaty .sr-only, .hide-cht-svg-bg, .chaty-outer-forms .sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    border: 0 !important;
+    outline: none !important;
+}
+
+.chaty a, .chaty a:focus, .chaty a:hover, .chaty button {
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none
+}
+
+.chaty-widget {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 10001
+}
+
+.chaty-widget.left-position {
+    left: 25px;
+    right: auto
+}
+
+.chaty-channel-list {
+    display: flex;
+    width: 62px;
+    height: 124px;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    pointer-events: none
+}
+
+.chaty-widget.left-position .chaty-channel-list {
+    left: 0;
+    right: auto
+}
+
+.chaty-widget.chaty-open .chaty-channel-list, .chaty-widget.has-single .chaty-i-trigger .Phone-channel:after, .chaty-widget.has-single .chaty-i-trigger .Phone-channel:before {
+    pointer-events: auto
+}
+
+.chaty-channel-list .chaty-channel, .chaty-channel.single .chaty-svg {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: 0 16px 24px 0 rgb(73 104 126 / 16%);
+}
+
+.chaty-channel-list .chaty-channel {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s
+}
+
+.chaty-channel.single .chaty-svg {
+    margin: 0
+}
+
+.chaty-widget.chaty-open .chaty-channel-list .chaty-channel {
+    opacity: 1
+}
+
+.chaty-channel a, .chaty-channel button, .chaty-svg {
+    display: block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    outline: 0;
+    min-width: unset;
+}
+
+* .chaty-channel button {
+    min-width: unset;
+    max-width: unset;
+}
+
+.chaty-channel button {
+    background: 0 0;
+    border-radius: 50%
+}
+
+.chaty-channel a .chaty-custom-icon, .chaty-channel button .chaty-custom-icon, .chaty-svg .chaty-custom-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 27px;
+    line-height: 54px;
+    color: #fff
+}
+
+.chaty-channel a:focus, .chaty-channel button:focus, .chaty-contact-form-box button.chaty-submit-button {
+    outline: 0
+}
+
+.chaty-contact-form-box button.chaty-submit-button:disabled .chaty-loader {
+    display: inline-block;
+}
+
+.chaty-agent-icon svg, .chaty-channel svg, .chaty-view-channels .chaty-channel span svg {
+    width: 100%;
+    height: 100%
+}
+
+.chaty-channel img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.chaty-i-trigger .chaty-channel {
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+    transition: .5s;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.chaty-cta-button {
+    transition: .5s;
+    box-shadow: 0 16px 24px 0 rgb(73 104 126 / 16%);
+    border-radius: 50%
+}
+
+.chaty-widget.left-position .chaty-i-trigger .chaty-channel {
+    left: 4px;
+    right: auto
+}
+
+.chaty-widget .chaty-cta-main .chaty-cta-button {
+    z-index: 1099;
+    opacity: 1;
+    position: relative
+}
+
+.chaty-widget.chaty-open .chaty-cta-main .chaty-cta-button {
+    z-index: 999;
+    opacity: 0;
+    transform: rotate(540deg);
+    visibility: hidden
+}
+
+.chaty-widget .chaty-i-trigger .chaty-cta-close {
+    pointer-events: none
+}
+
+.chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-close {
+    pointer-events: auto;
+    z-index: 101
+}
+
+.chaty-widget .chaty-i-trigger .chaty-cta-close .chaty-cta-button {
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden
+}
+
+.chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-close .chaty-cta-button {
+    z-index: 1099;
+    opacity: 1;
+    transform: rotate(180deg);
+    visibility: visible
+}
+
+.chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-main.chaty-tooltip {
+    z-index: 91
+}
+
+.chaty-channel button.open-chaty-channel, .chaty-widget.chaty-no-close-button:not(.has-single) .chaty-i-trigger:not(.single-channel), .chaty-widget.chaty-open .chaty-i-trigger .chaty-cta-main.chaty-tooltip .on-hover-text, .chaty.form-open .chaty-channel button.open-chaty, .chaty.form-open .chaty-i-trigger .chaty-cta-main.chaty-tooltip .on-hover-text, .chaty.form-open .chaty-i-trigger .chaty-tooltip:after, .chaty.form-open .chaty-i-trigger .chaty-tooltip:before, .chaty.form-open .chaty-widget.has-single .chaty-i-trigger .on-hover-text {
+    display: none
+}
+
+.chaty.form-open.active .chaty-widget .chaty-i-trigger {
+    display: block;
+}
+.chaty.form-open.active .chaty-widget .chaty-i-trigger .chaty-cta-main {
+    display: none;
+}
+.chaty.form-open.active .chaty-widget .chaty-i-trigger .chaty-cta-close .chaty-cta-button {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.chaty-widget .ch-pending-msg {
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 50%;
+    z-index: 1101
+}
+
+.chaty-widget.left-position.hor-mode .chaty-channel-list {
+    width: 136px;
+    height: 62px;
+    left: 0;
+    bottom: 0
+}
+
+.chaty-widget.right-position.hor-mode .chaty-channel-list {
+    width: 136px;
+    height: 62px;
+    right: 0;
+    left: auto;
+    bottom: 0
+}
+
+.chaty-widget.hor-mode .chaty-channel-list .chaty-channel {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.chaty-widget.hor-mode.left-position .chaty-channel-list .chaty-channel {
+    left: 0
+}
+
+.chaty-widget.hor-mode.right-position .chaty-channel-list .chaty-channel {
+    right: 0;
+    left: auto
+}
+
+.chaty-chat-view, .chaty-outer-forms {
+    vertical-align: bottom;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position: fixed !important;
+    bottom: -25px;
+    left: 25px;
+    padding: 0;
+    width: 320px;
+    max-width: 90%;
+    -moz-transition: .5s linear;
+    box-shadow: rgba(0, 0, 0, .16) 0 5px 40px;
+    -webkit-box-shadow: rgba(0, 0, 0, .16) 0 5px 40px;
+    -moz-box-shadow: rgba(0, 0, 0, .16) 0 5px 40px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: -1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    animation-delay: -2s;
+    -webkit-animation-delay: -2s
+}
+
+.chaty-chat-view.pos-left, .chaty-outer-forms.pos-left {
+    left: 25px
+}
+
+.chaty-chat-view.pos-right, .chaty-outer-forms.pos-right {
+    right: 25px;
+    left: auto
+}
+
+.chaty-outer-forms.active, .chaty:not(.form-open) .chaty-widget.chaty-open + .chaty-chat-view {
+    -webkit-transform: translateY(-93px);
+    transform: translateY(-93px);
+    opacity: 1;
+    z-index: 999999;
+    visibility: visible;
+    bottom: 0;
+    pointer-events: auto
+}
+
+.chaty-whatsapp-body {
+    padding: 0;
+    min-height: 260px;
+    position: relative;
+    z-index: 2;
+}
+
+.chaty-whatsapp-content {
+    padding: 20px;
+}
+.chaty-popup-whatsapp-form .chaty-whatsapp-body {
+    height: 260px;
+    min-height: auto;
+}
+.chaty-popup-whatsapp-form .chaty-whatsapp-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.chaty-form-body {
+    background: #fff;
+    z-index: 99999;
+    min-height: 75px;
+    border-radius: 10px
+}
+
+.chaty-form-body form {
+    margin: 0;
+    padding: 0
+}
+
+.qr-code-image {
+    padding: 10px;
+    text-align: center;
+    border: solid 1px #c0c0c0;
+    border-radius: 4px;
+}
+
+.qr-code-image img {
+    max-width: 100%;
+    max-height: 360px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.chaty-whatsapp-form {
+    position: relative;
+    background-color: #f0ede7;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.chaty-whatsapp-form:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.035;
+    background-image: url("../images/whatsapp.png");
+}
+
+.chaty-popup-whatsapp-form .chaty-whatsapp-footer:before, .chaty-popup-whatsapp-form .chaty-whatsapp-body:before {
+    background-image: url("../images/whatsapp-welcome-popup.png");
+    opacity: 0.7;
+}
+
+.chaty-whatsapp-message {
+    padding: 7px 14px 6px;
+    background-color: #fff;
+    border-radius: 0 10px 10px;
+    position: relative;
+    transform-origin: center top;
+    z-index: 2;
+    margin-top: 0;
+    margin-left: 0;
+    max-width: calc(100% - 40px);
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid rgb(34 17 71 / 8%);
+}
+
+.chaty-whatsapp-message:before {
+    content: "";
+    display: none;
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #ffffff;
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+
+.wp-profile-img + .chaty-whatsapp-message:before {
+    display: block;
+}
+
+.chaty-whatsapp-message p {
+    margin: 0;
+    padding: 0;
+    color: #111b21;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.chaty-whatsapp-footer {
+    position: relative;
+    padding: 20px 15px;
+}
+
+
+.whatsapp-chaty-form {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+button.chaty-whatsapp-button-button, button.chaty-whatsapp-button-button:focus, button.chaty-whatsapp-button-button:hover {
+    text-align: center !important;
+    height: 40px !important;
+    width: 40px !important;
+    padding: 0 !important;
+    background: #C6D7E3 !important;
+    border-radius: 20px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+    margin: 0 0 0 10px !important;
+    text-decoration: none !important;
+    border: none !important;
+    min-width: 1px !important;
+    flex: 0 0 40px;
+}
+
+button.chaty-whatsapp-button-button {
+    background: #C6D7E3 !important;
+}
+
+button.chaty-whatsapp-button-button:focus, button.chaty-whatsapp-button-button:hover {
+    background: #a8c5da !important
+}
+
+.chaty-whatsapp-input:not(:placeholder-shown) + button.chaty-whatsapp-button-button {
+    background: #25D366 !important;
+}
+
+.chaty-whatsapp-input:not(:placeholder-shown) + button.chaty-whatsapp-button-button:focus, .chaty-whatsapp-input:not(:placeholder-shown) + button.chaty-whatsapp-button-button:hover {
+    background: #22bf5b !important;
+}
+
+.chaty-whatsapp-data {
+    display: flex;
+    flex: 1;
+    z-index: 1;
+}
+
+.chaty-whatsapp-field {
+    padding-right: 0;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.chaty-whatsapp-button {
+    flex: 0 0 48px
+}
+
+.chaty-whatsapp-button svg {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.chaty-whatsapp-field input[type=text] {
+    height: 40px !important;
+    line-height: normal;
+    padding: 0 10px 0 15px;
+    font-size: 16px;
+    resize: none;
+    width: 100%;
+    border: none !important;
+    border-radius: 24px;
+    outline: 0;
+    box-shadow: none !important;
+    background: #fff !important;
+    margin: 0;
+    color: #111b21;
+    flex: 1;
+
+}
+
+.chaty-whatsapp-field input[type=text]:focus {
+    outline: 0 !important;
+    border: none !important;
+    margin: 0;
+    color: #111b21;
+    box-shadow: none !important;
+}
+
+.chaty-whatsapp-button-button:focus, .chaty-whatsapp-button-button:hover, .chaty-whatsapp-button-button:active {
+    background: #a8c5da !important
+}
+
+.chaty.form-open .chaty-channel button.open-chaty-channel, .chaty.form-open .chaty-no-close-button.has-single .chaty-i-trigger {
+    display: block
+}
+
+.chaty-agent-data {
+    font-size: 16px
+}
+
+.chaty-agent-header {
+    font-size: 18px;
+    padding: 20px 15px;
+    background: #22bf5b;
+    color: #fff;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.chaty-agent-data .close-chaty-form {
+    right: 10px;
+    top: 12px
+}
+
+.chaty-agent-data .chaty-agent {
+    display: flex;
+    align-items: center;
+    padding: 15px
+}
+
+.chaty-agent-data .chaty-agent a {
+    color: #49687e;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    outline: 0;
+    font-weight: 400
+}
+
+.chaty-contact-input input[type=email].chaty-input-field, .chaty-contact-input input[type=text].chaty-input-field, .chaty-contact-input textarea.chaty-textarea-field, .chaty-contact-input input.chaty-input-field, .chaty-contact-input select.chaty-input-field {
+    color: #28303d;
+    font-family: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-sans;
+    margin: 0;
+    background: #fff;
+    outline: 0
+}
+
+.chaty-agent-data .chaty-agent + .chaty-agent {
+    border-top: 2px solid #f6f8f9
+}
+
+.chaty-agent-img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.chaty-agent-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 15px 0 0
+}
+
+.chaty-agent-data .chaty-custom-icon {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    display: block;
+    line-height: 48px;
+    background: silver;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 28px
+}
+
+.chaty-close-agent-list {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 10;
+    padding: 0 0 10px 10px
+}
+
+.chaty-agent-icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover
+}
+
+.chaty-close-agent-list svg {
+    fill: #ffffff
+}
+
+.agent-sub-header {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400
+}
+
+.agent-main-header {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    position: relative
+}
+
+.chaty-agent-header:before, .chaty-view-header:before {
+    content: "";
+    background: url(../images/header-top.png) no-repeat;
+    width: 215px;
+    height: 41px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.chaty-agent-header:after, .chaty-view-header:after {
+    content: "";
+    background: url(../images/header-bottom.png) no-repeat;
+    width: 44px;
+    height: 41px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1
+}
+
+.chaty-custom-channel-icon {
+    display: block;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 54px
+}
+
+.chaty-contact-form-title {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 8px 8px 0 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.chaty-contact-inputs {
+    padding: 15px;
+}
+
+.chaty-contact-input {
+    display: block;
+}
+
+.chaty-contact-input label.chaty-form-label {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 4px 0;
+    line-height: 20px;
+    display: flex;
+    color: #28303d;
+}
+
+
+.chaty-contact-input + .chaty-contact-input {
+    margin: 10px 0 0
+}
+
+.chaty-contact-input input[type=email].chaty-input-field, .chaty-contact-input input[type=text].chaty-input-field, .chaty-contact-input input.chaty-input-field, .chaty-contact-input select.chaty-input-field {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.chaty-contact-input input[type=email].chaty-input-field:focus, .chaty-contact-input input[type=tel].chaty-input-field:focus, .chaty-contact-input input[type=text].chaty-input-field:focus, .chaty-contact-input textarea.chaty-textarea-field:focus, .chaty-contact-input input.chaty-input-field:focus, .chaty-contact-input select.chaty-input-field:focus, .chaty-contact-input *.has-chaty-error:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #898989;
+    background-color: #fff;
+}
+
+.chaty-contact-input textarea.chaty-textarea-field {
+    width: 100%;
+    height: 100px;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+.chaty-contact-form-box .close-chaty-form {
+    right: 9px;
+    top: 9px
+}
+
+.chaty-contact-form-box button.chaty-submit-button[type=submit], button#chaty-submit-button-0 {
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background: #a886cd;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    display: block
+}
+
+.chaty-contact-input input.chaty-input-field.has-chaty-error, .chaty-contact-input textarea.has-chaty-error, .chaty-contact-input select.chaty-input-field.has-chaty-error {
+    border: 1px solid #d20000
+}
+
+.chaty-contact-form-button {
+    padding: 15px
+}
+
+.chaty-ajax-error-message, .chaty-ajax-success-message {
+    color: #00a700;
+    padding: 10px 0 0;
+    text-align: center;
+    font-size: 16px
+}
+
+.chaty-ajax-error-message {
+    color: #da0000
+}
+
+.chaty-view-header, .chaty-view-header a, .chaty-view-header a:focus, .chaty-view-header a:hover {
+    font-weight: 500;
+    color: #fff;
+    font-size: 24px
+}
+
+.chaty-exit-intent {
+    position: fixed;
+    z-index: -1
+}
+
+.chaty-exit-intent:before {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .8);
+    visibility: hidden;
+    z-index: 100;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out
+}
+
+.chaty .chaty-widget.left-position .chaty-exit-intent:before {
+    clip-path: circle(15px at 60px calc(100% - 60px))
+}
+
+.chaty .chaty-widget.right-position .chaty-exit-intent:before {
+    clip-path: circle(15px at calc(100% - 60px) calc(100% - 60px))
+}
+
+.chaty .chaty-widget .chaty-exit-intent.animate:before {
+    visibility: visible;
+    clip-path: circle(100%)
+}
+
+.chaty-widget.has-single .chaty-i-trigger .chaty-channel:not(.chaty-agent-button).Phone-channel .chaty-tooltip:after, .chaty-widget.has-single .chaty-i-trigger .chaty-channel:not(.chaty-agent-button).Phone-channel .chaty-tooltip:before {
+    pointer-events: inherit
+}
+
+body.cht-in-mobile .chaty-outer-forms.chaty-agent-data.custom-cht-pos, body.cht-in-mobile .chaty-outer-forms.chaty-contact-form-box.custom-cht-pos, body.cht-in-mobile .chaty-outer-forms.chaty-wechat-form.custom-cht-pos, body.cht-in-mobile .chaty-outer-forms.chaty-whatsapp-form.custom-cht-pos {
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: translate(0, -50%);
+    bottom: auto
+}
+
+body.cht-in-mobile .chaty-outer-forms.chaty-agent-data.custom-cht-pos .chaty-agent-body {
+    max-height: calc(100vh - 164px) !important
+}
+
+.chaty-whatsapp-message p + p {
+    margin-top: 10px
+}
+
+body.cht-in-mobile .chaty-outer-forms.chaty-whatsapp-form.custom-cht-pos .chaty-whatsapp-content {
+    max-height: calc(100vh - 122px) !important;
+    overflow-y: auto
+}
+
+body.cht-in-mobile .chaty-outer-forms.chaty-whatsapp-form:not(.custom-cht-pos) .chaty-whatsapp-content {
+    overflow-y: auto
+}
+
+.chaty.has-custom-pos.form-open .chaty-i-trigger {
+    opacity: 0;
+    visibility: hidden
+}
+
+body.cht-in-mobile .chaty-outer-forms.chaty-contact-form-box.custom-cht-pos .chaty-contact-inputs {
+    max-height: calc(100vh - 150px) !important;
+    overflow-y: auto
+}
+
+body.cht-in-mobile .chaty-outer-forms {
+    max-width: calc(100vw - 50px) !important
+}
+
+.chaty-view-body {
+    background: #fff;
+    border-radius: 8px
+}
+
+.chaty-view-header {
+    background: #b78deb;
+    border-radius: 7px 7px 0 0;
+    padding: 10px 15px;
+    position: relative;
+    word-break: break-word
+}
+
+.chaty-top-content {
+    padding: 15px 15px 0;
+    font-size: 16px
+}
+
+.chaty-view-content p, .chaty-view-content p a, .chaty-view-content p a:focus, .chaty-view-content p a:hover {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 150%;
+    color: #49687e;
+    word-break: break-word
+}
+
+.chaty-view-content p a {
+    display: inline-block
+}
+
+.chaty-view-content p a:focus, .chaty-view-content p a:hover, .chaty-view-header a:focus, .chaty-view-header a:hover {
+    outline: 0;
+    text-decoration: none
+}
+
+.chaty-view-content p + p {
+    margin-top: 10px
+}
+
+.chaty-close-view-list {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 12px;
+    cursor: pointer;
+    z-index: 11
+}
+
+.chaty-close-view-list svg {
+    fill: #ffffff;
+    display: inline-block;
+    width: 100%
+}
+
+.chaty-view-channels .chaty-channel {
+    height: 48px;
+    display: inline-block;
+    margin: 6px 0;
+    width: 20%;
+    text-align: center;
+    vertical-align: top
+}
+
+.chaty-view-channels .chaty-channel a, .chaty-view-channels .chaty-channel img, .chaty-view-channels .chaty-channel span:not(.on-hover-text) {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto
+}
+
+.chaty-view-channels {
+    padding: 10px 8px
+}
+
+.chaty-view-channels .chaty-custom-channel-icon {
+    font-size: 24px
+}
+
+.front-google-captcha {
+    width: 100% !important;
+    overflow: hidden;
+}
+.front-google-captcha > div {
+    width: 100%;
+}
+.front-google-captcha iframe {
+    transform: scaleX(0.9);
+    position: relative;
+    left: -15px;
+}
+
+.widget-fa-icon {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+span.chaty-loader {
+    display: none;
+    vertical-align: middle;
+    color: #ffffff;
+    animation: rotation 1s infinite linear;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 5px;
+}
+span.chaty-loader span.dashicons {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+span.chaty-loader.active {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.chaty-i-trigger.single-channel > .chaty-channel > .on-hover-text {
+    display: none !important;
+}
+html[dir="rtl"] .chaty-tooltip,
+html[dir="rtl"] .on-hover-text,
+html[dir="rtl"] .chaty-input-field,
+html[dir="rtl"] .chaty-submit-button,
+html[dir="rtl"] .chaty-whatsapp-message,
+html[dir="rtl"] .chaty-tooltip:after {
+    direction: rtl;
+}
+
+.add-bg-blur-effect {
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-x: hidden;
+}
+.add-bg-blur-effect >:not(.chaty, .chaty-outer-forms, .picmo__popupContainer) {
+    filter: blur(6px);
+}
+.email_suggestion, .wp_email_suggestion {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #970029;
+}
+.email_suggestion i, .wp_email_suggestion i {
+    color: #2596be;
+    font-weight: bold;
+    cursor: pointer;
+}
+.chaty-form .eac-sugg, .chaty-custom-whatsapp-form .eac-sugg {
+    color: #c1c1c1;
+    line-height: 34px !important;
+}
+.chaty-form .eac-input-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.chaty-custom-whatsapp-form .chaty-whatsapp-body:before {
+    opacity: 0.05;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-body {
+    border-radius: 0;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-footer {
+    border-top: 1px solid #e1e1e1;
+    min-height: 70px;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-data {
+    display: block;
+    z-index: 1;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-button-button {
+    width: 100% !important;
+    z-index: 1;
+    position: relative;
+}
+.chaty-custom-whatsapp-form .header-text {
+    display: flex;
+    align-items: center;
+}
+.chaty-custom-whatsapp-form .header-text span {
+    display: inline-block;
+    vertical-align: super;
+    padding-left: 5px;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-button svg {
+     width: 26px;
+     height: 26px;
+    fill: #ffffff;
+    margin-right: 3px;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-button span {
+    font-size: 15px;
+    padding-left: 5px;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px !important;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-content {
+    padding: 15px;
+    z-index: 101111;
+    position: relative;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-body {
+    min-height: auto;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+.chaty-whatsapp-header {
+    display: flex;
+    align-items: center;
+    background-color: #4aa485;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 15px;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 0 16px 32px 0 #1A0E3529;
+}
+.chaty-whatsapp-header .header-wp-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.chaty-whatsapp-header .header-wp-title {
+    color: #ffffff;
+    font-size: 15px;
+    flex: 1;
+    padding-right: 8px;
+}
+.whatsapp-form-close-btn {
+    flex: 0 0 16px;
+    cursor: pointer;
+}
+.whatsapp-form-close-btn svg {
+    width: 16px;
+    height: 16px;
+}
+.chaty-whatsapp-form, .chaty-form {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+}
+.chaty-whatsapp-body .wp-profile-img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+.chaty-whatsapp-body .wp-profile-img img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chaty-whatsapp-message-nickname {
+    color: #489d81;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.chaty-whatsapp-message-time {
+    color: #a1a1a9;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.chaty-whatsapp-input::placeholder {
+    color: #83A1B7;
+    opacity: 40%;
+}
+.chaty-whatsapp-input::-ms-input-placeholder {
+    color: #83A1B7;
+    opacity: 40%;
+}
+button[type="button"].chaty-wp-emoji-input, button[type="button"].chaty-wp-emoji-input:focus, button[type="button"].chaty-wp-emoji-input:hover {
+    position: absolute !important;;
+    top: 9px;
+    left: 8px;
+    background: none !important;
+    border: none !important;
+    cursor: pointer;
+    height: 24px !important;
+    width: 24px !important;
+    padding: 0 !important;
+    min-width: 1px !important;
+    margin: 0 !important;
+    outline: none !important;
+}
+.chaty-whatsapp-field:not(.has_emoji) .chaty-wp-emoji-input {
+    display: none !important;
+}
+.chaty-whatsapp-input {
+    padding-left: 38px !important;
+}
+.chaty-whatsapp-field:not(.has_emoji) .chaty-whatsapp-input {
+    padding-left: 15px !important;
+}
+.picmo__popupContainer {
+    z-index: 1000000;
+}
+
+body .picmo__emojiButton span {
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+body .picmo__picker .picmo__categoryButtons .picmo__categoryTab button.picmo__categoryButton {
+    color: #8f8f8f;
+    border: solid 1px transparent;
+}
+body .picmo__picker .picmo__categoryButtons .picmo__categoryTab.picmo__categoryTabActive .picmo__categoryButton {
+    border: 1px solid #a886cd;
+    color: #a071d3;
+    background: #fff;
+}
+body .picmo__picker .picmo__emojiCategory .picmo__categoryName {
+    display: flex;
+    height: auto;
+    padding: 10px 17px;
+    border-bottom: solid 1px #e2e8f0;
+    font-weight: bold;
+    background: #f3f3f3;
+}
+body .picmo__picker .picmo__categoryButtons .picmo__categoryTab button.picmo__categoryButton:hover {
+    background: #ffffff;
+}
+body .picmo__emojiButton {
+    border-radius: 4px;
+}
+body .picmo__emojiButton:focus {
+    outline: none;
+    border-radius: 5px;
+}
+.chaty-channel span.chaty-icon {
+    display: block;
+}
+.chaty.form-open .chaty-widget.has-single .chaty-cta-close .chaty-cta-button {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(360deg);
+    z-index: 999;
+}
+
+.chaty-custom-whatsapp-form .eac-input-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+.chaty-custom-whatsapp-form .chaty-whatsapp-button button {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.chaty-contact-input input[type=file].chaty-input-field {
+    line-height: 32px;
+}
+.eac-sugg:empty, .eac-cval:empty {
+    display: none !important;
+}
+
+.qr-code-header {
+    display: flex;
+    align-items: center;
+    background-color: #A886CD;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 15px;
+    position: relative;
+    justify-content: space-between;
+    color: #fff;
+    box-shadow: 0 16px 32px 0 #1A0E3529;
+    z-index: 999999;
+}
+.chaty-close-button {
+    cursor: pointer;
+}
+.qr-code-title {
+    line-height: 1;
+    padding: 15px 15px 0;
+    font-size: 14px;
+    color: #83A1B7;
+}
+.qr-code-box {
+    margin-top: 10px;
+    padding: 0 15px 15px;
+}
+.qr-code-head-title {
+    display: inline-flex;
+    align-items: center;
+}
+.qr-code-head-title svg {
+    margin-right: 5px;
+}
+.mce-error {
+    border: 1px solid #dd0000 !important;
+}
+.required_indicate {
+    color: #ff0000;
+    font-size: 18px;
+    margin-left: 2px;
+}
+.chaty-whatsapp-button-button svg {
+    display: inline-block;
+    vertical-align: sub;
+}
+.chaty-wp-emoji-input:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+.chaty-wp-emoji-input:focus {
+    outline: none;
+}
+.chaty-whatsapp-input[placeholder]:focus::-webkit-input-placeholder{-webkit-transition:opacity .5s .5s ease;transition:opacity .5s .5s ease;opacity:40% !important;}
+[placeholder]:focus::-webkit-input-placeholder{-webkit-transition:opacity .5s .5s ease;transition:opacity .5s .5s ease;opacity:1 !important;}
+.chaty-outer-forms form {
+    margin: 0;
+}
+.chaty, .chaty *, .chaty-form, .chaty-form *, .chaty-whatsapp-form, .chaty-whatsapp-form * {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Chatway CSS */
+body.csaas-has-chatway:not(.chatway-is-open) .chatway--trigger-container {
+    display: none !important;
+}
+body.csaas-has-chatway:not(.chatway-is-open) .chatway--frame-container {
+    opacity: 0;
+    visibility: hidden;
+}
+body.csaas-has-chatway.chatway-is-open .chaty {
+    display: none !important;
+}
+.chaty-widget.has-chatway .Chatway-channel-link {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.has-chat-view.active .chaty-widget.has-chatway.chaty-open .chaty-channel-list {
+    display: none !important;
+}
+.chaty-widget:not(.has-chatway):not(.chaty-open) .csaas-widget-trigger.has-unread-message:after, .chaty-channel.Chatway-channel-link.has-unread-message:after {
+    content: attr(data-unread-message);
+    width: 20px;
+    height: 20px;
+    background: #ff4545;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 44px;
+    z-index: 1111;
+    right: -4px
+}
+body:not(.chatway--active) .chaty-widget.has-chatway.above-chaty .Chatway-channel-link {
+    display: none !important;
+}
+body:not(.chatway--active) .chaty-widget.inside-chaty .chaty-channels .Chatway-channel-link {
+    display: none !important;
+}
+body.csaas-has-chatway.has--chaty.chatway--active:not(.chatway--visible) .chatway--container {
+    display: block;
+}
+.chaty.chaty-has-chat-view .has-chatway.chaty-open .Chatway-channel-link {
+    display: none !important;
+}
+
+.chaty-view-channels .chaty-channel.Chatway-channel.has-unread-message:after {
+    right: 0;
+    top: -8px;
+    bottom: auto;
+}

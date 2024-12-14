@@ -1,0 +1,88 @@
+button.chaty-input-button,
+select.chaty-select,
+select.form-fonts {
+    color: #49687e;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eaeff2;
+    font-family: Rubik, sans-serif;
+    font-size: 1rem;
+    padding: 0 16px;
+    background-color: #fff;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 45px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color 0.4s ease;
+    line-height: 45px;
+    max-width: 100%;
+
+    &:focus {
+        box-shadow: none !important;
+        border: 1px solid #b78deb;
+    }
+}
+
+.SumoSelect>.CaptionCont:focus,
+.CaptionCont:focus,
+.chaty-select:focus,
+.select2-box:focus,
+.wp-core-ui select:focus,
+textarea:focus,
+input:focus,
+select:focus + .chaty-select,
+select:focus + .select2-box {
+    border: 1px solid #b78deb;
+    box-shadow: none !important;
+    outline: 0;
+    border-color: #b78deb !important;
+}
+
+.group-control-wrap {
+    background: #f9fafb;
+    border: 1px solid #eaeff2;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.pro-alert-upload {
+    position: absolute;
+    width: 165px;
+    top: 10%;
+    background-color: #f8f3ff;
+    padding: 12px 20px;
+    color: #b78deb;
+    border-left: 3px solid #b78deb;
+
+    @include mobile () {
+        right: 0;
+    }
+
+    &:hover {
+        color: #b78deb;
+    }
+}
+
+.widget-size__input {
+    width: 47px;
+    height: 34px;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0 15px 0 #eaeaea;
+    -moz-box-shadow: 0 0 15px 0 #eaeaea;
+    box-shadow: 0 0 15px 0 #eaeaea !important;
+    border-radius: 5px;
+    border: 0 !important;
+    line-height: 24px;
+    padding: 5px 7px;
+}
+
+.show-remove-rule-button .create-rule {
+    display: none;
+}

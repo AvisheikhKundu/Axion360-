@@ -1,0 +1,1569 @@
+# #-#-#-#-#  hostinger-easy-onboarding-lt_LT.po (Hostinger Easy Onboarding 1.0.0)  #-#-#-#-#
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"wordpress-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-02T12:10:37+00:00\n"
+"PO-Revision-Date: 2024-12-03 07:17+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.11; wp-6.4.5"
+
+#: includes/Admin/Assets.php:162
+msgid ""
+" Learn how to connect your domain to Hostinger by watching this tutorial on "
+"YouTube for a step-by-step guide:"
+msgstr ""
+"Peržiūrėk šį išsamų YouTube įrašą ir sužinok, kaip prijungti savo domeną "
+"prie Hostinger:"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:66
+msgid " Please refresh the page and try again."
+msgstr " Atnaujink puslapį ir bandyk dar kartą."
+
+#. translators: %s plugin slug
+#: includes/Rest/StepRoutes.php:150
+msgid "%s is already active"
+msgstr "%s jau aktyvus"
+
+#. translators: %s field name that is missing
+#: includes/Rest/StepRoutes.php:61 includes/Rest/StepRoutes.php:65
+#: includes/Rest/StepRoutes.php:142 includes/Rest/WooRoutes.php:41
+#: includes/Rest/WooRoutes.php:112
+msgid "%s missing or empty"
+msgstr "%s nėra arba yra tuščias"
+
+#: includes/Admin/Assets.php:196
+msgid ""
+"<strong>Almost there!</strong> Just a few more steps to get your site ready "
+"for online success."
+msgstr ""
+"<strong>Beveik viskas!</strong> Tereikia atlikti dar kelis žingsnius, kad "
+"tavo svetainė būtų parengta sėkmingai veikti internete."
+
+#: includes/Admin/Assets.php:256
+msgid ""
+"<strong>Use built-in payment methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Naudok integruotus mokėjimo metodus</strong> – nereikia jokių "
+"papildomų įskiepių."
+
+#: includes/Admin/Assets.php:255
+msgid ""
+"<strong>Use built-in shipping methods</strong> - no extra plugins needed."
+msgstr ""
+"<strong>Naudok integruotus pristatymo metodus</strong> – nereikia jokių "
+"papildomų įskiepių."
+
+#: includes/Admin/Onboarding/PluginManager.php:32
+msgid "Accept payments via credit card. Manage transactions within WordPress."
+msgstr ""
+"Priimk mokėjimus kredito kortele. Tvarkyk sandorius WordPress sistemoje."
+
+#: includes/Admin/Assets.php:226
+msgid "Access site identity and edit title"
+msgstr "Prieiga prie svetainės ir pavadinimo redagavimas"
+
+#: includes/Errors.php:14
+msgid "Action Failed. Try again or contact support. Apologies."
+msgstr ""
+"Veiksmas nepavyko. Bandyk dar kartą arba susisiek su klientų aptarnavimo "
+"komanda. Atsiprašome."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:44
+msgid "Actions"
+msgstr "Veiksmai"
+
+#: includes/Admin/Assets.php:240
+msgid "Activate"
+msgstr "Aktyvuoti"
+
+#: includes/Admin/Assets.php:179 includes/Admin/Assets.php:228
+msgid "Add a new page"
+msgstr "Pridėti naują puslapį"
+
+#: includes/Admin/Assets.php:242
+msgid "Add a title"
+msgstr "Pridėti antraštę"
+
+#: includes/Admin/Assets.php:258
+msgid "Add content"
+msgstr "Pridėti turinį"
+
+#: includes/Admin/Assets.php:229
+msgid "Add plugin"
+msgstr "Pridėti įskiepį"
+
+#: includes/Admin/Onboarding/Onboarding.php:350
+#| msgid "Add products"
+msgid "Add product"
+msgstr "Pridėti produktą"
+
+#: includes/Admin/Assets.php:251
+msgid "Add shipping method"
+msgstr "Pridėti pristatymo būdą"
+
+#: includes/Admin/Assets.php:257
+msgid ""
+"Add the title of the page, for example, About. Click the Add Title text to "
+"open the text box where you will add your title. The title of your page "
+"should be descriptive of the information the page will have."
+msgstr ""
+"Įrašyk puslapio pavadinimą, pavyzdžiui, Apie. Tiesiog spausk Pridėti "
+"pavadinimą ir nurodyk savąjį. Puslapio pavadinimas turėtų atspindėti "
+"puslapyje pateikiamą informaciją."
+
+#: includes/Admin/Assets.php:151
+msgid "Add your first product"
+msgstr "Pridėk pirmą produktą"
+
+#: includes/Admin/Assets.php:152 includes/Admin/Onboarding/Onboarding.php:346
+msgid "Add your first product or service"
+msgstr "Pridėk savo pirmą produktą arba paslaugą"
+
+#: includes/Admin/Assets.php:230
+msgid "Added"
+msgstr "Pridėta"
+
+#: includes/Admin/Assets.php:168
+msgid ""
+"Adding a logo is a great way to personalize a website or add branding "
+"information. You can use your existing logo or create a new one using the <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">AI Logo Maker.</a>"
+msgstr ""
+"Pridėk logotipą arba informaciją apie prekės ženklą ir suasmenink savo "
+"svetainę. Gali naudoti esamą logotipą arba sukurti naują naudodamas <a "
+"href=\"https://logo.hostinger.com/?ref=wordpress-onboarding\" style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\">DI logotipų generatorių."
+"</a>"
+
+#: includes/Admin/Onboarding/PluginManager.php:60
+msgid "Adds Correios shipping methods to your WooCommerce store."
+msgstr "Pridėk Correios pristatymo būdus į savo WooCommerce parduotuvę."
+
+#: includes/Admin/Onboarding/PluginManager.php:50
+msgid ""
+"Adiciona PagSeguro como meio de pagamento (com desconto nas taxas oficiais)."
+msgstr ""
+"Pridėk PagSeguro kaip mokėjimo būdą (su nuolaida oficialiems mokesčiams)."
+
+#: includes/Admin/Onboarding/PluginManager.php:41
+msgid ""
+"Amazon Pay is embedded directly into your existing web site, and all the "
+"buyer interactions with Amazon Pay and Login with Amazon take place in "
+"embedded widgets so that the buyer never leaves your site. "
+msgstr ""
+"Amazon Pay integruotas tiesiai tavo esamoje svetainėje, o visos pirkėjo "
+"sąveikos su Amazon Pay ir Login with Amazon vyksta integruotuose "
+"valdikliuose, todėl pirkėjui nereikia išeiti iš tavo svetainės."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:106
+msgid "An error occurred while deleting the page."
+msgstr "Šalinant puslapį įvyko klaida."
+
+#: includes/Errors.php:17
+msgid "An unexpected error occurred. Please try again or contact support."
+msgstr "Nenumatyta klaida. Bandyk dar kartą arba kreipkis pagalbos."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:76
+msgid "An unexpected error occurred. Please try again."
+msgstr "Įvyko netikėta klaida. Bandyk dar kartą."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:31
+msgid "Are you sure you want to delete this page?"
+msgstr "Ar tikrai nori ištrinti šį puslapį?"
+
+#: includes/Admin/Assets.php:266
+msgid "Are you sure?"
+msgstr "Ar tikrai?"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid "Attention:"
+msgstr "Dėmesio:"
+
+#: includes/Admin/Assets.php:243
+msgid "Back"
+msgstr "Atgal"
+
+#: includes/Admin/Assets.php:268
+msgid ""
+"Before publishing, you can preview your created page by clicking on the "
+"Preview button. If you are happy with the result, click the Publish button."
+msgstr ""
+"Prieš skelbiant puslapį gali jį peržiūrėti paspaudus mygtuką Peržiūrėti. Jei "
+"džiaugiesi rezultatu, spausk mygtuką Paskelbti."
+
+#: includes/Admin/Onboarding/Onboarding.php:503
+#: includes/Admin/Onboarding/Onboarding.php:533
+msgid ""
+"Build a professional, custom-designed site in moments. Just a few clicks and "
+"AI handles the rest."
+msgstr ""
+"Per kelias akimirkas sukurk profesionalią, specialiai tau pritaikytą "
+"svetainę. Tereikia kelių paspaudimų, o visu kitu pasirūpins DI."
+
+#: includes/Admin/Assets.php:178 gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:70
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: includes/Rest/WelcomeRoutes.php:65
+msgid "Choice parameter missing or empty"
+msgstr "Trūksta pasirinkimo parametro arba jis tuščias"
+
+#: includes/Admin/Assets.php:144 includes/Admin/Onboarding/Onboarding.php:392
+msgid ""
+"Choose the ways you'd like to ship orders to customers. You can always add "
+"others later."
+msgstr ""
+"Pasirink būdus, kuriais pristatysi užsakymus klientams. Vėliau visada galėsi "
+"pridėti kitų."
+
+#: includes/Rest/TutorialRoutes.php:45
+msgid "Como Alterar a sua Logo no WordPress (Rápido e Prático)"
+msgstr "Kaip pakeisti logotipą WordPress (greitai ir praktiškai)"
+
+#: includes/Rest/TutorialRoutes.php:60
+msgid "Como Criar Categorias no WordPress"
+msgstr "Kaip sukurti kategorijas WordPress"
+
+#: includes/Rest/TutorialRoutes.php:55
+msgid "Como Editar o Menu dos Temas do WordPress"
+msgstr "Kaip redaguoti WordPress temų meniu"
+
+#: includes/Rest/TutorialRoutes.php:77
+msgid "Como Instalar Plugins y Temas en WordPress"
+msgstr "Kaip įdiegti įskiepius ir temas WordPress"
+
+#: includes/Rest/TutorialRoutes.php:50
+msgid "Como Personalizar um Tema do WordPress"
+msgstr "Kaip personalizuoti WordPress temą"
+
+#: includes/Admin/Assets.php:191
+msgid "Complete"
+msgstr "Užbaigti"
+
+#: includes/Admin/Assets.php:197
+msgid "Completed steps"
+msgstr "Atlikti veiksmai"
+
+#: includes/Admin/Assets.php:231
+msgid "Configure"
+msgstr "Konfigūruoti"
+
+#: includes/Admin/Onboarding/PluginManager.php:35
+msgid ""
+"Configure the payment options and accept payments with cards, ticket and "
+"money of Mercado Pago account."
+msgstr ""
+"Nustatyk mokėjimo parinktis ir priimk mokėjimus kortelėmis, bilietais ir "
+"Mercado Pago sąskaitos pinigais."
+
+#: includes/Admin/Hooks.php:494
+msgid "Congrats, you have connected WooPayments!"
+msgstr "Sveikiname, prijungei WooPayments!"
+
+#: includes/Admin/Assets.php:193 includes/Admin/Hooks.php:487
+msgid "Congrats, you’re ready to show off your site!"
+msgstr "Sveikiname, esi pasiruošęs parodyti savo svetainę!"
+
+#: includes/Admin/Assets.php:232
+msgid "Connect"
+msgstr "Prisijungti"
+
+#: includes/Admin/Onboarding/Onboarding.php:233
+msgid "Connect a domain"
+msgstr "Prijungti domeną"
+
+#: includes/Admin/Onboarding/Onboarding.php:291
+msgid "Connect Amazon to site"
+msgstr "Prie svetainės prijungti Amazon"
+
+#: includes/Admin/Onboarding/Onboarding.php:235
+msgid "Connect domain"
+msgstr "Prijungti domeną"
+
+#: includes/Admin/Assets.php:210
+msgid "Connect domain now"
+msgstr "Prijungti domeną"
+
+#: includes/Admin/Onboarding/Onboarding.php:238
+#: includes/Admin/Onboarding/Onboarding.php:250
+msgid "Connect on hPanel"
+msgstr "Prisijungti prie hPanel"
+
+#: includes/Admin/Assets.php:239 includes/Admin/Onboarding/WelcomeCards.php:29
+msgid ""
+"Connect your <strong>Amazon Associate</strong> account to fetch API details."
+msgstr ""
+"Prisijunk prie savo <strong>Amazon partnerio</strong> paskyros, kad gautum "
+"API informaciją."
+
+#: includes/Admin/Onboarding/Onboarding.php:285
+msgid "Connect your Amazon account to the site"
+msgstr "Prijunk savo Amazon paskyrą prie svetainės"
+
+#: includes/Admin/Assets.php:180
+msgid "Connect your domain"
+msgstr "Prijunk savo domeną"
+
+#: includes/Admin/Assets.php:267
+msgid "Connect your domain first"
+msgstr "Pirmiausia prijunk savo domeną"
+
+#: includes/Admin/Assets.php:157 includes/Admin/Assets.php:160
+#: includes/Admin/Assets.php:271
+msgid "Connect your domain to Hostinger"
+msgstr "Prijunk savo domeną prie Hostinger"
+
+#: includes/Admin/Onboarding/Onboarding.php:254
+msgid "Connected a domain"
+msgstr "Domenas prijungtas"
+
+#: includes/Admin/Onboarding/Onboarding.php:287
+msgid "Connected your Amazon account"
+msgstr "Amazon paskyra prijungta"
+
+#: includes/Admin/Assets.php:259
+msgid ""
+"Content can be anything you wish, for example, text, images, videos, tables, "
+"and lots more. Click on a plus sign and choose any block you want to add to "
+"the page."
+msgstr ""
+"Turinys gali būti bet koks, pavyzdžiui, tekstas, paveikslėliai, vaizdo "
+"įrašai, lentelės ir dar daugiau. Spausk pliuso ženklą ir pasirink bet kurį "
+"bloką, kurį nori pridėti prie puslapio."
+
+#: includes/Admin/Assets.php:132
+msgid "Continue"
+msgstr "Tęsti"
+
+#: includes/Admin/Assets.php:263 includes/Admin/Hooks.php:484
+#: includes/Admin/Hooks.php:497
+msgid "Continue setup"
+msgstr "Tęsti aktyvaciją"
+
+#: includes/Admin/Assets.php:181
+msgid "Create a logo"
+msgstr "Sukurk logotipą"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:23
+msgid "Create a new Page"
+msgstr "Sukurti naują puslapį"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/CreatePageButton.js:26
+msgid "Create a new page"
+msgstr "Sukurti naują puslapį"
+
+#: includes/Admin/Onboarding/Onboarding.php:502
+msgid "Create a site with AI"
+msgstr "Svetainės kūrimas naudojant DI"
+
+#: includes/Admin/Onboarding/PluginManager.php:57
+msgid ""
+"Create additional shipment methods in WooCommerce and enable pricing based "
+"on cart weight or total."
+msgstr ""
+"Pridėk papildomų siuntimo būdų ir įjunk kainodarą pagal krepšelio svorį arba "
+"bendrą sumą."
+
+#: includes/Admin/Onboarding/PluginManager.php:69
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr ""
+"Kurk Chronopost ir Mondial relay siuntimo etiketes ir siuntinius siųsk "
+"paprastai."
+
+#: includes/Admin/Onboarding/Onboarding.php:532
+msgid "Create content with AI"
+msgstr "Kurk turinį naudodamas DI"
+
+#: includes/Admin/Onboarding/Onboarding.php:511
+msgid "Create new site"
+msgstr "Sukurti naują svetainę"
+
+#: includes/Admin/Onboarding/Onboarding.php:504
+msgid "Create site with AI"
+msgstr "Sukurti svetainę su DI"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:59
+msgid "Current page"
+msgstr "Dabartinis puslapis"
+
+#: includes/Admin/Assets.php:194
+msgid "Customize the way your site looks and start welcoming visitors."
+msgstr "Pritaikyk svetainės išvaizdą ir lauk lankytojų."
+
+#: includes/Rest/TutorialRoutes.php:82
+msgid "Cómo Crear un Menú en WordPress (en Menos de 5 minutos)"
+msgstr "Kaip sukurti meniu WordPress (per 5 minutes)"
+
+#: includes/Rest/TutorialRoutes.php:72
+msgid "Cómo Crear una Galería de Fotos en WordPress | Fácil y Gratis"
+msgstr "Kaip sukurti nuotraukų galeriją WordPress | Lengva ir nemokama"
+
+#: includes/Rest/TutorialRoutes.php:67
+msgid "Cómo Personalizar WordPress (2023)"
+msgstr "WordPress personalizavimas (2023 m.)"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:123
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:125
+msgid "Delete page"
+msgstr "Ištrinti puslapį"
+
+#: includes/Admin/Assets.php:204 includes/Admin/Assets.php:233
+msgid "Dismiss"
+msgstr "Atmesti"
+
+#: includes/Admin/Surveys.php:48
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr ""
+"Ar turi pastabų ar pasiūlymų, kaip patobulinti mūsų dirbtinio intelekto "
+"įrankius?"
+
+#: includes/Admin/Surveys.php:34
+msgid ""
+"Do you have any comments/suggestions to improve our WooCommerce onboarding?"
+msgstr ""
+"Ar turi pastabų ar pasiūlymų, kaip patobulinti mūsų WooCommerce aktyvaciją?"
+
+#: includes/Admin/Assets.php:273
+msgid ""
+"Domain propagation can take up to 24 hours. Your domain will propagate "
+"automatically, and you don't need to take any action during this time."
+msgstr ""
+"Domeno aktyvacija gali užtrukti iki 24 valandų. Tavo domenas bus perkeltas "
+"automatiškai, ir per šį laiką tau nereikia imtis jokių veiksmų."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:19
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: includes/Admin/Assets.php:222
+msgid "Edit an image"
+msgstr "Redaguoti paveikslėlį"
+
+#: includes/Admin/Assets.php:216
+msgid "Edit description"
+msgstr "Redaguoti aprašymą"
+
+#: includes/Hooks.php:217
+msgid "Edit Home Page"
+msgstr "Redaguoti pagrindinį puslapį"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:12
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:14
+msgid "Edit Page"
+msgstr "Redaguoti puslapį"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/index.js:100
+#: gutenberg/edit-pages-panel/src/index.js:106
+msgid "Edit Pages"
+msgstr "Redaguoti puslapius"
+
+#: includes/Admin/Assets.php:214
+msgid "Edit post"
+msgstr "Redaguoti įrašą"
+
+#: includes/Admin/Assets.php:175
+msgid "Edit post description"
+msgstr "Redaguoti įrašo aprašymą"
+
+#: includes/Admin/Assets.php:203
+msgid "Edit site"
+msgstr "Redaguoti svetainę"
+
+#: includes/Admin/Assets.php:177
+msgid "Edit site title"
+msgstr "Redaguoti puslapio antraštę"
+
+#: includes/Admin/Assets.php:189
+msgid ""
+"Enter your store details so we can help you set up your online store faster."
+msgstr ""
+"Įvesk savo parduotuvės duomenis, kad padėtume tau sukurti internetinę "
+"parduotuvę."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:46
+msgid "Error:"
+msgstr "Klaida:"
+
+#: includes/Admin/Onboarding/Onboarding.php:257
+msgid ""
+"Every website needs a domain that makes it easy to access and remember. Get "
+"ours in just a few clicks."
+msgstr ""
+"Kiekvienai svetainei reikia domeno, kad ją būtų lengva pasiekti ir įsiminti. "
+"Gauk mūsų domeną vos keliais paspaudimais."
+
+#: includes/Admin/Assets.php:136
+msgid ""
+"Expand your audience with the help of Omnisend. Create email campaigns that "
+"drive sales."
+msgstr ""
+"Išplėsk savo auditoriją su Omnisend pagalba. Kurk el. pašto kampanijas ir "
+"skatink pardavimus."
+
+#: includes/Admin/Onboarding/PluginManager.php:47
+msgid "Extends WooCommerce with a RedSys gateway."
+msgstr "Išplėsk savo WooCommerce su RedSys mokėjimais."
+
+#: includes/Admin/Assets.php:282
+msgid "Find the answers you need in our Knowledge Base"
+msgstr "Atsakymus į iškilusius klausimus rasi mūsų Žinyne."
+
+#: includes/Admin/Assets.php:218
+msgid "Find the Media page"
+msgstr "Rask failų puslapį"
+
+#: includes/Admin/Assets.php:292
+msgid "Follow these steps to complete your setup"
+msgstr "Atlik šiuos veiksmus, kad užbaigtum aktyvaciją"
+
+#: includes/Admin/Assets.php:234
+msgid "Generate content"
+msgstr "Kurti turinį"
+
+#: includes/Admin/Assets.php:236 includes/Admin/Onboarding/WelcomeCards.php:37
+#| msgid "Create content with AI"
+msgid "Generate content with AI"
+msgstr "Kurti turinį su DI"
+
+#: includes/Admin/Onboarding/Onboarding.php:534
+msgid "Generate post"
+msgstr "Generuoti pranešimą"
+
+#: includes/Admin/Assets.php:269
+msgid "Get a domain"
+msgstr "Įsigyti domeną"
+
+#: includes/Admin/Assets.php:122
+msgid "Get deal"
+msgstr "Gauti pasiūlymą"
+
+#: includes/Admin/Hooks.php:337
+msgid "Get Discount"
+msgstr "Gauti nuolaidą"
+
+#: includes/Admin/Onboarding/Onboarding.php:415
+msgid "Get found on Google"
+msgstr "Būk pastebimas Google"
+
+#: includes/Admin/Assets.php:237
+msgid ""
+"Get images, text, and SEO keywords created for you instantly – try <strong>"
+"AI Content Creator</strong>."
+msgstr ""
+"Akimirksniu kurk paveikslėlius, tekstą ir SEO raktažodžius - išbandyk "
+"<strong>DI teksto generatorių</strong>."
+
+#: includes/Admin/Onboarding/WelcomeCards.php:39
+msgid "Get images, text, and SEO keywords created for you instantly."
+msgstr "Akimirksniu kurk paveikslėlius, tekstą ir SEO raktinius žodžius."
+
+#: includes/Admin/Assets.php:290
+msgid "Get in touch with our live specialists"
+msgstr "Susisiek su mūsų specialistais"
+
+#: includes/Admin/Assets.php:150 includes/Admin/Onboarding/Onboarding.php:373
+msgid ""
+"Get ready to accept customer payments. Let them pay for your products and "
+"services with ease."
+msgstr ""
+"Pasiruošk priimti klientų mokėjimus. Užtikrink paprastą atsiskaitymą už savo "
+"produktus ir paslaugas."
+
+#: includes/Admin/Onboarding/Onboarding.php:308
+msgid ""
+"Get ready to sell online. Add your first product, then set up shipping and "
+"payments."
+msgstr ""
+"Pasiruošk parduoti internetu. Pridėk pirmąjį produktą, tada nustatyk "
+"pristatymą ir mokėjimus."
+
+#: includes/Admin/Onboarding/Onboarding.php:310
+#| msgid "Get Started"
+msgid "Get started"
+msgstr "Pradėti"
+
+#: includes/Admin/Assets.php:186
+msgid "Get started!"
+msgstr "Pradėk!"
+
+#: includes/Admin/Assets.php:145
+msgid "Getting your features ready"
+msgstr "Ruošiame funkcijas"
+
+#: includes/Admin/Assets.php:212
+msgid "Go to Posts"
+msgstr "Eiti į įrašus"
+
+#: includes/Admin/Assets.php:182 includes/Admin/Assets.php:224
+msgid "Go to the Customize page"
+msgstr "Eiti į svetainės redagavimo puslapį"
+
+#: includes/Rest/TutorialRoutes.php:104
+msgid ""
+"Google Analytics sur WordPress FACILEMENT avec Google Site Kit : Guide "
+"Complet (2023)"
+msgstr ""
+"Google Analytics WordPress FACILEMENT su Google svetainių rinkiniu: išsamus "
+"vadovas (2023)"
+
+#: includes/Admin/Assets.php:265
+msgid ""
+"Google Site Kit is an essential plugin that makes sure that potential "
+"visitors can find your site on Google."
+msgstr ""
+"Google svetainių rinkinys yra svarbus įskiepis, kuris užtikrina, kad "
+"potencialūs lankytojai galėtų rasti tavo svetainę Google."
+
+#: includes/Admin/Assets.php:211
+msgid "Got it!"
+msgstr "Supratau!"
+
+#: includes/Admin/Assets.php:283
+msgid "Help Center"
+msgstr "Pagalbos centras"
+
+#: includes/Admin/Assets.php:209
+msgid "Hide completed"
+msgstr "Paslėpti įvykdytą"
+
+#: includes/Admin/Assets.php:202
+msgid "Hide list"
+msgstr "Paslėpti sąrašą"
+
+#: includes/Admin/Onboarding/PluginManager.php:54
+msgid ""
+"Hosted services for WooCommerce: automated tax calculation, shipping label "
+"printing, and smoother payment setup."
+msgstr ""
+"WooCommerce hostingo paslaugos: automatinis mokesčių apskaičiavimas, "
+"pristatymo etikečių spausdinimas ir sklandesni mokėjimai."
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: includes/Admin/Assets.php:286
+msgid "Hostinger Academy"
+msgstr "Hostinger akademija"
+
+#. Plugin Name of the plugin
+msgid "Hostinger Easy Onboarding"
+msgstr "Hostinger Easy Onboarding"
+
+#. Description of the plugin
+msgid "Hostinger Easy Onboarding WordPress plugin."
+msgstr "Hostinger Easy Onboarding WordPress įskiepis."
+
+#: includes/Admin/Assets.php:215
+msgid ""
+"Hover over the chosen post to see the options menu. Click on the Edit button "
+"to open the post editor."
+msgstr ""
+"Užvesk pelės žymeklį virš pasirinkto įrašo, kad pamatytum parinkčių meniu. "
+"Spausk mygtuką Redaguoti, kad atidarytum įrašų redagavimą."
+
+#: includes/Admin/Surveys.php:41
+msgid "How could we make it easier to create a new WordPress website?"
+msgstr "Kaip galėtume palengvinti naujos WordPress svetainės kūrimą?"
+
+#: includes/Admin/Assets.php:278
+msgid "How to Back Up a WordPress Site"
+msgstr "Kaip sukurti atsarginę WordPress svetainės kopiją?"
+
+#: includes/Rest/TutorialRoutes.php:111
+msgid "How to Build a Website FAST Using AI in Just 10 Minutes"
+msgstr "Kaip vos per 10 minučių GREITAI sukurti svetainę naudojant DI"
+
+#: includes/Admin/Assets.php:270
+msgid "How to Build an EFFECTIVE Landing Page with WordPress (2024)"
+msgstr "Kaip sukurti EFEKTYVŲ nukreipimo puslapį su WordPress (2024 m.)"
+
+#: includes/Rest/TutorialRoutes.php:121
+msgid "How to Create a Menu in WordPress in Hindi | Hostinger India"
+msgstr "Kaip sukurti WordPress meniu lietuvių kalba | Hostinger Lietuva"
+
+#: includes/Admin/Assets.php:274
+msgid "How to Create a WordPress Contact Us Page"
+msgstr "Kaip sukurti WordPress kontaktų puslapį?"
+
+#: includes/Admin/Assets.php:276
+msgid "How to Create Your Coming Soon Page in WordPress (2024)"
+msgstr "Kaip sukurti WordPress „Greitai pasirodys“ puslapį (2024 m.)"
+
+#: includes/Rest/TutorialRoutes.php:28
+msgid ""
+"How to EASILY Manage Google Tools with Google Site Kit - Beginners Guide 2024"
+msgstr ""
+"Kaip lengvai valdyti Google įrankius su Google svetainių rinkiniu – "
+"Pradedančiųjų vadovas 2024"
+
+#: includes/Rest/TutorialRoutes.php:116
+msgid "How to Edit Footer in WordPress in Hindi | Hostinger India"
+msgstr "Kaip redaguoti WordPress poraštę lietuvių kalba | Hostinger Lietuva"
+
+#: includes/Rest/TutorialRoutes.php:38
+msgid "How to Edit the Footer in WordPress"
+msgstr "Kaip redaguoti WordPress svetainės poraštę?"
+
+#: includes/Admin/Assets.php:279 includes/Rest/TutorialRoutes.php:33
+msgid "How to Import Images Into WordPress Website"
+msgstr "Kaip importuoti paveiksliukus į WordPress svetainę?"
+
+#: includes/Rest/TutorialRoutes.php:126
+msgid "How to Install WordPress Themes | Hostinger India"
+msgstr "Kaip įdiegti WordPress temas | Hostinger Lietuva"
+
+#: includes/Admin/Assets.php:272 includes/Rest/TutorialRoutes.php:23
+msgid "How to Make a Website (2024): Simple, Quick, & Easy Tutorial"
+msgstr "Kaip sukurti svetainę (2024 m.): paprasta, greita ir lengva pamoka"
+
+#: includes/Admin/Assets.php:163
+msgid "How to Point Domain Name to Web Hosting"
+msgstr "Kaip nukreipti domeno vardą į web hostingą?"
+
+#: includes/Admin/Assets.php:280
+msgid "How to Set Up WordPress SMTP"
+msgstr "Kaip nustatyti WordPress SMTP?"
+
+#: includes/Admin/Surveys.php:40
+msgid ""
+"How would you rate your experience building a website based on a pre-built "
+"template? (Score 1-10)"
+msgstr ""
+"Kaip vertini savo patirtį kuriant svetainę su iš anksto paruoštu šablonu? "
+"(balai nuo 1 iki 10)"
+
+#: includes/Admin/Surveys.php:33
+msgid ""
+"How would you rate your experience setting up a WooCommerce site on our "
+"hosting?"
+msgstr ""
+"Kaip vertini savo patirtį kuriant WooCommerce svetainę su mūsų hostingu?"
+
+#: includes/Admin/Surveys.php:47
+msgid ""
+"How would you rate your experience using our AI content generation tools in "
+"onboarding? (Scale 1-10)"
+msgstr ""
+"Kaip vertini savo patirtį naudojantis mūsų DI turinio kūrimo įrankiais "
+"kuriant svetainę? (skalėje nuo 1 iki 10)"
+
+#: includes/Admin/Menu.php:75
+msgid "hPanel - Billing"
+msgstr "hPanel – Atsiskaitymai"
+
+#: includes/Admin/Menu.php:57
+msgid "hPanel - Home"
+msgstr "hPanel - Pagrindinis"
+
+#: includes/Admin/Menu.php:66
+msgid "hPanel - Websites"
+msgstr "hPanel - Interneto svetainės"
+
+#. Plugin URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.lt"
+
+#. Author URI of the plugin
+msgid "https://www.hostinger.com"
+msgstr "https://www.hostinger.lt"
+
+#: includes/Admin/Assets.php:275
+msgid "I Bought a Domain, Now What?"
+msgstr "Nusipirkau domeną, kas dabar?"
+
+#: includes/Admin/Assets.php:223
+msgid ""
+"If you wish to edit the image, click on the chosen image and click the Edit "
+"Image button. You can now crop, rotate, flip or scale the selected image."
+msgstr ""
+"Jei nori redaguoti paveikslėlį, spausk ant norimo paveikslėlio ir pasirink "
+"Redaguoti paveikslėlį. Gali apkarpyti, pasukti, apversti ar sumažinti "
+"pasirinktą paveikslėlį."
+
+#: includes/Admin/Assets.php:174 includes/Admin/Assets.php:225
+msgid ""
+"In the left sidebar, click Appearance to expand the menu. In the Appearance "
+"section, click Customize. The Customize page will open."
+msgstr ""
+"Kairėje šoninėje juostoje eik į skiltį Išvaizda ir pasirink Konfigūruoti. "
+"Atsidarys konfigūracijos langas."
+
+#: includes/Admin/Assets.php:227
+msgid "In the left sidebar, click Site Identity and edit your site title."
+msgstr ""
+"Kairėje šoninėje juostoje rinkis Sverainės identitetą ir redaguok svetainės "
+"antraštę."
+
+#: includes/Admin/Assets.php:184
+msgid ""
+"In the left sidebar, click Site Identity, then click on the Select Site Icon "
+"button. Here, you can upload your brand logo."
+msgstr ""
+"Kairėje šoninėje juostoje rinkis Svetainės identitetą, tada spausk mygtuką "
+"Pasirinkti svetainės piktogramą. Čia gali įkelti savo prekės ženklo logotipą."
+
+#: includes/Admin/Assets.php:219
+msgid ""
+"In the left sidebar, find the Media button. Click on the Library button to "
+"see all the images you have uploaded to your website."
+msgstr ""
+"Kairėje šoninėje juostoje rask mygtuką Medija. Spustelk mygtuką Biblioteka, "
+"kad pamatytum visus vaizdus, kuriuos įkėlei į savo svetainę."
+
+#: includes/Admin/Assets.php:241
+msgid ""
+"In the left sidebar, find the Pages menu and click on Add New button. You "
+"will see the WordPress page editor. Each paragraph, image, or video in the "
+"WordPress editor is presented as a “block” of content."
+msgstr ""
+"Kairėje šoninėje juostoje rinkis meniu Puslapiai ir spausk mygtuką Pridėti "
+"naują. Pamatysi WordPress puslapio redaktorių. WordPress redaktoriuje "
+"kiekviena pastraipa, paveikslėlis ar vaizdo įrašas yra rodomas kaip atskiras "
+"turinio „blokas“."
+
+#: includes/Admin/Assets.php:213
+msgid ""
+"In the left sidebar, find the Posts button. Click on the All Posts button "
+"and find the post for which you want to change the description."
+msgstr ""
+"Kairėje šoninėje juostoje spausk mygtuką Įrašai. Spausk mygtuką Visi įrašai "
+"ir surask įrašą, kurio aprašymą norite pakeisti."
+
+#: includes/Admin/Assets.php:155
+msgid ""
+"Increase your sites visibility by enabling its discoverability in the Google "
+"search engine."
+msgstr ""
+"Padidink savo svetainių matomumą ir leisk jas atrasti Google paieškos "
+"sistemai."
+
+#: includes/Admin/Assets.php:235
+msgid "Installed"
+msgstr "Įdiegta"
+
+#: includes/Rest/TutorialRoutes.php:99
+msgid "Installer un Thème WordPress (2023) | Rapide et Facile"
+msgstr "WordPress temos diegimas (2023 m.) | Greita ir paprasta"
+
+#: includes/Admin/Assets.php:166
+#: includes/Admin/Views/Partials/PromotionalBanner.php:5
+msgid "Invite a Friend, Earn Up to $100"
+msgstr "Pakviesk draugą ir užsidirbk iki 100 $"
+
+#: includes/Admin/Onboarding/PluginManager.php:44
+msgid ""
+"It enables a WooCommerce site to accept payments through UPI apps like BHIM, "
+"Google Pay, Paytm, PhonePe or any Banking UPI app. Avoid payment gateway "
+"charges."
+msgstr ""
+"Tai leidžia WooCommerce svetainei priimti mokėjimus per UPI programėles, "
+"tokias kaip BHIM, Google Pay, Paytm, PhonePe arba bet kurią banko UPI "
+"programėlę. Išvenk mokėjimų būdų mokesčių."
+
+#: includes/Admin/Onboarding/Onboarding.php:289
+msgid ""
+"Join the Amazon Affiliate Program to start earning commissions. Link your "
+"Amazon affiliate account to your website, start promoting products and earn "
+"rewards."
+msgstr ""
+"Prisijunk prie Amazon partnerių programos ir pradėk uždirbti komisinius. "
+"Susiek Amazon partnerių paskyrą su savo svetaine, pradėk reklamuoti "
+"produktus ir uždirbk."
+
+#: includes/Admin/Hooks.php:481
+msgid "Just a few more steps to launch your online store"
+msgstr "Liko keli žingsniai, kad galėtum publikuoti savo e. parduotuvę"
+
+#: includes/Admin/Onboarding/Onboarding.php:510
+msgid "Keep current site"
+msgstr "Išlaikyti dabartinę svetainę"
+
+#: includes/Admin/Assets.php:201 includes/Admin/Assets.php:281
+msgid "Knowledge Base"
+msgstr "Žinynas"
+
+#: includes/Admin/Menu.php:34
+msgid "Learn"
+msgstr "Sužinoti daugiau"
+
+#: includes/Admin/Assets.php:285
+msgid "Learn WordPress"
+msgstr "Sužinok apie WordPress"
+
+#: includes/Admin/Assets.php:277
+msgid "LiteSpeed Cache: How to Get 100% WordPress Optimization"
+msgstr "LiteSpeed Cache: kaip visiškai optimizuoti WordPress svetainę?"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:27
+msgid "Loading..."
+msgstr "Kraunama..."
+
+#: includes/Admin/Onboarding/Onboarding.php:417
+msgid ""
+"Make sure that your website shows up when visitors are looking for your "
+"business on Google."
+msgstr ""
+"Įsitikink, kad tavo svetainė yra rodoma, kai lankytojai  ieško tavo įmonės "
+"Google."
+
+#: includes/Admin/Onboarding/Onboarding.php:423
+msgid "Manage"
+msgstr "Tvarkyti"
+
+#: includes/Admin/Assets.php:134 includes/Admin/Onboarding/Onboarding.php:390
+msgid "Manage shipping"
+msgstr "Tvarkyti pristatymą"
+
+#: includes/Admin/Assets.php:133
+msgid "Market your business"
+msgstr "Tavo verslo rinkodara"
+
+#: includes/Admin/Assets.php:159
+msgid "Nameserver"
+msgstr "Vardų serveris"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:33
+msgid "No pages found."
+msgstr "Puslapių nerasta."
+
+#: includes/Helper.php:357
+msgid "No PHP files found in plugin directory"
+msgstr "Įskiepių kataloge nerasta PHP failų"
+
+#: includes/Admin/Assets.php:121 includes/Admin/Onboarding/Onboarding.php:356
+msgid "Not interested"
+msgstr "Neįdomu"
+
+#: includes/Admin/Onboarding/Onboarding.php:400
+#: includes/Admin/Onboarding/Onboarding.php:427
+msgid "Not needed"
+msgstr "Nereikia"
+
+#: includes/Admin/Onboarding/Onboarding.php:506
+#: includes/Admin/Onboarding/Onboarding.php:536
+msgid "Not now"
+msgstr "Ne dabar"
+
+#: includes/Admin/Assets.php:205
+msgid "Now <strong>finish setting up</strong> the plugins you’ve installed."
+msgstr "Dabar <strong>nustatyk</strong> įdiegtus įskiepius."
+
+#: includes/Admin/Views/Partials/RateUs.php:38
+#| msgid ""
+#| "on <a\n"
+#| "\t\t\t   href=\"https://wordpress."
+#| "org/support/plugin/hostinger/reviews/#new-post\"\n"
+#| "\t\t\t   target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgid ""
+"on <a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-"
+"post\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+msgstr ""
+"<a href=\"https://wordpress.org/support/plugin/hostinger/reviews/#new-post\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a>"
+
+#: includes/Admin/Assets.php:198 includes/Admin/Menu.php:28
+#: includes/Admin/Menu.php:92 includes/Admin/Menu.php:93
+msgid "Onboarding"
+msgstr "Svetainės kūrimas"
+
+#: includes/Admin/Assets.php:130 includes/Admin/Onboarding/Onboarding.php:113
+msgid "Online store setup"
+msgstr "E. parduotuvės kūrimas"
+
+#: includes/Admin/Assets.php:287
+msgid ""
+"Opt-in to receive tips, discounts, and recommendations from the WooCommerce "
+"team directly in your inbox."
+msgstr ""
+"Užsiregistruok, kad gautum WooCommerce komandos patarimų, nuolaidų ir "
+"rekomendacijų tiesiai į savo pašto dėžutę."
+
+#: includes/Admin/Assets.php:253
+msgid "Or use payment plugins"
+msgstr "Arba naudok mokėjimo įskiepius"
+
+#: includes/Admin/Assets.php:254
+msgid "Or use shipping plugins"
+msgstr "Arba naudok pristatymo įskiepius"
+
+#: includes/Admin/Assets.php:249
+msgid "Other"
+msgstr "Kita"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:41
+msgid "Page title:"
+msgstr "Puslapio pavadinimas:"
+
+#: includes/Admin/Assets.php:244
+msgid "Payment plugins"
+msgstr "Mokėjimo įskiepiai"
+
+#: includes/Admin/Assets.php:246
+msgid "Payment settings"
+msgstr "Mokėjimo nustatymai"
+
+#: includes/Admin/Onboarding/PluginManager.php:29
+msgid ""
+"PayPal's latest complete payments processing solution. Accept PayPal, Pay "
+"Later, credit/debit cards, alternative digital wallets local payment types "
+"and bank accounts."
+msgstr ""
+"Naujausias PayPal mokėjimų apdorojimo sprendimas. Priimk PayPal, Pay Later, "
+"kredito ir debeto korteles, alternatyvias skaitmenines pinigines, vietinius "
+"mokėjimų tipus ir bankinius pavedimus."
+
+#: includes/Admin/Assets.php:164
+msgid "Play on YouTube"
+msgstr "Žiūrėti YouTube"
+
+#: includes/Helper.php:352
+msgid "Plugin directory not found"
+msgstr "Įskiepių katalogas nerastas"
+
+#: includes/Helper.php:367
+msgid "Plugin main file not found"
+msgstr "Pagrindinis įskiepio failas nerastas"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PreviewPageButton.js:46
+#, fuzzy
+msgid "Preview"
+msgstr "Peržiūra"
+
+#: includes/Admin/Assets.php:131
+msgid "Preview website"
+msgstr "Svetainės peržiūra"
+
+#: includes/Admin/Assets.php:260
+msgid "Publish the page"
+msgstr "Publikuok puslapį"
+
+#: includes/Admin/Views/Partials/RateUs.php:2
+msgid "Rate this plugin"
+msgstr "Įvertink šį įskiepį"
+
+#: includes/Admin/Assets.php:248
+msgid "Recommended for you"
+msgstr "Rekomenduojame"
+
+#: includes/Admin/Assets.php:238 includes/Admin/Onboarding/WelcomeCards.php:27
+msgid "Run an Amazon Affiliate site"
+msgstr "Kurti Amazon partnerystės svetainę"
+
+#: includes/Admin/Assets.php:135
+msgid "Run email marketing campaigns"
+msgstr "Kurti el. pašto rinkodaros kampanijas"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:62
+msgid "Save"
+msgstr "Išsaugoti"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PageForm.js:59
+msgid "Saving"
+msgstr "Saugoma"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:7
+#: gutenberg/edit-pages-panel/src/components/SearchBar.js:8
+msgid "Search pages"
+msgstr "Paieškos puslapiai"
+
+#: includes/Admin/Onboarding/PluginManager.php:38
+msgid ""
+"Securely accept payments, synchronize sales, and seamlessly manage inventory "
+"and product data between WooCommerce and Square POS."
+msgstr ""
+"Saugiai priimk mokėjimus, sinchronizuok pardavimus ir sklandžiai tvarkyk "
+"inventoriaus ir produktų duomenis su WooCommerce ir Square POS."
+
+#: includes/Admin/Onboarding/Onboarding.php:348
+msgid ""
+"Sell products, services and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Parduok produktus, paslaugas ir skaitmeninius atsisiuntimus. Nustatyk ir "
+"pritaikyk kiekvieną elementą pagal savo verslo poreikius."
+
+#: includes/Admin/Assets.php:153
+msgid ""
+"Sell products, services, and digital downloads. Set up and customize each "
+"item to fit your business needs."
+msgstr ""
+"Parduok produktus, paslaugas ir skaitmeninius produktus. Nustatyk ir "
+"pritaikyk kiekvieną elementą pagal savo verslo poreikius."
+
+#: includes/Admin/Assets.php:148 includes/Admin/Onboarding/Onboarding.php:371
+msgid "Set up a payment method"
+msgstr "Nustatyti mokėjimo būdą"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:17
+#| msgid "Set up your online store"
+msgid "Set up an online store"
+msgstr "Kurti e. parduotuvę"
+
+#: includes/Admin/Onboarding/Onboarding.php:419
+msgid "Set up Google Site Kit"
+msgstr "Google svetainių rinkinio nustatymas"
+
+#: includes/Admin/Assets.php:149 includes/Admin/Onboarding/Onboarding.php:375
+msgid "Set up payment method"
+msgstr "Nustatyti mokėjimo būdą"
+
+#: includes/Admin/Assets.php:247
+msgid "Set up payments"
+msgstr "Nustatyti mokėjimus"
+
+#: includes/Admin/Assets.php:262
+msgid "Set up shipping"
+msgstr "Nustatyk pristatymą"
+
+#: includes/Admin/Assets.php:261
+msgid "Set up Site Kit"
+msgstr "Svetainės sąrankos rinkinys"
+
+#: includes/Admin/Onboarding/Onboarding.php:306
+msgid "Set up your online store"
+msgstr "Sukurk savo internetinę parduotuvę"
+
+#: includes/Admin/Onboarding/WelcomeCards.php:19
+#| msgid ""
+#| "Install <strong>WooCommerce</strong>, add products or services, and start "
+#| "selling today."
+msgid ""
+"Setup <strong>WooCommerce</strong>, add products or services, and start "
+"selling today."
+msgstr ""
+"Aktyvuok <strong>WooCommerce</strong>, pridėk produktų arba paslaugų ir "
+"pradėk prekiauti jau šiandien."
+
+#: includes/Admin/Assets.php:154
+msgid "Setup Google Site Kit"
+msgstr "Google Site Kit aktyvacija"
+
+#: includes/Admin/Assets.php:147 includes/Admin/Assets.php:188
+#| msgid "Set up my online store"
+msgid "Setup my online store"
+msgstr "Sukurti savo e. parduotuvę"
+
+#: includes/Admin/Assets.php:195
+msgid "Setup website"
+msgstr "Svetainės sąranka"
+
+#: includes/Admin/Views/Partials/PromotionalBanner.php:9
+msgid ""
+"Share your referral link with friends and family and <b>receive 20% "
+"commission</b> for every successful referral."
+msgstr ""
+"Pasidalink savo nuoroda su draugais ir šeimos nariais ir <b>gauk 20 % "
+"komisinių</b> už kiekvieną sėkmingą rekomendaciją."
+
+#: includes/Admin/Assets.php:165
+msgid ""
+"Share your referral link with friends and family and <strong>receive 20% "
+"commission</strong> for every successful referral."
+msgstr ""
+"Pasidalink savo nuorodą su draugais ir šeimos nariais ir <strong>gauk 20 % "
+"komisinių</strong> už kiekvieną sėkmingą rekomendaciją."
+
+#: includes/Admin/Assets.php:137
+msgid "Ship products with ease"
+msgstr "Lengvai siųsk produktus"
+
+#: includes/Admin/Assets.php:138 includes/Admin/Onboarding/Onboarding.php:394
+msgid "Shipping methods"
+msgstr "Pristatymo būdai"
+
+#: includes/Admin/Assets.php:245
+msgid "Shipping plugins"
+msgstr "Pristatymo papildiniai"
+
+#: includes/Admin/Assets.php:250
+msgid "Shipping settings"
+msgstr "Pristatymo nustatymai"
+
+#: includes/Rest/WooRoutes.php:47
+msgid "Shop locale is empty, please setup store first"
+msgstr "Šiuo metu parduotuvės nėra. Pirmiausia turi sukurti parduotuvę"
+
+#: includes/Admin/Assets.php:199
+msgid "Show list"
+msgstr "Rodyti sąrašą"
+
+#: includes/Admin/Assets.php:187
+msgid "Skip"
+msgstr "Praleisti"
+
+#: includes/Rest/StepRoutes.php:169
+msgid "Sorry, there are activation errors."
+msgstr "Atsiprašome, yra aktyvavimo klaidų."
+
+#: includes/Rest/StepRoutes.php:71 includes/Rest/StepRoutes.php:156
+#: includes/Rest/WooRoutes.php:53 includes/Rest/WooRoutes.php:135
+msgid "Sorry, there are validation errors."
+msgstr "Atsiprašome, yra patvirtinimo klaidų."
+
+#: includes/Admin/Assets.php:156
+#: includes/Admin/Views/Partials/PromotionalBanner.php:24
+msgid "Start earning"
+msgstr "Rekomenduoti"
+
+#: includes/Admin/Onboarding/Onboarding.php:59
+msgid "Started creating your site"
+msgstr "Pradėtas svetainės kūrimas"
+
+#: includes/Rest/StepRoutes.php:90
+msgid "Step category and/or step does not exist."
+msgstr "Šio žingsnio kategorija ir (arba) žingsnis neegzistuoja."
+
+#: includes/Admin/Onboarding/Onboarding.php:327
+msgid "Store info"
+msgstr "Parduotuvės informacija"
+
+#: includes/Rest/WooRoutes.php:129
+msgid "Store location locale not found"
+msgstr "Nerasta parduotuvės vieta"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/StoreSetupButton.js:29
+#, fuzzy
+msgid "Store Setup"
+msgstr "Parduotuvės sąranka"
+
+#: includes/Admin/Onboarding/PluginManager.php:26
+msgid "Take credit card payments on your store using Stripe."
+msgstr ""
+"Priimk mokėjimus kredito kortelėmis savo parduotuvėje naudodamas Stripe."
+
+#: includes/Admin/Assets.php:185
+msgid "Take me there"
+msgstr "Nukreipti mane"
+
+#: includes/Admin/Assets.php:288
+msgid "Tell us a bit about your business"
+msgstr "Papasakok apie savo verslą"
+
+#: includes/Admin/Assets.php:127
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Amazing Friday</span> sale!"
+msgstr ""
+"Didysis <span style=\"color: #8C85FF\">nuostabiojo penktadienio</span> "
+"išpardavimas!"
+
+#: includes/Admin/Assets.php:125
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Black Friday</span> sale!"
+msgstr ""
+"Didysis <span style=\"color: #8C85FF\">juodojo penktadienio</span> "
+"išpardavimas!"
+
+#: includes/Admin/Assets.php:128
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Blessed Friday</span> sale!"
+msgstr ""
+"Didysis <span style=\"color: #8C85FF\">šviesiojo penktadienio</span> "
+"išpardavimas!"
+
+#: includes/Admin/Assets.php:124
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">Cyber Monday</span> sale!"
+msgstr ""
+"Didysis <span style=\"color: #8C85FF\">kibernetinio pirmadienio</span> "
+"išpardavimas!"
+
+#: includes/Admin/Assets.php:129
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">End of the year</span> sale!"
+msgstr ""
+"Didysis <span style=\"color: #8C85FF\">metų pabaigos</span> išpardavimas!"
+
+#: includes/Admin/Assets.php:126
+msgid ""
+"The biggest ever <span style=\"color: #8C85FF\">White Friday</span> sale!"
+msgstr ""
+"Didysis <span style=\"color: #8C85FF\">baltojo penktadienio</span> "
+"išpardavimas!"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:74
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr ""
+"Hostinger Easy Onboarding įskiepiui reikia bent <b>%s</b> PHP versijos."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:49
+msgid "The page was deleted!"
+msgstr "Puslapis buvo ištrintas!"
+
+#: includes/Admin/Onboarding/PluginManager.php:66
+msgid ""
+"The USPS Simple plugin calculates rates for domestic shipping dynamically "
+"using USPS API during checkout."
+msgstr ""
+"USPS Simple įskiepis apskaičiuoja vietinio siuntimo tarifus, naudodamas USPS "
+"API atsiskaitymo metu."
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/DeletePageButton.js:62
+msgid "There was an error."
+msgstr "Įvyko klaida."
+
+#: includes/Admin/Onboarding/PluginManager.php:63
+msgid ""
+"This extension gives you the possibility to use the Colissimo shipping "
+"methods in WooCommerce"
+msgstr "Šis domeno vardas suteikia galimybę naudoti Colissimo pristatymo būdus"
+
+#: includes/Admin/Assets.php:293
+#, fuzzy
+msgid "This field is required"
+msgstr "Šis laukas yra privalomas"
+
+#: gutenberg/edit-pages-panel/build/index.js:1
+#: gutenberg/edit-pages-panel/src/components/PagesList.js:41
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: includes/Admin/Assets.php:221
+msgid ""
+"To upload a new image, click on Add New button on the Media Library page and "
+"select files."
+msgstr ""
+"Jei nori įkelti naują paveikslėlį ar kitą failą, failų saugyklos puslapyje "
+"spask mygtuką Įkelti naują failą ir pasirink norimus failus."
+
+#: includes/Admin/Assets.php:139
+msgid "Try Omnisend"
+msgstr "Išbandyk Omnisend"
+
+#: includes/Rest/TutorialRoutes.php:89
+msgid "TUTO WORDPRESS (Débutant) : Créer un site WordPress pour les Nuls)"
+msgstr ""
+"WORDPRESS TUTO (pradedantiesiems): WordPress svetainės kūrimas "
+"pradedantiesiems)"
+
+#: includes/Rest/TutorialRoutes.php:94
+msgid "Tuto WordPress Débutant (Hostinger hPanel) - Créer un Site par IA"
+msgstr ""
+"WordPress mokymas pradedantiesiems (Hostinger hPanel) – Svetainės kūrimas "
+"per IA"
+
+#: includes/Admin/Assets.php:200
+msgid "Tutorials"
+msgstr "Pamokos"
+
+#: includes/Errors.php:31
+msgid "Unknown error code."
+msgstr "Nežinomas klaidos kodas."
+
+#: includes/Admin/Assets.php:176 includes/Admin/Assets.php:220
+msgid "Upload an image"
+msgstr "Įkelti paveikslėlį"
+
+#: includes/Admin/Assets.php:169 includes/Admin/Assets.php:183
+msgid "Upload your logo"
+msgstr "Įkelk savo logotipą"
+
+#: includes/Admin/Hooks.php:333
+msgid ""
+"Use the special discount code <b>ONLYHOSTINGER30</b> to get 30% off on "
+"Omnisend for 6 months when you upgrade."
+msgstr ""
+"Pasinaudok specialiu nuolaidos kodu <b>ONLYHOSTINGER30</b> ir gauk 30 % "
+"nuolaidą Omnisend 6 mėnesiams, atnaujinus planą."
+
+#: includes/Admin/Hooks.php:490
+msgid "View checklist"
+msgstr "Peržiūrėti kontrolinį sąrašą"
+
+#: includes/Admin/Assets.php:208
+msgid "View completed"
+msgstr "Peržiūrėti"
+
+#: includes/Admin/Onboarding/Onboarding.php:331
+msgid "View Details"
+msgstr "Peržiūrėti informaciją"
+
+#: includes/Admin/Onboarding/Onboarding.php:314
+msgid "View list"
+msgstr "Peržiūrėti sąrašą"
+
+#: includes/Admin/Assets.php:206
+msgid "View plugins"
+msgstr "Peržiūrėti įskiepius"
+
+#: includes/Admin/Onboarding/Onboarding.php:241
+msgid ""
+"Visit hPanel and connect a real domain. If you already did this, please wait "
+"up to 24h until the domain fully connects"
+msgstr ""
+"Apsilankyk hPanel ir prijunk tikrą domeną. Jei tai jau padarei, palauk iki "
+"24 val., kol domenas bus visiškai prijungtas"
+
+#: includes/Admin/Assets.php:158
+msgid "Wait for domain propagation"
+msgstr "Palauk, kol domenas bus aktyvuotas"
+
+#: includes/Admin/Onboarding/Onboarding.php:508
+msgid "Want to create a new AI site?"
+msgstr "Nori sukurti naują svetainę su DI?"
+
+#: includes/Errors.php:20
+msgid ""
+"We apologize for the inconvenience. The AI content generation process "
+"encountered a server error. Please try again later, and if the issue "
+"persists, kindly contact our support team for assistance."
+msgstr ""
+"Atsiprašome už nepatogumus. DI turinio generatorius susidūrė su serverio "
+"klaida. Bandyk dar kartą vėliau, o jei problema išlieka, maloniai prašome "
+"kreiptis pagalbos į su mūsų klientų aptarnavimo komandą."
+
+#: includes/Admin/Assets.php:289 includes/Admin/Onboarding/Onboarding.php:329
+msgid "We'll use this information to help you set up your store faster."
+msgstr "Šią informaciją naudosime padėdami greičiau sukurti parduotuvę."
+
+#: includes/Admin/Assets.php:167 includes/Admin/Assets.php:192
+#: includes/Admin/Onboarding/Onboarding.php:49
+msgid "Website setup"
+msgstr "Svetainės aktyvacija"
+
+#: includes/Admin/Assets.php:171
+msgid "Website URL"
+msgstr "Svetainės URL"
+
+#: includes/Admin/Assets.php:291
+msgid "Welcome to WordPress!"
+msgstr "Susipažink su WordPress!"
+
+#: includes/Admin/Assets.php:143
+msgid "What type of products or services will you sell?"
+msgstr "Kokio tipo produktus ar paslaugas pardavinėsi?"
+
+#: includes/Admin/Assets.php:142
+msgid "Where is your store located?"
+msgstr "Kur yra tavo parduotuvė?"
+
+#: includes/Admin/Assets.php:284
+msgid "WordPress tutorials"
+msgstr "WordPress pamokos"
+
+#: includes/Admin/Assets.php:264
+msgid "Yes, skip step"
+msgstr "Taip, praleisti žingsnį"
+
+#. translators: %s php version
+#: hostinger-easy-onboarding.php:78
+msgid "You are running <b>%s</b> PHP version."
+msgstr "Naudoji <b>%s</b> PHP versiją."
+
+#: includes/Admin/Assets.php:252
+msgid ""
+"You can also set up a shipping method without installing additional plugins."
+msgstr "Gali nustatyti pristatymo būdą neįdiegęs papildomų įskiepių."
+
+#: includes/Admin/Assets.php:161
+msgid ""
+"You can connect domain to Hostinger by changing the nameservers. Different "
+"domain providers are have unique procedures for changing nameservers. Here "
+"are Hostinger's nameservers:"
+msgstr ""
+"Domeną prijungti prie Hostinger gali pakeisdamas vardų serverius. Skirtingi "
+"domenų teikėjai turi unikalias vardų serverių keitimo procedūras. Čia "
+"pateikiami Hostinger vardų serveriai:"
+
+#: includes/Admin/Assets.php:217
+msgid ""
+"You can see the whole post in the editor. Find the description part and "
+"change it to your preferences."
+msgstr ""
+"Visą įrašą gali peržiūrėti redaktoriuje. Rask aprašymo dalį ir pakeisk ją "
+"pagal savo pageidavimus."
+
+#: includes/Admin/Assets.php:173
+msgid ""
+"You need to purchase a domain for your website before the preview domain "
+"becomes inaccessible. Find a desired website name using a <a style=\"text-"
+"decoration:none; font-weight:bold; color:#673de6\" target=\"_blank\" "
+"href=\"https://hpanel.hostinger.com/domains/domain-checker\" >domain name "
+"searcher.</a >"
+msgstr ""
+"Turi įsigyti svetainės domeną, iki kol peržiūros domenas taps neprieinamas. "
+"Ieškok norimo svetainės pavadinimo naudodamas <a style=\"text-decoration:"
+"none; font-weight:bold; color:#673de6\" target=\"_blank\" href=\"https:"
+"//hpanel.hostinger.com/domains/domain-checker\" >domeno vardo paieškos "
+"įrankiu.</a >"
+
+#: includes/Admin/Assets.php:141
+msgid "Your business email"
+msgstr "Tavo verslo el. paštas"
+
+#: includes/Admin/Onboarding/Onboarding.php:509
+msgid ""
+"Your new site will replace the current one. Use the same description or "
+"change it."
+msgstr ""
+"Naujoji svetainė pakeis dabartinę. Naudok tą patį aprašymą arba jį pakeisk."
+
+#: includes/Admin/Assets.php:146 includes/Admin/Assets.php:190
+msgid "Your progress"
+msgstr "Tavo pažanga"
+
+#: includes/Admin/Assets.php:140
+msgid "Your store name"
+msgstr "Tavo parduotuvės pavadinimas"
+
+#: includes/Admin/Assets.php:172
+msgid ""
+"Your website is already published and can be accessed using Hostinger free "
+"temporary subdomain right now. Here is the current URL of your website:"
+msgstr ""
+"Tavo svetainė jau paskelbta. Šiuo metu ją galima pasiekti suvedus Hostinger "
+"nemokamą laikiną subdomeną. Čia pateikiamas dabartinis tavo svetainės URL:"
+
+#: includes/Admin/Assets.php:123
+msgid "You’ll love these great deals that were handpicked just for you."
+msgstr "Tau patiks šie, specialiai tau atrinkti, puikūs pasiūlymai."
+
+#: includes/Admin/Assets.php:207
+msgid "You’re done setting up your online store!"
+msgstr "Sukūrei savo e. parduotuvę!"
+
+#: includes/Admin/Assets.php:170
+msgid "👋 Welcome to WordPress"
+msgstr "👋 Sveikiname prisijungus prie WordPress!"

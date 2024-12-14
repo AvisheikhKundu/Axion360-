@@ -1,0 +1,11 @@
+.eb-advance-heading-wrapper {
+	a {
+		color: inherit;
+
+		// &:hover
+	}
+
+	&>* {
+		transition: all 0.3s ease-in-out;
+	}
+}

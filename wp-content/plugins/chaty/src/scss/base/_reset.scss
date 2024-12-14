@@ -1,0 +1,11 @@
+.testimonial-success-message {
+    @apply border-l-4 border-cht-green p-3 bg-cht-green/10 text-cht-green font-primary text-base
+}
+
+.testimonial-error-message {
+    @apply border-l-4 border-cht-red p-3 bg-cht-red/10 text-cht-red font-primary text-base
+}
+
+.hidden-xs, #testUpload {
+    @apply hidden
+}
