@@ -1,7 +1,7 @@
 # Project Name : Axion360°
 
 
-### 1.1 Introduction
+###  Introduction
 The financial sector is experiencing a profound transformation driven by advancements in technology and the
 evolving expectations of customers. Traditional banking systems, reliant on physical interactions and
 outdated processes, are increasingly being replaced by digital platforms that offer convenience, speed, and
@@ -9,7 +9,7 @@ security. However, many existing digital banking solutions fail to adequately me
 to limitations in accessibility, security, scalability, and user experience.The Axion360° project addresses
 these challenges by introducing a comprehensive online banking solution.
 
-### 1.2 Motivation
+###  Motivation
 The Axion360° Online Banking Solution is inspired by the growing demand for modern, secure, and
 accessible banking systems that cater to the needs of today’s tech-savvy customers. Traditional banking
 systems often fall short in meeting expectations for convenience, security, and efficiency, prompting the need
